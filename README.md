@@ -1,11 +1,29 @@
-# DME FWA Vulnerability Dashboard
+# Medicare Integrity Monitoring — DME FWA Vulnerability Dashboard
 
-Internal analysis tool that reads the CMS Medicare Claims Processing Manual (Chapter 20 —
-DMEPOS) and generates fraud/waste/abuse (FWA) vulnerability hypotheses, ranked and simulated
-against a set of provider/supplier archetypes.
+This repo is two things stitched together:
 
-See [`DME.md`](./DME.md) for what the analysis actually does, how it's structured, and how to
-extend it with new source documents or archetypes.
+1. **Pre-existing work: a "Medicare Integrity Monitoring" dashboard**, originally built as a
+   Figma Make project (`Medicare Integrity Monitoring v2.make`) — a dark, "war room"-styled
+   Medicaid/Medicare fraud-monitoring UI with pages for supplier analysis, pre-revocation
+   patterns, revocation insights, active-threat/modifier-anomaly detection, and an "agent
+   library." That project's React/Vite source was extracted from the `.make` bundle and
+   restyled from its original dark neon theme into the CMS/USWDS-derived navy-and-gold palette
+   used throughout this app (see `frontend/`, forked wholesale from that project — most of its
+   pages, mock data, and Figma-specific tooling are untouched aside from the retheme).
+2. **Newly added: a DME FWA vulnerability analysis**, built specifically for this repo — a
+   Python pipeline (`pipeline/`) that reads the CMS Medicare Claims Processing Manual (Chapter
+   20, DMEPOS) and an LLM to generate fraud/waste/abuse hypotheses, ranks them, simulates which
+   provider/supplier archetypes are most likely to misuse each one, and drafts a CPI-style
+   briefing memo per top hypothesis. This is served by a small FastAPI backend (`backend/`) and
+   surfaced as a new tab, **"DME Vulnerabilities,"** added to the pre-existing dashboard's
+   sidebar (under Signal Workflows, next to Supplier Analysis).
+
+Everything else in the pre-existing dashboard (the heatmaps, alert feeds, provider watchlists on
+other tabs, etc.) is illustrative mock data from the original Figma Make project — only the "DME
+Vulnerabilities" tab is backed by real generated analysis.
+
+See [`DME.md`](./DME.md) for what the DME analysis actually does, how it's structured, and how
+to extend it with new source documents or archetypes.
 
 ## Project layout
 
