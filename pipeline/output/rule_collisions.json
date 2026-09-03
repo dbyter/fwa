@@ -1,0 +1,738 @@
+{
+  "B": [
+    {
+      "id": "h17",
+      "title": "Auto-Refill Dispensing Without a Beneficiary Request",
+      "rank": 1
+    },
+    {
+      "id": "h04",
+      "title": "Oxygen Ownership and Modifier Stack",
+      "rank": 4
+    },
+    {
+      "id": "h06",
+      "title": "Capped-Rental Episode Reset Across Suppliers",
+      "rank": 5
+    },
+    {
+      "id": "h22",
+      "title": "Rotating Supplier Network Around Capped-Rental Episodes",
+      "rank": 6
+    },
+    {
+      "id": "h19",
+      "title": "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "rank": 7
+    },
+    {
+      "id": "h11",
+      "title": "Capped-Rental Episode Reset After a Questionable Interruption",
+      "rank": 8
+    },
+    {
+      "id": "h16",
+      "title": "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "rank": 9
+    },
+    {
+      "id": "h27",
+      "title": "Oxygen Volume-Modifier and Portable-Add-On Coordination",
+      "rank": 14
+    },
+    {
+      "id": "h10",
+      "title": "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "rank": 15
+    },
+    {
+      "id": "h30",
+      "title": "Low-and-Slow Cross-Entity Replacement and Accessory Accumulation",
+      "rank": 18
+    },
+    {
+      "id": "h12",
+      "title": "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "rank": 20
+    },
+    {
+      "id": "h15",
+      "title": "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "rank": 21
+    },
+    {
+      "id": "h14",
+      "title": "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "rank": 22
+    },
+    {
+      "id": "h18",
+      "title": "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "rank": 23
+    },
+    {
+      "id": "h07",
+      "title": "Pre-Discharge Delivery Date-of-Service Inflation",
+      "rank": 24
+    },
+    {
+      "id": "h13",
+      "title": "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "rank": 25
+    },
+    {
+      "id": "h25",
+      "title": "Discharge-Date and Anniversary-Date Cycling",
+      "rank": 27
+    },
+    {
+      "id": "h29",
+      "title": "PEN Therapy and Pump-Reset Coordination",
+      "rank": 28
+    },
+    {
+      "id": "h09",
+      "title": "Installment-Purchase and Rental Classification Drift",
+      "rank": 30
+    }
+  ],
+  "E": [
+    {
+      "id": "h17",
+      "title": "Auto-Refill Dispensing Without a Beneficiary Request",
+      "rank": 1
+    },
+    {
+      "id": "h21",
+      "title": "Lead-Generated Refill-and-Order Network",
+      "rank": 2
+    },
+    {
+      "id": "h28",
+      "title": "Distributed Ordering-Provider Concentration and Medical-Necessity Manufacture",
+      "rank": 3
+    },
+    {
+      "id": "h06",
+      "title": "Capped-Rental Episode Reset Across Suppliers",
+      "rank": 5
+    },
+    {
+      "id": "h22",
+      "title": "Rotating Supplier Network Around Capped-Rental Episodes",
+      "rank": 6
+    },
+    {
+      "id": "h19",
+      "title": "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "rank": 7
+    },
+    {
+      "id": "h11",
+      "title": "Capped-Rental Episode Reset After a Questionable Interruption",
+      "rank": 8
+    },
+    {
+      "id": "h05",
+      "title": "Custom E1399 Versus Standard Orthotic Coding",
+      "rank": 10
+    },
+    {
+      "id": "h24",
+      "title": "HHA-DME Consolidated-Billing Boundary Shifting",
+      "rank": 13
+    },
+    {
+      "id": "h27",
+      "title": "Oxygen Volume-Modifier and Portable-Add-On Coordination",
+      "rank": 14
+    },
+    {
+      "id": "h10",
+      "title": "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "rank": 15
+    },
+    {
+      "id": "h20",
+      "title": "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "rank": 16
+    },
+    {
+      "id": "h26",
+      "title": "Adaptive Modifier and Code-Path Migration",
+      "rank": 17
+    },
+    {
+      "id": "h30",
+      "title": "Low-and-Slow Cross-Entity Replacement and Accessory Accumulation",
+      "rank": 18
+    },
+    {
+      "id": "h01",
+      "title": "HHA-versus-DME-MAC Supply Routing",
+      "rank": 19
+    },
+    {
+      "id": "h12",
+      "title": "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "rank": 20
+    },
+    {
+      "id": "h15",
+      "title": "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "rank": 21
+    },
+    {
+      "id": "h14",
+      "title": "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "rank": 22
+    },
+    {
+      "id": "h18",
+      "title": "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "rank": 23
+    },
+    {
+      "id": "h13",
+      "title": "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "rank": 25
+    },
+    {
+      "id": "h23",
+      "title": "Jurisdiction and Billing-Entity Arbitrage",
+      "rank": 26
+    },
+    {
+      "id": "h25",
+      "title": "Discharge-Date and Anniversary-Date Cycling",
+      "rank": 27
+    },
+    {
+      "id": "h29",
+      "title": "PEN Therapy and Pump-Reset Coordination",
+      "rank": 28
+    },
+    {
+      "id": "h02",
+      "title": "SNF and Inpatient Boundary Reclassification",
+      "rank": 29
+    }
+  ],
+  "F": [
+    {
+      "id": "h17",
+      "title": "Auto-Refill Dispensing Without a Beneficiary Request",
+      "rank": 1
+    },
+    {
+      "id": "h21",
+      "title": "Lead-Generated Refill-and-Order Network",
+      "rank": 2
+    },
+    {
+      "id": "h28",
+      "title": "Distributed Ordering-Provider Concentration and Medical-Necessity Manufacture",
+      "rank": 3
+    },
+    {
+      "id": "h04",
+      "title": "Oxygen Ownership and Modifier Stack",
+      "rank": 4
+    },
+    {
+      "id": "h11",
+      "title": "Capped-Rental Episode Reset After a Questionable Interruption",
+      "rank": 8
+    },
+    {
+      "id": "h16",
+      "title": "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "rank": 9
+    },
+    {
+      "id": "h03",
+      "title": "PEN Pump-Kit-Component Unbundling",
+      "rank": 11
+    },
+    {
+      "id": "h08",
+      "title": "Repair-Part Versus Maintenance-Servicing Path",
+      "rank": 12
+    },
+    {
+      "id": "h20",
+      "title": "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "rank": 16
+    },
+    {
+      "id": "h30",
+      "title": "Low-and-Slow Cross-Entity Replacement and Accessory Accumulation",
+      "rank": 18
+    },
+    {
+      "id": "h12",
+      "title": "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "rank": 20
+    },
+    {
+      "id": "h15",
+      "title": "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "rank": 21
+    },
+    {
+      "id": "h18",
+      "title": "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "rank": 23
+    },
+    {
+      "id": "h09",
+      "title": "Installment-Purchase and Rental Classification Drift",
+      "rank": 30
+    }
+  ],
+  "G": [
+    {
+      "id": "h17",
+      "title": "Auto-Refill Dispensing Without a Beneficiary Request",
+      "rank": 1
+    },
+    {
+      "id": "h06",
+      "title": "Capped-Rental Episode Reset Across Suppliers",
+      "rank": 5
+    },
+    {
+      "id": "h22",
+      "title": "Rotating Supplier Network Around Capped-Rental Episodes",
+      "rank": 6
+    },
+    {
+      "id": "h11",
+      "title": "Capped-Rental Episode Reset After a Questionable Interruption",
+      "rank": 8
+    },
+    {
+      "id": "h16",
+      "title": "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "rank": 9
+    },
+    {
+      "id": "h20",
+      "title": "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "rank": 16
+    },
+    {
+      "id": "h26",
+      "title": "Adaptive Modifier and Code-Path Migration",
+      "rank": 17
+    },
+    {
+      "id": "h23",
+      "title": "Jurisdiction and Billing-Entity Arbitrage",
+      "rank": 26
+    }
+  ],
+  "H": [
+    {
+      "id": "h17",
+      "title": "Auto-Refill Dispensing Without a Beneficiary Request",
+      "rank": 1
+    },
+    {
+      "id": "h21",
+      "title": "Lead-Generated Refill-and-Order Network",
+      "rank": 2
+    },
+    {
+      "id": "h28",
+      "title": "Distributed Ordering-Provider Concentration and Medical-Necessity Manufacture",
+      "rank": 3
+    },
+    {
+      "id": "h04",
+      "title": "Oxygen Ownership and Modifier Stack",
+      "rank": 4
+    },
+    {
+      "id": "h06",
+      "title": "Capped-Rental Episode Reset Across Suppliers",
+      "rank": 5
+    },
+    {
+      "id": "h22",
+      "title": "Rotating Supplier Network Around Capped-Rental Episodes",
+      "rank": 6
+    },
+    {
+      "id": "h19",
+      "title": "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "rank": 7
+    },
+    {
+      "id": "h11",
+      "title": "Capped-Rental Episode Reset After a Questionable Interruption",
+      "rank": 8
+    },
+    {
+      "id": "h16",
+      "title": "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "rank": 9
+    },
+    {
+      "id": "h05",
+      "title": "Custom E1399 Versus Standard Orthotic Coding",
+      "rank": 10
+    },
+    {
+      "id": "h03",
+      "title": "PEN Pump-Kit-Component Unbundling",
+      "rank": 11
+    },
+    {
+      "id": "h08",
+      "title": "Repair-Part Versus Maintenance-Servicing Path",
+      "rank": 12
+    },
+    {
+      "id": "h24",
+      "title": "HHA-DME Consolidated-Billing Boundary Shifting",
+      "rank": 13
+    },
+    {
+      "id": "h10",
+      "title": "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "rank": 15
+    },
+    {
+      "id": "h20",
+      "title": "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "rank": 16
+    },
+    {
+      "id": "h26",
+      "title": "Adaptive Modifier and Code-Path Migration",
+      "rank": 17
+    },
+    {
+      "id": "h30",
+      "title": "Low-and-Slow Cross-Entity Replacement and Accessory Accumulation",
+      "rank": 18
+    },
+    {
+      "id": "h01",
+      "title": "HHA-versus-DME-MAC Supply Routing",
+      "rank": 19
+    },
+    {
+      "id": "h12",
+      "title": "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "rank": 20
+    },
+    {
+      "id": "h14",
+      "title": "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "rank": 22
+    },
+    {
+      "id": "h18",
+      "title": "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "rank": 23
+    },
+    {
+      "id": "h07",
+      "title": "Pre-Discharge Delivery Date-of-Service Inflation",
+      "rank": 24
+    },
+    {
+      "id": "h13",
+      "title": "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "rank": 25
+    },
+    {
+      "id": "h23",
+      "title": "Jurisdiction and Billing-Entity Arbitrage",
+      "rank": 26
+    },
+    {
+      "id": "h29",
+      "title": "PEN Therapy and Pump-Reset Coordination",
+      "rank": 28
+    },
+    {
+      "id": "h02",
+      "title": "SNF and Inpatient Boundary Reclassification",
+      "rank": 29
+    },
+    {
+      "id": "h09",
+      "title": "Installment-Purchase and Rental Classification Drift",
+      "rank": 30
+    }
+  ],
+  "C": [
+    {
+      "id": "h28",
+      "title": "Distributed Ordering-Provider Concentration and Medical-Necessity Manufacture",
+      "rank": 3
+    },
+    {
+      "id": "h19",
+      "title": "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "rank": 7
+    },
+    {
+      "id": "h16",
+      "title": "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "rank": 9
+    },
+    {
+      "id": "h24",
+      "title": "HHA-DME Consolidated-Billing Boundary Shifting",
+      "rank": 13
+    },
+    {
+      "id": "h01",
+      "title": "HHA-versus-DME-MAC Supply Routing",
+      "rank": 19
+    },
+    {
+      "id": "h12",
+      "title": "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "rank": 20
+    },
+    {
+      "id": "h15",
+      "title": "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "rank": 21
+    },
+    {
+      "id": "h14",
+      "title": "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "rank": 22
+    },
+    {
+      "id": "h18",
+      "title": "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "rank": 23
+    },
+    {
+      "id": "h07",
+      "title": "Pre-Discharge Delivery Date-of-Service Inflation",
+      "rank": 24
+    },
+    {
+      "id": "h13",
+      "title": "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "rank": 25
+    },
+    {
+      "id": "h23",
+      "title": "Jurisdiction and Billing-Entity Arbitrage",
+      "rank": 26
+    },
+    {
+      "id": "h25",
+      "title": "Discharge-Date and Anniversary-Date Cycling",
+      "rank": 27
+    },
+    {
+      "id": "h02",
+      "title": "SNF and Inpatient Boundary Reclassification",
+      "rank": 29
+    }
+  ],
+  "A": [
+    {
+      "id": "h04",
+      "title": "Oxygen Ownership and Modifier Stack",
+      "rank": 4
+    },
+    {
+      "id": "h06",
+      "title": "Capped-Rental Episode Reset Across Suppliers",
+      "rank": 5
+    },
+    {
+      "id": "h19",
+      "title": "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "rank": 7
+    },
+    {
+      "id": "h11",
+      "title": "Capped-Rental Episode Reset After a Questionable Interruption",
+      "rank": 8
+    },
+    {
+      "id": "h16",
+      "title": "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "rank": 9
+    },
+    {
+      "id": "h05",
+      "title": "Custom E1399 Versus Standard Orthotic Coding",
+      "rank": 10
+    },
+    {
+      "id": "h03",
+      "title": "PEN Pump-Kit-Component Unbundling",
+      "rank": 11
+    },
+    {
+      "id": "h08",
+      "title": "Repair-Part Versus Maintenance-Servicing Path",
+      "rank": 12
+    },
+    {
+      "id": "h24",
+      "title": "HHA-DME Consolidated-Billing Boundary Shifting",
+      "rank": 13
+    },
+    {
+      "id": "h27",
+      "title": "Oxygen Volume-Modifier and Portable-Add-On Coordination",
+      "rank": 14
+    },
+    {
+      "id": "h10",
+      "title": "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "rank": 15
+    },
+    {
+      "id": "h20",
+      "title": "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "rank": 16
+    },
+    {
+      "id": "h12",
+      "title": "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "rank": 20
+    },
+    {
+      "id": "h15",
+      "title": "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "rank": 21
+    },
+    {
+      "id": "h14",
+      "title": "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "rank": 22
+    },
+    {
+      "id": "h18",
+      "title": "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "rank": 23
+    },
+    {
+      "id": "h07",
+      "title": "Pre-Discharge Delivery Date-of-Service Inflation",
+      "rank": 24
+    },
+    {
+      "id": "h13",
+      "title": "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "rank": 25
+    },
+    {
+      "id": "h25",
+      "title": "Discharge-Date and Anniversary-Date Cycling",
+      "rank": 27
+    },
+    {
+      "id": "h29",
+      "title": "PEN Therapy and Pump-Reset Coordination",
+      "rank": 28
+    },
+    {
+      "id": "h02",
+      "title": "SNF and Inpatient Boundary Reclassification",
+      "rank": 29
+    },
+    {
+      "id": "h09",
+      "title": "Installment-Purchase and Rental Classification Drift",
+      "rank": 30
+    }
+  ],
+  "D": [
+    {
+      "id": "h04",
+      "title": "Oxygen Ownership and Modifier Stack",
+      "rank": 4
+    },
+    {
+      "id": "h19",
+      "title": "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "rank": 7
+    },
+    {
+      "id": "h16",
+      "title": "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "rank": 9
+    },
+    {
+      "id": "h05",
+      "title": "Custom E1399 Versus Standard Orthotic Coding",
+      "rank": 10
+    },
+    {
+      "id": "h03",
+      "title": "PEN Pump-Kit-Component Unbundling",
+      "rank": 11
+    },
+    {
+      "id": "h08",
+      "title": "Repair-Part Versus Maintenance-Servicing Path",
+      "rank": 12
+    },
+    {
+      "id": "h27",
+      "title": "Oxygen Volume-Modifier and Portable-Add-On Coordination",
+      "rank": 14
+    },
+    {
+      "id": "h10",
+      "title": "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "rank": 15
+    },
+    {
+      "id": "h20",
+      "title": "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "rank": 16
+    },
+    {
+      "id": "h26",
+      "title": "Adaptive Modifier and Code-Path Migration",
+      "rank": 17
+    },
+    {
+      "id": "h01",
+      "title": "HHA-versus-DME-MAC Supply Routing",
+      "rank": 19
+    },
+    {
+      "id": "h15",
+      "title": "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "rank": 21
+    },
+    {
+      "id": "h14",
+      "title": "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "rank": 22
+    },
+    {
+      "id": "h23",
+      "title": "Jurisdiction and Billing-Entity Arbitrage",
+      "rank": 26
+    },
+    {
+      "id": "h02",
+      "title": "SNF and Inpatient Boundary Reclassification",
+      "rank": 29
+    },
+    {
+      "id": "h09",
+      "title": "Installment-Purchase and Rental Classification Drift",
+      "rank": 30
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Monitor Medicaid fraud trends with an interactive dashboard featuring data visualizations and hotspot maps to identify high-risk areas efficiently.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

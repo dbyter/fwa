@@ -1,0 +1,602 @@
+[
+  {
+    "signal": "Link beneficiaries to common call centers, marketers, scripts, phone numbers, email domains, or shipping addresses.",
+    "used_in": [
+      "h17"
+    ]
+  },
+  {
+    "signal": "Identify ordering providers or marketers associated with unusually high refill rates and low documented request rates.",
+    "used_in": [
+      "h17"
+    ]
+  },
+  {
+    "signal": "Detect common shipment destinations, representative payees, or caregiver contacts across unrelated beneficiaries.",
+    "used_in": [
+      "h17"
+    ]
+  },
+  {
+    "signal": "Bipartite graph showing one lead-generation entity or call-center-associated address connected to many beneficiaries, ordering providers, and supplier NPIs.",
+    "used_in": [
+      "h21"
+    ]
+  },
+  {
+    "signal": "Community detection identifying supplier-ordering-provider-beneficiary clusters with unusually high internal connectivity and low external referral diversity.",
+    "used_in": [
+      "h21"
+    ]
+  },
+  {
+    "signal": "Shared telephone numbers, beneficiary-contact addresses, domains, bank accounts, or ownership links among supposedly independent suppliers receiving the same lead cohorts.",
+    "used_in": [
+      "h21"
+    ]
+  },
+  {
+    "signal": "Ordering providers whose recurring-supply beneficiaries are disproportionately concentrated among suppliers using the same marketer or fulfillment vendor.",
+    "used_in": [
+      "h21"
+    ]
+  },
+  {
+    "signal": "One ordering provider connected to many suppliers, marketers, and beneficiaries, especially across multiple states.",
+    "used_in": [
+      "h28"
+    ]
+  },
+  {
+    "signal": "Shared ordering-provider panels between suppliers using the same marketer, call center, address, or bank account.",
+    "used_in": [
+      "h28"
+    ]
+  },
+  {
+    "signal": "Bipartite communities where a clinician orders nearly identical HCPCS combinations for beneficiaries acquired by the same lead source.",
+    "used_in": [
+      "h28"
+    ]
+  },
+  {
+    "signal": "Ordering providers with unusually high centrality in the network despite limited independent clinical activity.",
+    "used_in": [
+      "h28"
+    ]
+  },
+  {
+    "signal": "Ordering providers with unusually concentrated high-flow or QB/QF oxygen referrals.",
+    "used_in": [
+      "h04"
+    ]
+  },
+  {
+    "signal": "Supplier-beneficiary clusters receiving identical flow-rate patterns or modifier combinations.",
+    "used_in": [
+      "h04"
+    ]
+  },
+  {
+    "signal": "Shared respiratory therapists, call centers, addresses, or ownership among suppliers billing the same beneficiaries.",
+    "used_in": [
+      "h04"
+    ]
+  },
+  {
+    "signal": "Sequential supplier transfers involving shared ownership, bank accounts, addresses, phone numbers, or billing personnel.",
+    "used_in": [
+      "h06"
+    ]
+  },
+  {
+    "signal": "Supplier-ordering-provider pairs recurring across the same beneficiaries at episode boundaries.",
+    "used_in": [
+      "h06"
+    ]
+  },
+  {
+    "signal": "Beneficiary clusters transferred among several related NPIs shortly before rental caps.",
+    "used_in": [
+      "h06"
+    ]
+  },
+  {
+    "signal": "Supplier-to-supplier edges formed by shared beneficiaries, ordering providers, delivery addresses, bank accounts, owners, employees, or equipment serial numbers.",
+    "used_in": [
+      "h22"
+    ]
+  },
+  {
+    "signal": "Clusters in which one supplier bills early rental months, another bills later months, and a third bills maintenance after month 15 for the same beneficiary cohort.",
+    "used_in": [
+      "h22"
+    ]
+  },
+  {
+    "signal": "Rapid beneficiary migration from one supplier to another immediately following denial spikes or MAC edits.",
+    "used_in": [
+      "h22"
+    ]
+  },
+  {
+    "signal": "Shared delivery or warehouse locations inconsistent with independent equipment ownership and service responsibility.",
+    "used_in": [
+      "h22"
+    ]
+  },
+  {
+    "signal": "Construct beneficiary-HHA-hospice-supplier-ordering-provider graphs and identify shared ownership, addresses, phone numbers, or referral sources.",
+    "used_in": [
+      "h19"
+    ]
+  },
+  {
+    "signal": "Flag HHA or hospice organizations with concentrated referrals to a small group of DME suppliers.",
+    "used_in": [
+      "h19"
+    ]
+  },
+  {
+    "signal": "Identify clinicians whose orders drive supplier claims during both hospice and HHA episodes, especially for terminal-condition diagnoses.",
+    "used_in": [
+      "h19"
+    ]
+  },
+  {
+    "signal": "Connect sequential suppliers serving the same beneficiary within 12 months, especially where they share ownership, address, bank account, ordering clinicians, or delivery vendors.",
+    "used_in": [
+      "h11"
+    ]
+  },
+  {
+    "signal": "Identify ordering providers whose documentation supports unusually high rates of capped-rental restarts across multiple suppliers.",
+    "used_in": [
+      "h11"
+    ]
+  },
+  {
+    "signal": "Detect beneficiary clusters receiving episode resets from a common marketer, call center, or referral source.",
+    "used_in": [
+      "h11"
+    ]
+  },
+  {
+    "signal": "Link suppliers to ordering providers and testing providers; flag high-volume pairings with repeated high-flow or portable claims.",
+    "used_in": [
+      "h16"
+    ]
+  },
+  {
+    "signal": "Identify beneficiaries receiving oxygen from multiple suppliers with conflicting ownership states.",
+    "used_in": [
+      "h16"
+    ]
+  },
+  {
+    "signal": "Detect shared equipment serial numbers, delivery vendors, or clinical testing sources across suppliers.",
+    "used_in": [
+      "h16"
+    ]
+  },
+  {
+    "signal": "Supplier-clinician pairs with unusually high E1399 or custom-code concentration.",
+    "used_in": [
+      "h05"
+    ]
+  },
+  {
+    "signal": "Common fabrication vendors, addresses, employees, or narrative templates across multiple suppliers.",
+    "used_in": [
+      "h05"
+    ]
+  },
+  {
+    "signal": "Beneficiaries referred by a small network of practices and receiving materially identical custom items.",
+    "used_in": [
+      "h05"
+    ]
+  },
+  {
+    "signal": "Supplier-ordering physician pairs with unusually high pump-kit rates.",
+    "used_in": [
+      "h03"
+    ]
+  },
+  {
+    "signal": "Repeated beneficiary cohorts sharing the same ordering clinician, certification template, or referral source.",
+    "used_in": [
+      "h03"
+    ]
+  },
+  {
+    "signal": "Shared billing staff, address, phone, or ownership between supplier and a nutrition practice.",
+    "used_in": [
+      "h03"
+    ]
+  },
+  {
+    "signal": "Supplier-repair-vendor relationships with recurring identical invoices or shared ownership.",
+    "used_in": [
+      "h08"
+    ]
+  },
+  {
+    "signal": "Beneficiary clusters linked to one technician, repair facility, or ordering provider.",
+    "used_in": [
+      "h08"
+    ]
+  },
+  {
+    "signal": "Shared serial numbers or equipment identifiers across supposedly separate repair events.",
+    "used_in": [
+      "h08"
+    ]
+  },
+  {
+    "signal": "Supplier-HHA pairs with unusually high shared beneficiary volume, shared ownership, addresses, staff, referral providers, or billing vendors.",
+    "used_in": [
+      "h24"
+    ]
+  },
+  {
+    "signal": "Ordering providers who refer the same beneficiary to both the HHA and associated DME supplier for overlapping items.",
+    "used_in": [
+      "h24"
+    ]
+  },
+  {
+    "signal": "Network communities in which one entity bills supplies during episodes and another bills similar items immediately outside episodes.",
+    "used_in": [
+      "h24"
+    ]
+  },
+  {
+    "signal": "Shared delivery records or inventory identifiers between HHA and supplier claims.",
+    "used_in": [
+      "h24"
+    ]
+  },
+  {
+    "signal": "Ordering providers or testing facilities linked to unusually high proportions of high-flow or portable oxygen beneficiaries across multiple suppliers.",
+    "used_in": [
+      "h27"
+    ]
+  },
+  {
+    "signal": "Related suppliers splitting stationary and portable oxygen billing for the same beneficiary or cohort.",
+    "used_in": [
+      "h27"
+    ]
+  },
+  {
+    "signal": "Shared marketers, call centers, testing locations, or documentation vendors across high-flow oxygen claims.",
+    "used_in": [
+      "h27"
+    ]
+  },
+  {
+    "signal": "Beneficiary clusters with identical flow rates, test dates, diagnoses, and narrative language across different clinicians.",
+    "used_in": [
+      "h27"
+    ]
+  },
+  {
+    "signal": "Supplier-referral-provider pairs with unusually high multi-body-area or early-replacement rates.",
+    "used_in": [
+      "h10"
+    ]
+  },
+  {
+    "signal": "Beneficiary clusters sharing identical measurements, diagnoses, garment sizes, or order language.",
+    "used_in": [
+      "h10"
+    ]
+  },
+  {
+    "signal": "Common marketer, call center, fitting location, or shipping address across apparently unrelated suppliers.",
+    "used_in": [
+      "h10"
+    ]
+  },
+  {
+    "signal": "Identify ordering providers with unusually high upgrade rates for affiliated or referring suppliers.",
+    "used_in": [
+      "h20"
+    ]
+  },
+  {
+    "signal": "Link suppliers and physician practices through ownership, addresses, compensation, or shared staff.",
+    "used_in": [
+      "h20"
+    ]
+  },
+  {
+    "signal": "Detect common ABN templates, signatures, or beneficiary contacts across unrelated claims.",
+    "used_in": [
+      "h20"
+    ]
+  },
+  {
+    "signal": "Consultant, billing-vendor, or clearinghouse links shared by suppliers that make synchronized code and modifier changes.",
+    "used_in": [
+      "h26"
+    ]
+  },
+  {
+    "signal": "Same ordering providers, beneficiaries, product models, or documentation templates appearing across multiple code paths.",
+    "used_in": [
+      "h26"
+    ]
+  },
+  {
+    "signal": "Network entities dividing upgrade, base-item, rental, and purchase lines among separate NPIs.",
+    "used_in": [
+      "h26"
+    ]
+  },
+  {
+    "signal": "Shared narrative text, construction-cost schedules, ABN templates, or make/model descriptions across supposedly independent suppliers.",
+    "used_in": [
+      "h26"
+    ]
+  },
+  {
+    "signal": "Beneficiary-level accumulation spread across suppliers sharing ordering providers, addresses, owners, fulfillment centers, or marketers.",
+    "used_in": [
+      "h30"
+    ]
+  },
+  {
+    "signal": "Supplier networks where one entity bills the base item, another bills RB repair parts, and another bills replacement or accessory items.",
+    "used_in": [
+      "h30"
+    ]
+  },
+  {
+    "signal": "Ordering providers with repeated replacement claims for the same equipment family across many suppliers.",
+    "used_in": [
+      "h30"
+    ]
+  },
+  {
+    "signal": "Shared equipment serial numbers, product models, or clinical narratives across ostensibly independent claims.",
+    "used_in": [
+      "h30"
+    ]
+  },
+  {
+    "signal": "Dense supplier-HHA-beneficiary triads with repeated referrals involving the same ordering clinicians.",
+    "used_in": [
+      "h01"
+    ]
+  },
+  {
+    "signal": "Shared ownership, address, phone, bank account, or enrollment contacts between the HHA and supplier.",
+    "used_in": [
+      "h01"
+    ]
+  },
+  {
+    "signal": "Beneficiaries concentrated among a small set of HHA episodes or ordering providers relative to the supplier's broader panel.",
+    "used_in": [
+      "h01"
+    ]
+  },
+  {
+    "signal": "Link suppliers to facilities with unusually high shared beneficiary discharge-date claims.",
+    "used_in": [
+      "h12"
+    ]
+  },
+  {
+    "signal": "Identify facility discharge planners, ordering providers, or DME liaisons associated with abnormal concentrations of discharge-date rental claims.",
+    "used_in": [
+      "h12"
+    ]
+  },
+  {
+    "signal": "Detect sequential suppliers billing the same beneficiary on the same discharge date or sharing delivery documentation.",
+    "used_in": [
+      "h12"
+    ]
+  },
+  {
+    "signal": "Link suppliers to repair vendors, facilities, and manufacturers; identify common ownership or billing addresses.",
+    "used_in": [
+      "h15"
+    ]
+  },
+  {
+    "signal": "Detect repeated repair claims across beneficiaries using the same equipment serial-number family or service technician.",
+    "used_in": [
+      "h15"
+    ]
+  },
+  {
+    "signal": "Identify facilities whose stays are associated with unusually high supplier MS/RP activity.",
+    "used_in": [
+      "h15"
+    ]
+  },
+  {
+    "signal": "Link old and new suppliers through common ownership, addresses, employees, warehouse locations, or ordering providers.",
+    "used_in": [
+      "h14"
+    ]
+  },
+  {
+    "signal": "Track equipment serial numbers across suppliers and beneficiaries.",
+    "used_in": [
+      "h14"
+    ]
+  },
+  {
+    "signal": "Identify clinician-supplier pairs with unusually high rates of early replacements or upgraded replacements.",
+    "used_in": [
+      "h14"
+    ]
+  },
+  {
+    "signal": "Link suppliers, ordering physicians, dietitians, HHAs, and facilities around therapy transitions.",
+    "used_in": [
+      "h18"
+    ]
+  },
+  {
+    "signal": "Identify clinicians associated with unusually high enteral/parenteral switching or pump resets.",
+    "used_in": [
+      "h18"
+    ]
+  },
+  {
+    "signal": "Track the same pump serial number across supposed new episodes and suppliers.",
+    "used_in": [
+      "h18"
+    ]
+  },
+  {
+    "signal": "Repeated supplier-discharge-planner or supplier-facility relationships with unusually high pre-discharge utilization.",
+    "used_in": [
+      "h07"
+    ]
+  },
+  {
+    "signal": "Shared clinicians or referral sources between the supplier and facility.",
+    "used_in": [
+      "h07"
+    ]
+  },
+  {
+    "signal": "Beneficiary clusters receiving identical equipment on facility discharge dates.",
+    "used_in": [
+      "h07"
+    ]
+  },
+  {
+    "signal": "Match suppliers to facilities, discharge planners, and ordering clinicians with repeated pre-discharge billing.",
+    "used_in": [
+      "h13"
+    ]
+  },
+  {
+    "signal": "Identify common serial numbers or item identifiers across facility and supplier claims.",
+    "used_in": [
+      "h13"
+    ]
+  },
+  {
+    "signal": "Detect suppliers receiving referrals from facilities where nearly all deliveries occur immediately before discharge.",
+    "used_in": [
+      "h13"
+    ]
+  },
+  {
+    "signal": "Shared ownership, addresses, bank accounts, officers, employees, fulfillment facilities, ordering providers, or referral marketers across entities billing different MACs.",
+    "used_in": [
+      "h23"
+    ]
+  },
+  {
+    "signal": "Cross-jurisdiction beneficiary migration in which the same marketer or ordering provider feeds multiple supplier NPIs.",
+    "used_in": [
+      "h23"
+    ]
+  },
+  {
+    "signal": "Network paths connecting one clinician to multiple billing entities that alternate by HCPCS category or contractor jurisdiction.",
+    "used_in": [
+      "h23"
+    ]
+  },
+  {
+    "signal": "Entity pairs with unusually high claim substitution: one entity bills DME while another bills implanted accessories, PEN, P&O, or HHA versions for overlapping beneficiaries.",
+    "used_in": [
+      "h23"
+    ]
+  },
+  {
+    "signal": "Supplier clusters coordinating with the same hospitals, SNFs, or discharge planners and receiving beneficiaries immediately after discharge.",
+    "used_in": [
+      "h25"
+    ]
+  },
+  {
+    "signal": "Shared beneficiaries moving among suppliers at each institutional transition.",
+    "used_in": [
+      "h25"
+    ]
+  },
+  {
+    "signal": "Repeated discharge-date claim patterns linked to one facility, ordering provider, or case-management vendor.",
+    "used_in": [
+      "h25"
+    ]
+  },
+  {
+    "signal": "Common equipment identifiers or delivery personnel across suppliers reporting different delivery and anniversary dates.",
+    "used_in": [
+      "h25"
+    ]
+  },
+  {
+    "signal": "Supplier-clinician pairs repeatedly documenting enteral/parenteral switches for the same beneficiary cohort.",
+    "used_in": [
+      "h29"
+    ]
+  },
+  {
+    "signal": "Beneficiaries moving between related suppliers at months 14-16 of pump rental.",
+    "used_in": [
+      "h29"
+    ]
+  },
+  {
+    "signal": "Shared ordering providers, nutrition clinics, dietitians, fulfillment centers, or documentation vendors across transition claims.",
+    "used_in": [
+      "h29"
+    ]
+  },
+  {
+    "signal": "Network communities with synchronized therapy changes and identical certification language.",
+    "used_in": [
+      "h29"
+    ]
+  },
+  {
+    "signal": "Repeated supplier-SNF pairs with unusually high discharge-day claim concentration.",
+    "used_in": [
+      "h02"
+    ]
+  },
+  {
+    "signal": "Ordering providers affiliated with both the SNF and supplier, or shared ownership and addresses.",
+    "used_in": [
+      "h02"
+    ]
+  },
+  {
+    "signal": "Beneficiary clusters linked to a particular facility's discharge planner or ordering clinician.",
+    "used_in": [
+      "h02"
+    ]
+  },
+  {
+    "signal": "Equipment serial numbers reused across beneficiaries or suppliers.",
+    "used_in": [
+      "h09"
+    ]
+  },
+  {
+    "signal": "Supplier-finance, delivery, and billing entities sharing ownership or bank accounts.",
+    "used_in": [
+      "h09"
+    ]
+  },
+  {
+    "signal": "Beneficiary transfers between related suppliers immediately before purchase conversion.",
+    "used_in": [
+      "h09"
+    ]
+  }
+]

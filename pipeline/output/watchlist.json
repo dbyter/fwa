@@ -1,0 +1,2294 @@
+{
+  "hcpcs_note": "See individual hypotheses' claims_manifestation for specific HCPCS families flagged.",
+  "top_hypotheses_by_category": {
+    "B": [
+      "Auto-Refill Dispensing Without a Beneficiary Request",
+      "Oxygen Ownership and Modifier Stack",
+      "Capped-Rental Episode Reset Across Suppliers",
+      "Rotating Supplier Network Around Capped-Rental Episodes",
+      "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "Capped-Rental Episode Reset After a Questionable Interruption",
+      "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "Oxygen Volume-Modifier and Portable-Add-On Coordination",
+      "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "Low-and-Slow Cross-Entity Replacement and Accessory Accumulation",
+      "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "Pre-Discharge Delivery Date-of-Service Inflation",
+      "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "Discharge-Date and Anniversary-Date Cycling",
+      "PEN Therapy and Pump-Reset Coordination",
+      "Installment-Purchase and Rental Classification Drift"
+    ],
+    "E": [
+      "Auto-Refill Dispensing Without a Beneficiary Request",
+      "Lead-Generated Refill-and-Order Network",
+      "Distributed Ordering-Provider Concentration and Medical-Necessity Manufacture",
+      "Capped-Rental Episode Reset Across Suppliers",
+      "Rotating Supplier Network Around Capped-Rental Episodes",
+      "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "Capped-Rental Episode Reset After a Questionable Interruption",
+      "Custom E1399 Versus Standard Orthotic Coding",
+      "HHA-DME Consolidated-Billing Boundary Shifting",
+      "Oxygen Volume-Modifier and Portable-Add-On Coordination",
+      "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "Adaptive Modifier and Code-Path Migration",
+      "Low-and-Slow Cross-Entity Replacement and Accessory Accumulation",
+      "HHA-versus-DME-MAC Supply Routing",
+      "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "Jurisdiction and Billing-Entity Arbitrage",
+      "Discharge-Date and Anniversary-Date Cycling",
+      "PEN Therapy and Pump-Reset Coordination",
+      "SNF and Inpatient Boundary Reclassification"
+    ],
+    "F": [
+      "Auto-Refill Dispensing Without a Beneficiary Request",
+      "Lead-Generated Refill-and-Order Network",
+      "Distributed Ordering-Provider Concentration and Medical-Necessity Manufacture",
+      "Oxygen Ownership and Modifier Stack",
+      "Capped-Rental Episode Reset After a Questionable Interruption",
+      "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "PEN Pump-Kit-Component Unbundling",
+      "Repair-Part Versus Maintenance-Servicing Path",
+      "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "Low-and-Slow Cross-Entity Replacement and Accessory Accumulation",
+      "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "Installment-Purchase and Rental Classification Drift"
+    ],
+    "G": [
+      "Auto-Refill Dispensing Without a Beneficiary Request",
+      "Capped-Rental Episode Reset Across Suppliers",
+      "Rotating Supplier Network Around Capped-Rental Episodes",
+      "Capped-Rental Episode Reset After a Questionable Interruption",
+      "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "Adaptive Modifier and Code-Path Migration",
+      "Jurisdiction and Billing-Entity Arbitrage"
+    ],
+    "H": [
+      "Auto-Refill Dispensing Without a Beneficiary Request",
+      "Lead-Generated Refill-and-Order Network",
+      "Distributed Ordering-Provider Concentration and Medical-Necessity Manufacture",
+      "Oxygen Ownership and Modifier Stack",
+      "Capped-Rental Episode Reset Across Suppliers",
+      "Rotating Supplier Network Around Capped-Rental Episodes",
+      "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "Capped-Rental Episode Reset After a Questionable Interruption",
+      "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "Custom E1399 Versus Standard Orthotic Coding",
+      "PEN Pump-Kit-Component Unbundling",
+      "Repair-Part Versus Maintenance-Servicing Path",
+      "HHA-DME Consolidated-Billing Boundary Shifting",
+      "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "Adaptive Modifier and Code-Path Migration",
+      "Low-and-Slow Cross-Entity Replacement and Accessory Accumulation",
+      "HHA-versus-DME-MAC Supply Routing",
+      "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "Pre-Discharge Delivery Date-of-Service Inflation",
+      "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "Jurisdiction and Billing-Entity Arbitrage",
+      "PEN Therapy and Pump-Reset Coordination",
+      "SNF and Inpatient Boundary Reclassification",
+      "Installment-Purchase and Rental Classification Drift"
+    ],
+    "C": [
+      "Distributed Ordering-Provider Concentration and Medical-Necessity Manufacture",
+      "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "HHA-DME Consolidated-Billing Boundary Shifting",
+      "HHA-versus-DME-MAC Supply Routing",
+      "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "Pre-Discharge Delivery Date-of-Service Inflation",
+      "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "Jurisdiction and Billing-Entity Arbitrage",
+      "Discharge-Date and Anniversary-Date Cycling",
+      "SNF and Inpatient Boundary Reclassification"
+    ],
+    "A": [
+      "Oxygen Ownership and Modifier Stack",
+      "Capped-Rental Episode Reset Across Suppliers",
+      "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "Capped-Rental Episode Reset After a Questionable Interruption",
+      "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "Custom E1399 Versus Standard Orthotic Coding",
+      "PEN Pump-Kit-Component Unbundling",
+      "Repair-Part Versus Maintenance-Servicing Path",
+      "HHA-DME Consolidated-Billing Boundary Shifting",
+      "Oxygen Volume-Modifier and Portable-Add-On Coordination",
+      "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "Pre-Discharge Delivery Date-of-Service Inflation",
+      "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "Discharge-Date and Anniversary-Date Cycling",
+      "PEN Therapy and Pump-Reset Coordination",
+      "SNF and Inpatient Boundary Reclassification",
+      "Installment-Purchase and Rental Classification Drift"
+    ],
+    "D": [
+      "Oxygen Ownership and Modifier Stack",
+      "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "Custom E1399 Versus Standard Orthotic Coding",
+      "PEN Pump-Kit-Component Unbundling",
+      "Repair-Part Versus Maintenance-Servicing Path",
+      "Oxygen Volume-Modifier and Portable-Add-On Coordination",
+      "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "Adaptive Modifier and Code-Path Migration",
+      "HHA-versus-DME-MAC Supply Routing",
+      "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "Jurisdiction and Billing-Entity Arbitrage",
+      "SNF and Inpatient Boundary Reclassification",
+      "Installment-Purchase and Rental Classification Drift"
+    ]
+  },
+  "high_financial_impact": [
+    {
+      "title": "Auto-Refill Dispensing Without a Beneficiary Request",
+      "vulnerability_hypothesis": "Section 200 expressly prohibits automatic delivery and predetermined refill schedules without a specific beneficiary or caregiver request, and distinguishes a refill request from a prescription renewal. The rule is operationally difficult to observe because claims contain dispensing dates and quantities but not necessarily the request event.",
+      "archetypes": [
+        {
+          "name": "Supplier specializing in recurring supplies or accessories",
+          "why": "Its business model is directly tied to refill cadence, with high volume-growth objectives and willingness to exploit ambiguity."
+        },
+        {
+          "name": "Enteral/parenteral nutrition supplier",
+          "why": "Recurring nutrition supplies and monthly therapy periods create repeated opportunities to ship without contemporaneous beneficiary confirmation."
+        },
+        {
+          "name": "DME supplier heavily dependent on lead-generation companies",
+          "why": "Outsourced beneficiary acquisition and high coordination risk make scripted refill outreach and weak request controls plausible."
+        },
+        {
+          "name": "Telehealth-linked DME supplier",
+          "why": "High beneficiary reach and remote operations can scale automated refill programs while limiting direct beneficiary interaction."
+        }
+      ],
+      "economic_incentive": "Increasing recurring-supply volume, reducing cancellation and lapse rates, and converting prescription renewals into billable shipments without a separate beneficiary request.",
+      "claims_manifestation": "Claims arrive at highly regular intervals, often near the maximum allowable quantity or before expected depletion, despite no documented contact. Shipments continue after death, hospice enrollment, institutional admission, therapy discontinuation, or a change in equipment. A physician renewal precedes shipment but no beneficiary request is recorded.",
+      "detection_signals": [
+        "Calculate refill interval variance and flag near-deterministic shipment schedules over six or more cycles.",
+        "Flag refills with no documented beneficiary/caregiver request within the required pre-dispensing window.",
+        "Flag shipments after death, hospice election, institutional admission, therapy discontinuation, or equipment return.",
+        "Compare billed quantity and days' supply with prior utilization, remaining inventory, and early-refill history.",
+        "Measure beneficiary complaint, return-to-supplier, unopened-package, and reversal rates by supplier and marketer."
+      ],
+      "graph_signals": [
+        "Link beneficiaries to common call centers, marketers, scripts, phone numbers, email domains, or shipping addresses.",
+        "Identify ordering providers or marketers associated with unusually high refill rates and low documented request rates.",
+        "Detect common shipment destinations, representative payees, or caregiver contacts across unrelated beneficiaries."
+      ],
+      "false_positive_explanation": "Beneficiaries or caregivers may make standing or recurring requests, and some clinical situations require regular supplies. Caregiver documentation may be stored outside the claim system or represented by a portal interaction rather than a call.",
+      "disambiguating_evidence": [
+        "Obtain dated call recordings, portal logs, SMS confirmations, refill forms, caregiver authorization, and shipment acknowledgments.",
+        "Verify the beneficiary had the underlying DME and ongoing medical necessity at each refill.",
+        "Review returned or unopened supplies, inventory, and delivery confirmation.",
+        "Separate prescription renewal documentation from the required beneficiary or caregiver refill request."
+      ],
+      "detection_rule": "SELECT r.* FROM refill_claims r WHERE r.paid_amount>0 AND NOT EXISTS (SELECT 1 FROM refill_requests q WHERE q.beneficiary_id=r.beneficiary_id AND q.supplier_npi=r.supplier_npi AND q.request_time <= r.dispense_time AND q.request_time > r.dispense_time-INTERVAL '90 day') OR r.dispense_date IN (SELECT event_date FROM beneficiary_status_events WHERE event_type IN ('DEATH','HOSPICE','INSTITUTIONAL_STAY','EQUIPMENT_RETURN'));",
+      "severity": {
+        "financial_impact": 5,
+        "likelihood": 5,
+        "detectability": 4,
+        "confidence": 5
+      },
+      "cms_source": {
+        "explicit": [
+          "200 - Automatic Mailing/Delivery of DMEPOS"
+        ],
+        "inference": "The prohibition is explicit; the claim-based indicators are proxies for the otherwise non-claim refill-request event."
+      },
+      "collision_categories": [
+        "B",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "batch": "temporal_and_lifecycle",
+      "id": "h17",
+      "score": 28.0,
+      "rank": 1,
+      "is_top10": true
+    },
+    {
+      "title": "Lead-Generated Refill-and-Order Network",
+      "vulnerability_hypothesis": "Section 200 requires a specific beneficiary or caregiver request before repetitive supplies are dispensed, while sections 10.2 and 110.4 permit recurring supply billing when the beneficiary has the underlying DME and medical necessity continues. A lead-generation or telehealth network can create apparently valid orders across many suppliers while the actual refill-request process is weak, standardized, or supplier-initiated.",
+      "archetypes": [
+        {
+          "name": "Telehealth-linked DME supplier",
+          "why": "Access to beneficiaries 5, referral relationships 5, geographic reach 5, and volume-growth objective 5 support centralized remote order generation at scale; compliance sophistication 2 increases refill-control risk."
+        },
+        {
+          "name": "DME supplier heavily dependent on lead-generation companies",
+          "why": "Access to beneficiaries 5, referral relationships 5, coordination with others 5, and willingness to exploit ambiguity 4 make outsourced beneficiary acquisition and weak control over refill requests plausible."
+        },
+        {
+          "name": "Rapidly growing DME supplier",
+          "why": "Volume-growth objective 5 and referral relationships 4 can create pressure to accept high-volume leads before beneficiary-request controls mature; compliance sophistication is only 2."
+        },
+        {
+          "name": "Supplier specializing in recurring supplies or accessories",
+          "why": "The business model monetizes refill cadence directly, with recurring-supply and frequency rules creating a strong incentive to convert lead-generated contacts into repeated claims."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "Coordination 5, access to beneficiaries 5, risk tolerance 5, and willingness to exploit ambiguity 5 support coordinated creation of orders, refill attestations, and beneficiary participation across entities."
+        }
+      ],
+      "economic_incentive": "Recurring monthly or periodic supply revenue, increased beneficiary lifetime value, and conversion of a single remotely generated order into repeated claims without equivalent clinical or fulfillment effort.",
+      "claims_manifestation": "High volumes of recurring supply HCPCS codes linked to common ordering providers, marketer-associated beneficiary cohorts, or multiple supplier NPIs; refill claims occur at highly regular intervals, often near maximum allowable quantities or frequency limits. Claims may show the same supply category across numerous beneficiaries with little variation, despite different diagnoses, geography, or care settings.",
+      "detection_signals": [
+        "For each supplier, calculate the percentage of refill claims preceded by a documented beneficiary/caregiver request within a defined operational window; flag rates below the plan benchmark.",
+        "Calculate ordering-provider and marketer-linked beneficiary concentration using Herfindahl-Hirschman Index; flag suppliers where the top 5 ordering providers account for more than 50% of recurring-supply beneficiaries or where one provider is shared across multiple suppliers.",
+        "Flag refill intervals with coefficient of variation below 0.10 across at least four cycles when beneficiary-request timestamps are absent or identical across many beneficiaries.",
+        "Flag beneficiaries receiving the same supply category from multiple network suppliers within the same expected replacement interval.",
+        "Compare billed units with prior utilization, documented DME ownership, and days since last shipment; flag repeated claims at or near frequency limits."
+      ],
+      "graph_signals": [
+        "Bipartite graph showing one lead-generation entity or call-center-associated address connected to many beneficiaries, ordering providers, and supplier NPIs.",
+        "Community detection identifying supplier-ordering-provider-beneficiary clusters with unusually high internal connectivity and low external referral diversity.",
+        "Shared telephone numbers, beneficiary-contact addresses, domains, bank accounts, or ownership links among supposedly independent suppliers receiving the same lead cohorts.",
+        "Ordering providers whose recurring-supply beneficiaries are disproportionately concentrated among suppliers using the same marketer or fulfillment vendor."
+      ],
+      "false_positive_explanation": "Legitimate mail-order suppliers may have standardized refill cycles, centralized call centers, and common ordering providers serving medically homogeneous populations. Beneficiaries with chronic conditions may appropriately receive the same quantities at regular intervals.",
+      "disambiguating_evidence": [
+        "Beneficiary-initiated request recordings, portal logs, call metadata, or authenticated refill confirmations tied to each shipment.",
+        "Shipment tracking, delivery confirmation, return records, and evidence that the beneficiary possessed and continued to use the underlying DME.",
+        "Clinical records supporting continuing medical necessity and quantities, including evidence that supplies were not stockpiled.",
+        "Contracts, compensation arrangements, and compliance oversight involving lead generators and ordering providers."
+      ],
+      "detection_rule": "WITH refill AS (SELECT supplier_npi, beneficiary_id, ordering_npi, hcpcs, service_date, units, request_timestamp, shipment_tracking_id FROM dme_claims WHERE claim_type = 'recurring_supply') SELECT supplier_npi, COUNT(*) AS claims, AVG(CASE WHEN request_timestamp IS NULL THEN 1.0 ELSE 0.0 END) AS no_request_rate, COUNT(DISTINCT ordering_npi) AS ordering_count, COUNT(DISTINCT beneficiary_id) AS beneficiary_count FROM refill GROUP BY supplier_npi HAVING no_request_rate > 0.20 OR COUNT(*) >= 1000 AND COUNT(DISTINCT ordering_npi) <= 5;",
+      "severity": {
+        "financial_impact": 5,
+        "likelihood": 5,
+        "detectability": 4,
+        "confidence": 5
+      },
+      "cms_source": {
+        "explicit": [
+          "Section 200 - Automatic Mailing/Delivery of DMEPOS",
+          "Section 10.2 - Coverage Table for DME Claims",
+          "Section 110.4 - Frequency of Claims for Repetitive Services"
+        ],
+        "inference": "The corpus expressly prohibits supplier-initiated automatic refills. The network and lead-generation mechanism, and the use of graph concentration as evidence, are analytic inferences."
+      },
+      "collision_categories": [
+        "E",
+        "F",
+        "H"
+      ],
+      "batch": "network_and_adaptive",
+      "id": "h21",
+      "score": 28.0,
+      "rank": 2,
+      "is_top10": true
+    },
+    {
+      "title": "Distributed Ordering-Provider Concentration and Medical-Necessity Manufacture",
+      "vulnerability_hypothesis": "Sections 10.1.2, 10.1.3, 30.3, 100.1, 100.2, and 100.2.2 require physician or authorized-practitioner orders and supporting medical-necessity documentation, but permit clinician employees to prepare portions of documentation subject to physician review. A network can make each individual supplier appear ordinary while a small set of clinicians generate a disproportionate volume of orders with templated or product-specific medical-necessity narratives.",
+      "archetypes": [
+        {
+          "name": "Telehealth-linked DME supplier",
+          "why": "Beneficiary access 5, referral relationships 5, and geographic reach 5 support centralized remote ordering, while compliance sophistication 2 creates risk that clinician independence and documentation quality are not validated."
+        },
+        {
+          "name": "Physician practice dispensing or ordering DME",
+          "why": "Access to beneficiaries 5 and referral relationships 5 create direct control over both the order and supporting narrative, producing a strong self-referral and documentation-shaping risk."
+        },
+        {
+          "name": "DME supplier heavily dependent on lead-generation companies",
+          "why": "Coordination 5 and referral relationships 5 make it plausible for marketers to steer beneficiaries toward a concentrated ordering-provider panel."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "Coordination 5, risk tolerance 5, and access to beneficiaries 5 support deliberate clinician-supplier-beneficiary coordination."
+        }
+      ],
+      "economic_incentive": "Generating more orders for high-margin or recurring DMEPOS products, increasing beneficiary conversion, and reducing order-acquisition costs through a small repeat-referral clinician panel.",
+      "claims_manifestation": "A limited number of ordering providers account for a large share of a supplier's beneficiaries or a specific HCPCS family. Diagnoses, order text, estimated length of need, and accessory combinations are highly standardized. Ordering-provider concentration persists across multiple supplier NPIs, states, or marketers, and claims surge after a new lead source is activated.",
+      "detection_signals": [
+        "Calculate ordering-provider concentration by supplier, HCPCS family, diagnosis, and month; flag top-provider share above 40% or HHI above peer percentile.",
+        "Measure template similarity of order narratives, CMNs, or supporting notes; flag high textual similarity across unrelated beneficiaries.",
+        "Flag ordering providers whose DMEPOS order volume is extreme relative to their Medicare patient panel, specialty, or evaluation-and-management activity.",
+        "Flag short intervals between beneficiary enrollment, telehealth encounter, order signature, and high-volume DMEPOS claim across many beneficiaries.",
+        "Compare order diagnoses and equipment combinations with clinical encounters, functional findings, and prior equipment history; flag product-specific diagnosis patterns."
+      ],
+      "graph_signals": [
+        "One ordering provider connected to many suppliers, marketers, and beneficiaries, especially across multiple states.",
+        "Shared ordering-provider panels between suppliers using the same marketer, call center, address, or bank account.",
+        "Bipartite communities where a clinician orders nearly identical HCPCS combinations for beneficiaries acquired by the same lead source.",
+        "Ordering providers with unusually high centrality in the network despite limited independent clinical activity."
+      ],
+      "false_positive_explanation": "Specialists may legitimately order a narrow range of equipment for a concentrated disease population. Large telehealth practices may use standardized templates, and authorized employees may prepare documentation for physician review.",
+      "disambiguating_evidence": [
+        "Complete clinical records, encounter notes, functional assessments, and evidence of physician review and independent clinical judgment.",
+        "Signature provenance, timestamps, electronic-authentication logs, and identification of the person completing documentation.",
+        "Referral, marketing, ownership, and compensation records between clinicians, suppliers, and lead generators.",
+        "Beneficiary interviews confirming the encounter, symptoms, order, and receipt of equipment."
+      ],
+      "detection_rule": "SELECT ordering_npi, COUNT(DISTINCT beneficiary_id) AS beneficiaries, COUNT(DISTINCT supplier_npi) AS suppliers, COUNT(*) AS claims, COUNT(DISTINCT diagnosis_hcpcs_signature) AS signatures FROM dme_claims GROUP BY ordering_npi HAVING COUNT(DISTINCT beneficiary_id) > 500 AND COUNT(DISTINCT supplier_npi) >= 3 AND COUNT(DISTINCT diagnosis_hcpcs_signature) <= 10;",
+      "severity": {
+        "financial_impact": 5,
+        "likelihood": 5,
+        "detectability": 4,
+        "confidence": 5
+      },
+      "cms_source": {
+        "explicit": [
+          "Section 10.1.2 - Prosthetic Devices - Coverage Definition",
+          "Section 10.1.3 - Prosthetics and Orthotics - Coverage Definition",
+          "Section 100.1 - Written Order Prior to Delivery",
+          "Section 100.2.1 - Completion of Certificate of Medical Necessity Forms",
+          "Section 100.2.2 - Evidence of Medical Necessity for PEN Therapy"
+        ],
+        "inference": "The ordering and documentation requirements are explicit. Concentration, templating, and network centrality are detection inferences rather than CMS presumptions of fraud."
+      },
+      "collision_categories": [
+        "C",
+        "E",
+        "F",
+        "H"
+      ],
+      "batch": "network_and_adaptive",
+      "id": "h28",
+      "score": 28.0,
+      "rank": 3,
+      "is_top10": true
+    },
+    {
+      "title": "Oxygen Ownership and Modifier Stack",
+      "vulnerability_hypothesis": "Oxygen payment changes based on whether stationary and portable systems are rented or owned, while QG/QF/QB modifiers alter payment and prohibit certain additive combinations. Incorrect or strategically inconsistent ownership, flow-rate, or modifier data can move a beneficiary between materially different payment paths.",
+      "archetypes": [
+        {
+          "name": "Oxygen/respiratory equipment supplier",
+          "why": "The business model is monthly and date-driven, with direct operational control over equipment ownership status and prescribed flow-rate data."
+        },
+        {
+          "name": "Supplier using aggressive coding/revenue-cycle consultants",
+          "why": "Technical coding sophistication (5) and willingness to exploit ambiguity (5) support deliberate modifier and ownership-path optimization."
+        },
+        {
+          "name": "Rapidly growing DME supplier",
+          "why": "High volume-growth objective (5) and referral relationships (4) create incentives to standardize high-paying oxygen configurations across a large beneficiary base."
+        },
+        {
+          "name": "Home health-associated provider/supplier",
+          "why": "Coordination with HHAs (4) and access to clinical observations can affect whether oxygen is characterized as rented, owned, stationary, or portable."
+        }
+      ],
+      "economic_incentive": "The payment differential between ordinary stationary oxygen, high-flow QG/QB treatment, portable add-ons, and contents fees can be substantial over recurring monthly claims. Misstating ownership or stacking prohibited add-ons can increase payment.",
+      "claims_manifestation": "QG or QB claims with portable add-ons inconsistent with the oxygen billing chart; QF or QB lines accompanied by separately paid portable monthly equipment; changes from rented to owned status without a purchase claim; oxygen contents fees billed when equipment is rented or absent; flow-rate modifiers inconsistent with the order or testing.",
+      "detection_signals": [
+        "Rate of QG, QF, QB, or high-flow claims by supplier compared with regional peers.",
+        "Beneficiary-months with mutually exclusive stationary, portable, and contents payments.",
+        "Ownership-status transitions without a corresponding purchase, title, or equipment history event.",
+        "Portable oxygen claims within 30 days before or after QG claims despite the stated CWF edit.",
+        "Average prescribed flow rates just above modifier thresholds, such as greater than 4 LPM, by ordering provider."
+      ],
+      "graph_signals": [
+        "Ordering providers with unusually concentrated high-flow or QB/QF oxygen referrals.",
+        "Supplier-beneficiary clusters receiving identical flow-rate patterns or modifier combinations.",
+        "Shared respiratory therapists, call centers, addresses, or ownership among suppliers billing the same beneficiaries."
+      ],
+      "false_positive_explanation": "Clinical needs can change, and a patient may legitimately use different stationary and portable systems. Ownership can change after a rental cap or supplier transfer. Claims history may also be incomplete across contractors or during transitions.",
+      "disambiguating_evidence": [
+        "Current oxygen order, testing results, flow rates at rest and during activity, and equipment inventory.",
+        "Title, rental, purchase, and supplier-transfer records.",
+        "Delivery and usage documentation for portable and stationary systems.",
+        "Cross-MAC claims history and remittance records for the 30-day oxygen edit."
+      ],
+      "detection_rule": "SELECT supplier_id, COUNT(*) AS oxygen_months, SUM(paid_amount) AS paid FROM oxygen_claims o WHERE (o.modifier IN ('QG','QF','QB') OR o.hcpcs IN (portable_oxygen_codes, contents_codes)) AND EXISTS (SELECT 1 FROM oxygen_claims x WHERE x.beneficiary_id=o.beneficiary_id AND x.service_date BETWEEN o.service_date-30 AND o.service_date+30 AND mutually_exclusive(o,x)=1) GROUP BY supplier_id HAVING COUNT(*) >= 20 OR AVG(CASE WHEN prescribed_flow_lpm > 4 THEN 1.0 ELSE 0 END) > 0.30;",
+      "severity": {
+        "financial_impact": 5,
+        "likelihood": 4,
+        "detectability": 4,
+        "confidence": 5
+      },
+      "cms_source": {
+        "explicit": [
+          "30.6 - Oxygen and Oxygen Equipment",
+          "30.6.1 - Adjustments to Monthly Oxygen Fee",
+          "130.6 - Billing for Oxygen and Oxygen Equipment",
+          "130.6.1 - Oxygen Equipment and Contents Billing Chart"
+        ],
+        "inference": "The payment combinations and modifier rules are explicit; the fraud-risk interpretation is that inconsistent ownership, flow, or modifier data could be used to select a higher-paying path."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "D",
+        "F",
+        "H"
+      ],
+      "batch": "coding_and_entity_arbitrage",
+      "id": "h04",
+      "score": 23.0,
+      "rank": 4,
+      "is_top10": true
+    },
+    {
+      "title": "Capped-Rental Episode Reset Across Suppliers",
+      "vulnerability_hypothesis": "A supplier change does not restart a capped-rental episode, and an interruption exceeding the permitted period requires new prescription and medical-necessity documentation. Separately, an overlapping inpatient or SNF stay can reset the anniversary date when it overlaps the anniversary date but does not span the entire month. These valid exceptions can be misapplied to create duplicate or extended rental periods.",
+      "archetypes": [
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "Maximum coordination (5), risk tolerance (5), Medicare dependence (5), and volume objective (5) support distributed manipulation of supplier transitions and rental histories."
+        },
+        {
+          "name": "Supplier specializing in recurring supplies or accessories",
+          "why": "The business model depends on recurring cadence, with volume objective (4) and ambiguity tolerance (4)."
+        },
+        {
+          "name": "Rapidly growing DME supplier",
+          "why": "Growth objective (5), coordination (3), and audit awareness (2) make episode tracking vulnerable during rapid beneficiary and supplier expansion."
+        },
+        {
+          "name": "Multi-state supplier",
+          "why": "Geographic reach (5) can fragment episode history across contractors, states, or NPIs."
+        }
+      ],
+      "economic_incentive": "Restarting or extending the rental sequence can generate additional monthly rental payments beyond the beneficiary's existing 15-month episode and may shift maintenance obligations between suppliers.",
+      "claims_manifestation": "New supplier claims use KH or an apparent first-month indicator after prior paid rental months; overlapping suppliers bill the same or similar HCPCS; claims resume after a short interruption without required new documentation; anniversary dates shift without a matching inpatient or SNF overlap; rental continues beyond 15 counted months.",
+      "detection_signals": [
+        "Beneficiary-equipment episodes with more than 15 paid rental months absent a validated reset.",
+        "Number of supplier changes during a single equipment episode.",
+        "New KH claims within 12 months of a prior supplier's KJ or month-10/15 claim.",
+        "Rental claims with gaps shorter than 60 days but new prescriptions or apparent new episodes.",
+        "Anniversary-date changes not supported by an inpatient or SNF stay overlapping the original anniversary date."
+      ],
+      "graph_signals": [
+        "Sequential supplier transfers involving shared ownership, bank accounts, addresses, phone numbers, or billing personnel.",
+        "Supplier-ordering-provider pairs recurring across the same beneficiaries at episode boundaries.",
+        "Beneficiary clusters transferred among several related NPIs shortly before rental caps."
+      ],
+      "false_positive_explanation": "Supplier changes, hospitalization, equipment loss, and genuine changes in medical need can produce legitimate episode adjustments. Claims histories may also be incomplete when beneficiaries move between managed care and FFS.",
+      "disambiguating_evidence": [
+        "Complete cross-MAC and Medicare Advantage equipment history.",
+        "Inpatient/SNF admission, discharge, and anniversary-date records.",
+        "New prescription, proof that prior medical necessity ended, and supplier statement for a true post-break episode.",
+        "Equipment serial numbers, delivery records, and title or maintenance responsibility."
+      ],
+      "detection_rule": "WITH episodes AS (SELECT beneficiary_id, normalized_equipment_group, COUNT(DISTINCT rental_month) paid_months, MIN(service_date) first_date, MAX(service_date) last_date, COUNT(DISTINCT supplier_id) suppliers FROM capped_rental_claims GROUP BY beneficiary_id, normalized_equipment_group) SELECT * FROM episodes WHERE paid_months > 15 OR suppliers >= 3 OR EXISTS (SELECT 1 FROM capped_rental_claims c WHERE c.is_first_month=1 AND EXISTS (SELECT 1 FROM capped_rental_claims p WHERE p.beneficiary_id=c.beneficiary_id AND p.normalized_equipment_group=c.normalized_equipment_group AND p.service_date < c.service_date AND p.paid_months > 3));",
+      "severity": {
+        "financial_impact": 5,
+        "likelihood": 4,
+        "detectability": 4,
+        "confidence": 5
+      },
+      "cms_source": {
+        "explicit": [
+          "30.5 - Capped Rental Items",
+          "30.5.4 - Payments for Capped Rental Items During a Period of Continuous Use",
+          "210 - CWF Crossover Editing for DMEPOS Claims During an Inpatient Stay",
+          "211.2 - Partial Month Stays for Capped Rental Equipment",
+          "10.3 - Beneficiaries Previously Enrolled in Managed Care Who Return to Traditional FFS"
+        ],
+        "inference": "The reset conditions are explicit; the hypothesis is that suppliers may misclassify ordinary supplier changes or short interruptions as qualifying resets."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "E",
+        "G",
+        "H"
+      ],
+      "batch": "coding_and_entity_arbitrage",
+      "id": "h06",
+      "score": 23.0,
+      "rank": 5,
+      "is_top10": true
+    },
+    {
+      "title": "Rotating Supplier Network Around Capped-Rental Episodes",
+      "vulnerability_hypothesis": "Sections 30.5.4, 110.4, and 211.2 require rental continuity across supplier changes and preserve the original or properly reset anniversary date. A coordinated network may create fragmented billing across supplier NPIs, exploiting weak longitudinal linkage to make one continuous episode appear to be multiple starts or to obscure responsibility after the fifteenth month.",
+      "archetypes": [
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "Coordination 5, risk tolerance 5, Medicare dependence 5, and geographic reach 4 support deliberate supplier rotation and beneficiary-level episode manipulation."
+        },
+        {
+          "name": "DME supplier heavily dependent on lead-generation companies",
+          "why": "Coordination 5 and beneficiary access 5 make it plausible for leads and equipment to be transferred among related suppliers, while compliance sophistication 2 creates continuity-control weaknesses."
+        },
+        {
+          "name": "Rapidly growing DME supplier",
+          "why": "Growth objective 5 and coordination 3 can produce rapid NPI or branch expansion in which rental history is not integrated, creating opportunities for duplicate starts even without a fully organized ring."
+        },
+        {
+          "name": "Supplier with unusually high Medicare concentration",
+          "why": "Medicare dependence 5 creates strong incentive to maximize capped-rental revenue; moderate coding sophistication and limited commercial comparison increase exposure to episode-continuity abuse."
+        }
+      ],
+      "economic_incentive": "Restarting or duplicating monthly rental revenue, extending payments beyond the applicable cap, avoiding post-cap equipment obligations, or shifting claims to an entity with weaker edits or different operational controls.",
+      "claims_manifestation": "The same beneficiary receives the same or similar capped-rental HCPCS from successive suppliers with overlapping or implausibly adjacent rental months. KH, KI, and KJ sequences restart after supplier changes, or a new supplier bills an initial rental without evidence of remaining months. Claims may show identical equipment descriptions, delivery locations, ordering providers, or beneficiary-contact information across NPIs.",
+      "detection_signals": [
+        "For each beneficiary-HCPCS family, construct a continuous rental episode and flag more than 15 paid rental months absent a documented qualifying interruption or managed-care transition.",
+        "Flag a new KH or first-month rental modifier within 60 days of the prior supplier's KJ month or final rental claim.",
+        "Flag supplier changes where the replacement supplier bills more months than the calculated remaining months in the episode.",
+        "Flag overlapping monthly rental claims from different suppliers for the same or similar HCPCS family.",
+        "Flag post-cap rental claims lacking evidence of title status, beneficiary ownership, or the applicable maintenance-and-servicing pathway."
+      ],
+      "graph_signals": [
+        "Supplier-to-supplier edges formed by shared beneficiaries, ordering providers, delivery addresses, bank accounts, owners, employees, or equipment serial numbers.",
+        "Clusters in which one supplier bills early rental months, another bills later months, and a third bills maintenance after month 15 for the same beneficiary cohort.",
+        "Rapid beneficiary migration from one supplier to another immediately following denial spikes or MAC edits.",
+        "Shared delivery or warehouse locations inconsistent with independent equipment ownership and service responsibility."
+      ],
+      "false_positive_explanation": "Supplier changes can result from relocation, bankruptcy, network participation changes, service-area restrictions, or beneficiary preference. A legitimate replacement supplier may receive only remaining rental months, and hospital or SNF interruptions can alter anniversary dates.",
+      "disambiguating_evidence": [
+        "Original delivery records, equipment serial numbers, transfer-of-service documentation, and supplier-to-supplier inventory records.",
+        "CWF rental-month history and documentation of any qualifying interruption, discharge-date anniversary reset, or managed-care return.",
+        "Evidence of the tenth-month purchase-option notice and title transfer where applicable.",
+        "Beneficiary confirmation of possession, supplier-change reason, and equipment continuity."
+      ],
+      "detection_rule": "SELECT beneficiary_id, hcpcs_family, COUNT(DISTINCT supplier_npi) AS suppliers, SUM(paid_rental_months) AS total_months, MIN(service_date) AS first_date, MAX(service_date) AS last_date FROM normalized_capped_rental_episodes GROUP BY beneficiary_id, hcpcs_family HAVING total_months > 15 OR COUNT(DISTINCT supplier_npi) >= 2 AND SUM(CASE WHEN rental_modifier IN ('KH','KI','KJ') THEN 1 ELSE 0 END) > expected_sequence_count;",
+      "severity": {
+        "financial_impact": 5,
+        "likelihood": 4,
+        "detectability": 4,
+        "confidence": 5
+      },
+      "cms_source": {
+        "explicit": [
+          "Section 30.5.4 - Payments for Capped Rental Items During a Period of Continuous Use",
+          "Section 110.4 - Frequency of Claims for Repetitive Services",
+          "Section 211.2 - Partial Month Stays for Capped Rental Equipment"
+        ],
+        "inference": "The continuity rules are explicit. The hypothesis that coordinated entities intentionally fragment episodes and the proposed network linkage are program-integrity inferences."
+      },
+      "collision_categories": [
+        "B",
+        "E",
+        "G",
+        "H"
+      ],
+      "batch": "network_and_adaptive",
+      "id": "h22",
+      "score": 23.0,
+      "rank": 6,
+      "is_top10": true
+    },
+    {
+      "title": "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "vulnerability_hypothesis": "Section 212 places nonroutine supplies under HHA consolidated billing during an active plan of care but expressly exempts DME, prosthetics, orthotics, and oxygen. Section 140.2 includes HHA supplies in the PPS rate, while Section 10.2 generally bundles DMEPOS furnished to hospice patients unless unrelated to the terminal illness. The boundary between DME, supply, accessory, and unrelated-condition billing can therefore create lifecycle and entity arbitrage.",
+      "archetypes": [
+        {
+          "name": "Home health-associated provider/supplier",
+          "why": "It controls or coordinates the plan of care and has direct visibility into HHA episode dates, making the entity boundary financially relevant."
+        },
+        {
+          "name": "Telehealth-linked DME supplier",
+          "why": "Remote order generation and broad reach can produce DME claims during HHA or hospice periods with limited independent care-setting verification."
+        },
+        {
+          "name": "DME supplier heavily dependent on lead-generation companies",
+          "why": "High coordination and weak control over beneficiary acquisition can produce parallel HHA, hospice, and supplier billing streams."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "The archetype can distribute claims across HHA, hospice, supplier, and ordering entities to exploit differing bundling rules."
+        }
+      ],
+      "economic_incentive": "Obtaining separate DMEPOS payment for items potentially included in HHA or hospice payment, or reclassifying supplies and accessories into an exempt or separately payable category.",
+      "claims_manifestation": "Supplier claims begin or continue during HHA PPS episodes or hospice election, with HCPCS, POS, and modifiers changing at episode boundaries. Nonroutine supplies may be billed separately by a supplier while the HHA includes related supplies, or oxygen/DME may be billed for a terminal condition without evidence of an unrelated condition. Claims may cluster immediately before HHA admission, after discharge, or around hospice election and revocation.",
+      "detection_signals": [
+        "Flag supplier claims for nonroutine supply codes during active HHA PPS episodes.",
+        "Flag DMEPOS claims during hospice enrollment where the diagnosis is related to the terminal condition or no unrelated-condition documentation exists.",
+        "Measure abrupt HCPCS/POS/entity changes within 14 days of HHA admission, discharge, hospice election, or revocation.",
+        "Identify duplicate or functionally equivalent supply claims across HHA, hospice, and DME supplier entities.",
+        "Compare beneficiary-level DME, supply, oxygen, and plan-of-care utilization before, during, and after institutional episodes."
+      ],
+      "graph_signals": [
+        "Construct beneficiary-HHA-hospice-supplier-ordering-provider graphs and identify shared ownership, addresses, phone numbers, or referral sources.",
+        "Flag HHA or hospice organizations with concentrated referrals to a small group of DME suppliers.",
+        "Identify clinicians whose orders drive supplier claims during both hospice and HHA episodes, especially for terminal-condition diagnoses."
+      ],
+      "false_positive_explanation": "DME, oxygen, prosthetics, and orthotics are legally exempt from HHA consolidated billing. Hospice may separately cover DMEPOS used for a condition unrelated to the terminal illness, and care-setting transitions can legitimately change the billing entity.",
+      "disambiguating_evidence": [
+        "Review the HHA plan of care, consolidated-billing supply list, hospice election diagnosis, terminal prognosis, and unrelated-condition documentation.",
+        "Match HCPCS, POS, dates, and revenue codes across HHA, hospice, and supplier claims.",
+        "Obtain delivery records and clinical notes showing the item was DME rather than a bundled supply.",
+        "Validate episode admission, discharge, hospice election, and revocation dates."
+      ],
+      "detection_rule": "SELECT c.* FROM supplier_claims c LEFT JOIN hha_episodes h ON c.beneficiary_id=h.beneficiary_id AND c.service_date BETWEEN h.start_date AND h.end_date LEFT JOIN hospice_episodes z ON c.beneficiary_id=z.beneficiary_id AND c.service_date BETWEEN z.election_date AND COALESCE(z.revocation_date,DATE '9999-12-31') WHERE (h.beneficiary_id IS NOT NULL AND c.hcpcs IN (SELECT hcpcs FROM nonroutine_hha_supply_list)) OR (z.beneficiary_id IS NOT NULL AND c.condition_related_to_terminal=1 AND c.item_category NOT IN ('EXEMPT_DME','EXEMPT_OXYGEN','EXEMPT_PO'));",
+      "severity": {
+        "financial_impact": 5,
+        "likelihood": 4,
+        "detectability": 3,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "212 - Home Health Consolidated Billing and Supplies Provided by DMEPOS Suppliers",
+          "10.2 - Coverage Table for DME Claims",
+          "140.2 - Billing for HHA Medical Supplies"
+        ],
+        "inference": "The exemptions and bundling rules are explicit; suspicious classification or diagnosis switching at episode boundaries is an analytic hypothesis."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "H"
+      ],
+      "batch": "temporal_and_lifecycle",
+      "id": "h19",
+      "score": 22.5,
+      "rank": 7,
+      "is_top10": true
+    },
+    {
+      "title": "Capped-Rental Episode Reset After a Questionable Interruption",
+      "vulnerability_hypothesis": "Section 30.5.4 allows a new 15-month capped-rental period only after a break in medical need exceeding 60 days plus the remaining rental-month days, supported by a new prescription, new medical-necessity documentation, and a supplier statement that the prior episode ended. The documentation-based reset creates an opportunity to characterize a temporary interruption, hospitalization, or nonbilling period as a true end of need.",
+      "archetypes": [
+        {
+          "name": "Supplier specializing in recurring supplies or accessories",
+          "why": "Its revenue model depends on recurring rental and refill cadence, and its high volume-growth objective and willingness to exploit ambiguity make repeated episode resets economically attractive."
+        },
+        {
+          "name": "Rapidly growing DME supplier",
+          "why": "High volume-growth objective, risk tolerance, beneficiary access, and relatively weak compliance infrastructure support aggressive reuse of lifecycle rules."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "High coordination, Medicare dependence, risk tolerance, and willingness to exploit ambiguity support coordinated documentation and supplier transitions across episodes."
+        },
+        {
+          "name": "Supplier using aggressive coding/revenue-cycle consultants",
+          "why": "High coding sophistication and willingness to push technical interpretations make it capable of constructing defensible-looking interruption and restart claims."
+        }
+      ],
+      "economic_incentive": "Restarting the cap permits additional monthly rental payments for equipment that may be the same or similar to equipment already subject to a completed or partially completed rental period.",
+      "claims_manifestation": "A new capped-rental sequence begins shortly after a prior sequence ends, often with new KH/KI/KJ progression, a new prescription, and a new supplier or billing NPI. The beneficiary may have continuous same-or-similar equipment, uninterrupted diagnosis, no corroborated clinical discontinuation, or only a short inpatient or nonbilling interval. The second episode may involve the same HCPCS, serial number, ordering clinician, address, and delivery channel.",
+      "detection_signals": [
+        "Flag beneficiaries with a second capped-rental start within 180 days of the last rental or ownership event.",
+        "Calculate the gap between the last paid rental month and the new episode; prioritize gaps near the regulatory interruption threshold.",
+        "Measure the proportion of new episodes supported by an inpatient stay, HHA episode, voluntary nonbilling period, or supplier change rather than documented clinical resolution.",
+        "Flag same-or-similar HCPCS restarts with unchanged beneficiary address, ordering provider, diagnosis, and equipment serial number.",
+        "Compare episode-reset frequency and paid months per beneficiary against peer suppliers and specialty benchmarks."
+      ],
+      "graph_signals": [
+        "Connect sequential suppliers serving the same beneficiary within 12 months, especially where they share ownership, address, bank account, ordering clinicians, or delivery vendors.",
+        "Identify ordering providers whose documentation supports unusually high rates of capped-rental restarts across multiple suppliers.",
+        "Detect beneficiary clusters receiving episode resets from a common marketer, call center, or referral source."
+      ],
+      "false_positive_explanation": "A genuine prolonged interruption in medical need, substantial clinical change, loss or irreparable damage, or return from managed care to FFS can create a legitimate new rental context. Administrative nonbilling may also reflect a supplier closure or insurance transition.",
+      "disambiguating_evidence": [
+        "Obtain contemporaneous clinical records showing that medical need actually ended for the required period.",
+        "Validate equipment serial numbers, retrieval records, warehouse disposition, and delivery records for the prior and new equipment.",
+        "Review the new prescription, physician visit, functional change, and supplier statement required by Section 30.5.4.",
+        "Check Medicare Advantage enrollment, inpatient/SNF records, hospice status, and HHA episodes against the claimed interruption."
+      ],
+      "detection_rule": "WITH episodes AS (SELECT beneficiary_id, supplier_npi, hcpcs, MIN(service_date) AS start_date, MAX(service_date) AS end_date, COUNT(DISTINCT rental_month) AS paid_months FROM claims WHERE payment_status='PAID' AND rental_class='CAPPED' GROUP BY beneficiary_id,supplier_npi,hcpcs,episode_id) SELECT e1.*,e2.* FROM episodes e1 JOIN episodes e2 ON e1.beneficiary_id=e2.beneficiary_id AND e1.hcpcs=e2.hcpcs AND e2.start_date>e1.end_date WHERE e2.start_date-e1.end_date <= 180 AND (e2.supplier_npi<>e1.supplier_npi OR e2.episode_id<>e1.episode_id);",
+      "severity": {
+        "financial_impact": 5,
+        "likelihood": 4,
+        "detectability": 4,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "30.5.4 - Payments for Capped Rental Items During a Period of Continuous Use",
+          "110.4 - Frequency of Claims for Repetitive Services"
+        ],
+        "inference": "The manual explicitly requires a qualifying break and new documentation; the hypothesis that short or administrative interruptions are mischaracterized is an SIU inference."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "batch": "temporal_and_lifecycle",
+      "id": "h11",
+      "score": 22.0,
+      "rank": 8,
+      "is_top10": true
+    },
+    {
+      "title": "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "vulnerability_hypothesis": "Sections 30.6, 30.6.1, and 130.6 distinguish rented versus owned stationary and portable systems, contents fees, portable add-ons, and volume modifiers such as QG, QF, QA, QB, QE, and QR. These mutually exclusive payment paths depend on equipment ownership, prescription flow, and date sequencing, creating an opportunity to cycle states or combine incompatible lines.",
+      "archetypes": [
+        {
+          "name": "Oxygen/respiratory equipment supplier",
+          "why": "It directly controls equipment inventory, monthly billing, and oxygen recertification workflows; recurring payments and technical modifiers make systematic exploitation plausible."
+        },
+        {
+          "name": "Supplier using aggressive coding/revenue-cycle consultants",
+          "why": "High coding sophistication and willingness to exploit ambiguity support manipulation of modifier and ownership-path interpretations."
+        },
+        {
+          "name": "Telehealth-linked DME supplier",
+          "why": "Broad beneficiary reach and remote order generation make flow-rate, portable-use, and actual equipment possession harder to independently validate."
+        },
+        {
+          "name": "Supplier with unusually high Medicare concentration",
+          "why": "Medicare dependence creates strong incentives to maximize every monthly oxygen payment path without commercial-payer cross-checks."
+        }
+      ],
+      "economic_incentive": "Obtaining both a stationary allowance and a portable add-on or contents fee, securing a 50-percent high-flow increase, or continuing monthly rental after equipment has become owned.",
+      "claims_manifestation": "The same beneficiary has alternating rental and owned-system indicators, incompatible QG/QF or QB/QG combinations, portable add-ons without portable equipment, contents fees while the relevant system is rented or a concentrator is owned, or flow-rate changes clustered around monthly billing dates. Claims may violate the 30-day QG/portable sequencing edits or show repeated new orders without meaningful clinical change.",
+      "detection_signals": [
+        "Flag mutually exclusive oxygen payment combinations within the same calendar month.",
+        "Calculate frequency of ownership-status changes by beneficiary and supplier, especially changes occurring near month-end or before a higher-paying modifier.",
+        "Flag QG/QB/QF claims without corroborating prescribed flow and portable-system status.",
+        "Identify portable add-ons or contents fees inconsistent with the oxygen billing chart for the beneficiary's equipment ownership state.",
+        "Measure flow-rate and modifier changes within 30 days of a claim and compare with physician-order changes and test dates."
+      ],
+      "graph_signals": [
+        "Link suppliers to ordering providers and testing providers; flag high-volume pairings with repeated high-flow or portable claims.",
+        "Identify beneficiaries receiving oxygen from multiple suppliers with conflicting ownership states.",
+        "Detect shared equipment serial numbers, delivery vendors, or clinical testing sources across suppliers."
+      ],
+      "false_positive_explanation": "Clinical deterioration, a legitimate change in prescription, transition from rental to ownership, or different stationary and portable systems can produce valid payment-path changes. The manual expressly permits certain combinations based on system ownership and prescribed flow.",
+      "disambiguating_evidence": [
+        "Obtain signed orders, flow-rate prescriptions, arterial blood gas or oximetry results, equipment serial numbers, and delivery/pickup records.",
+        "Reconstruct ownership and rental history from supplier records and prior claims.",
+        "Apply the oxygen billing chart and 30-day sequencing rules to all lines across suppliers, not only within one claim.",
+        "Confirm portable use and whether the beneficiary actually possessed the claimed stationary and portable systems."
+      ],
+      "detection_rule": "SELECT beneficiary_id, service_month FROM oxygen_claims GROUP BY beneficiary_id,service_month HAVING SUM(CASE WHEN modifier IN ('QG','QB','QF') THEN 1 ELSE 0 END)>0 AND (SUM(CASE WHEN line_type='portable_addon' THEN 1 ELSE 0 END)>0 OR SUM(CASE WHEN line_type='contents' THEN 1 ELSE 0 END)>0) AND MAX(CASE WHEN ownership_state_consistent=0 THEN 1 ELSE 0 END)=1;",
+      "severity": {
+        "financial_impact": 5,
+        "likelihood": 4,
+        "detectability": 4,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "30.6 - Oxygen and Oxygen Equipment",
+          "30.6.1 - Adjustments to Monthly Oxygen Fee",
+          "130.6 - Billing for Oxygen and Oxygen Equipment",
+          "130.6.1 - Oxygen Equipment and Contents Billing Chart"
+        ],
+        "inference": "The ownership and modifier payment paths are explicit; deliberate cycling or incompatible combinations are the analytic interpretation."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "F",
+        "G",
+        "H"
+      ],
+      "batch": "temporal_and_lifecycle",
+      "id": "h16",
+      "score": 22.0,
+      "rank": 9,
+      "is_top10": true
+    },
+    {
+      "title": "Custom E1399 Versus Standard Orthotic Coding",
+      "vulnerability_hypothesis": "A qualifying customized item is paid as a lump-sum purchase based on individualized cost review and may be billed as E1399 when no specific HCPCS code describes it. However, measurement, fitting, adaptation, or available custom options alone do not qualify. The boundary creates code-path arbitrage between standard L-codes, customized E1399, and physician-ordered P&O billing.",
+      "archetypes": [
+        {
+          "name": "Orthotics/prosthetics supplier",
+          "why": "High coding sophistication (4) and ambiguity tolerance (4), combined with complex L-code descriptions, make this the most plausible archetype."
+        },
+        {
+          "name": "Physician practice dispensing or ordering DME",
+          "why": "The practice controls both ordering and clinical narrative, with beneficiary and referral access scored 5."
+        },
+        {
+          "name": "Aggressive coding/revenue-cycle consultant",
+          "why": "Coding sophistication (5), ambiguity tolerance (5), and audit awareness (4) support systematic testing of the custom-versus-standard boundary."
+        },
+        {
+          "name": "Small independent DME supplier under financial pressure",
+          "why": "High financial pressure (5) and ambiguity tolerance (4) may lead to opportunistic use of a higher-paying custom path despite limited compliance resources."
+        }
+      ],
+      "economic_incentive": "A customized-item determination may yield payment based on documented labor, design, fabrication, assembly, and material costs rather than a fixed standard-code fee schedule. Misclassification can increase allowed amounts and reduce the constraints of standard code pricing.",
+      "claims_manifestation": "High E1399 or custom-code utilization; billed charges substantially exceeding comparable standard L-code allowances; repeated use of identical narratives, labor hours, material costs, or construction descriptions across beneficiaries; custom claims without evidence of raw-material fabrication or substantial modification; physician orders that use generic language while claims assert unique construction.",
+      "detection_signals": [
+        "E1399 share of supplier P&O claims compared with specialty peers.",
+        "Median allowed amount for E1399 divided by the closest standard L-code allowance.",
+        "Duplicate or near-duplicate construction narratives across beneficiaries, measured by text similarity above 0.90.",
+        "Custom claims lacking a documented design, fabrication, or labor component.",
+        "Percentage of custom claims where billed item features are reused across more than 80% of cases."
+      ],
+      "graph_signals": [
+        "Supplier-clinician pairs with unusually high E1399 or custom-code concentration.",
+        "Common fabrication vendors, addresses, employees, or narrative templates across multiple suppliers.",
+        "Beneficiaries referred by a small network of practices and receiving materially identical custom items."
+      ],
+      "false_positive_explanation": "Some beneficiaries genuinely require unique devices because of unusual anatomy, severe deformity, or complex functional needs. Certain custom-fabricated orthotics also require specialized suppliers and legitimate cost variation.",
+      "disambiguating_evidence": [
+        "Physician description and order specifying the unique construction or substantial modification.",
+        "Fabrication worksheet, photographs, measurements, raw-material invoices, labor records, and serial or job numbers.",
+        "Comparison with available standard HCPCS descriptors and the beneficiary's clinical condition.",
+        "Independent technical review of whether the item could have been appropriately billed under a standard code."
+      ],
+      "detection_rule": "SELECT supplier_id, COUNT(*) AS custom_claims, AVG(allowed_amount / NULLIF(standard_comparator_allowed,0)) AS relative_payment FROM po_claims WHERE hcpcs='E1399' OR custom_indicator=1 GROUP BY supplier_id HAVING COUNT(*) >= 15 AND (AVG(allowed_amount / NULLIF(standard_comparator_allowed,0)) > 1.75 OR narrative_similarity_to_prior_claims > 0.90);",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 4,
+        "detectability": 3,
+        "confidence": 5
+      },
+      "cms_source": {
+        "explicit": [
+          "30.3 - Certain Customized Items",
+          "130.4 - Billing for Certain Customized Items",
+          "130.1 - Provider Billing for Prosthetic and Orthotic Devices"
+        ],
+        "inference": "The corpus explicitly distinguishes qualifying customization from fitting or available options; the comparative pricing and narrative-reuse indicators are analytic inferences."
+      },
+      "collision_categories": [
+        "A",
+        "D",
+        "E",
+        "H"
+      ],
+      "batch": "coding_and_entity_arbitrage",
+      "id": "h05",
+      "score": 19.5,
+      "rank": 10,
+      "is_top10": true
+    },
+    {
+      "title": "PEN Pump-Kit-Component Unbundling",
+      "vulnerability_hypothesis": "PEN equipment is rented monthly, nutrients and supplies are purchased, and enteral care kits are all-inclusive. Pump-kit payment is limited when pump documentation is absent, and kit components may not be separately paid. These rules create a code-path opportunity to shift between pump, gravity, kit, and component billing.",
+      "archetypes": [
+        {
+          "name": "Enteral/parenteral nutrition supplier",
+          "why": "The archetype operates directly in the recurring PEN model, has moderate coding sophistication (3), and is exposed to the direct economic consequences of pump, kit, and nutrient classifications."
+        },
+        {
+          "name": "Supplier specializing in recurring supplies or accessories",
+          "why": "High refill-driven volume objective (4) and ambiguity tolerance (4) make repeated component billing attractive at scale."
+        },
+        {
+          "name": "Telehealth-linked DME supplier",
+          "why": "Beneficiary reach (5), referral relationships (5), and remote order generation can weaken direct confirmation of administration method and pump necessity."
+        },
+        {
+          "name": "Aggressive coding/revenue-cycle consultant",
+          "why": "Coding sophistication (5), ambiguity tolerance (5), and audit awareness (4) support systematic use of alternate HCPCS and modifier paths."
+        }
+      ],
+      "economic_incentive": "A pump kit or separately billed component path may produce more payment than the documented gravity-fed or all-inclusive kit allowance. Recurring monthly supplies magnify small per-claim differences.",
+      "claims_manifestation": "Pump-kit HCPCS appears without compatible pump rental or prescription evidence; gravity-kit and pump-kit codes alternate for the same beneficiary; kit components are billed separately on the same or adjacent dates; nutrient calories, administration method, and equipment codes are inconsistent across certifications and claims.",
+      "detection_signals": [
+        "Percentage of pump-kit claims lacking a paid pump rental, pump purchase, or documented pump order within 90 days.",
+        "Component lines billed separately within 30 days of a kit line, normalized by beneficiary and therapy type.",
+        "Beneficiaries whose billed administration method changes more than once in 12 months without a revised certification.",
+        "Pump-kit utilization above the 95th supplier percentile after adjustment for therapy duration.",
+        "Claims where billed calories or units are inconsistent with the current PEN certification."
+      ],
+      "graph_signals": [
+        "Supplier-ordering physician pairs with unusually high pump-kit rates.",
+        "Repeated beneficiary cohorts sharing the same ordering clinician, certification template, or referral source.",
+        "Shared billing staff, address, phone, or ownership between supplier and a nutrition practice."
+      ],
+      "false_positive_explanation": "Patients may legitimately transition between gravity, syringe, and pump administration, and revised clinical prescriptions can lag operational claims. Complex therapy may also require multiple supplies during a transition period.",
+      "disambiguating_evidence": [
+        "Current and prior PEN certifications, prescriptions, and physician progress notes.",
+        "Evidence of pump delivery, serial number, maintenance, and actual administration method.",
+        "HCPCS component-inclusion table and invoice-level itemization.",
+        "Beneficiary or caregiver confirmation of the equipment and supplies received."
+      ],
+      "detection_rule": "SELECT c.supplier_id, COUNT(*) AS suspect_claims FROM pen_claims c LEFT JOIN pen_certifications p ON c.beneficiary_id=p.beneficiary_id AND c.service_date BETWEEN p.start_date AND COALESCE(p.end_date,'9999-12-31') LEFT JOIN pen_pump_claims pump ON c.beneficiary_id=pump.beneficiary_id AND pump.service_date BETWEEN c.service_date-90 AND c.service_date+30 WHERE c.kit_type='pump' AND (p.administration_method <> 'pump' OR pump.claim_id IS NULL OR EXISTS (SELECT 1 FROM pen_component_claims x WHERE x.beneficiary_id=c.beneficiary_id AND x.service_date BETWEEN c.service_date-1 AND c.service_date+1 AND x.component_included_in_kit=1)) GROUP BY c.supplier_id HAVING COUNT(*) >= 10;",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 4,
+        "detectability": 4,
+        "confidence": 5
+      },
+      "cms_source": {
+        "explicit": [
+          "30.7 - Payment for Parenteral and Enteral Nutrition (PEN) Items and Services",
+          "30.7.2 - Payment for PEN Supply Kits",
+          "100.2.2.2 - Completion of the Elements of PEN CMN",
+          "100.2.2.3 - Revised Certifications/Change in Prescription"
+        ],
+        "inference": "The corpus expressly limits pump-kit payment and prohibits separate payment for included components; the hypothesis is that alternate code paths may be selected to obtain higher payment."
+      },
+      "collision_categories": [
+        "A",
+        "D",
+        "F",
+        "H"
+      ],
+      "batch": "coding_and_entity_arbitrage",
+      "id": "h03",
+      "score": 19.0,
+      "rank": 11,
+      "is_top10": false
+    },
+    {
+      "title": "Repair-Part Versus Maintenance-Servicing Path",
+      "vulnerability_hypothesis": "The corpus uses different payment and modifier paths for RB repair parts, RP non-capped maintenance or repair, and MS capped-rental maintenance. Maintenance of rented equipment is generally bundled, while certain post-cap or owned-equipment servicing is payable. The same physical service can therefore be represented as a repair part, repair, or covered maintenance event with different payment consequences.",
+      "archetypes": [
+        {
+          "name": "Legitimate high-volume DME supplier",
+          "why": "High volume and mature coding systems (4 compliance and coding sophistication) create scale risk even without aggressive intent."
+        },
+        {
+          "name": "Orthotics/prosthetics supplier",
+          "why": "Complex equipment and high ambiguity tolerance (4) make repair-versus-replacement classification difficult and economically significant."
+        },
+        {
+          "name": "Supplier using aggressive coding/revenue-cycle consultants",
+          "why": "Coding sophistication (5), ambiguity tolerance (5), and audit awareness (4) support deliberate code-path selection."
+        },
+        {
+          "name": "Small independent DME supplier under financial pressure",
+          "why": "Financial pressure (5) and risk tolerance (4) create incentive to bill routine servicing as a separately payable event."
+        }
+      ],
+      "economic_incentive": "Separately payable repair or maintenance can produce payment where routine servicing is bundled into rental, warranty coverage, or the equipment fee. RB and MS paths may also avoid the limitations applicable to ordinary rental servicing.",
+      "claims_manifestation": "MS claims during active rental months or before the maintenance eligibility date; RP claims for routine checks or cleaning; RB parts billed without a corresponding repair event; repeated repair-part claims at fixed intervals; repair charges exceeding replacement economics; warranty-covered parts billed as Medicare maintenance.",
+      "detection_signals": [
+        "Repair or maintenance claims per equipment unit per year by supplier versus peer percentile.",
+        "MS claims occurring before the 13-month or applicable post-cap threshold.",
+        "RP or RB claims without a same-day or nearby documented equipment failure or repair labor code.",
+        "Repeated identical parts at intervals shorter than expected useful life.",
+        "Cumulative repair payments exceeding 50% or 75% of comparable replacement cost."
+      ],
+      "graph_signals": [
+        "Supplier-repair-vendor relationships with recurring identical invoices or shared ownership.",
+        "Beneficiary clusters linked to one technician, repair facility, or ordering provider.",
+        "Shared serial numbers or equipment identifiers across supposedly separate repair events."
+      ],
+      "false_positive_explanation": "Complex equipment can require repeated repairs, and genuine failures may occur during rental. Some capped-rental maintenance fees are payable despite institutionalization, and warranty status may be difficult to reconcile across manufacturers.",
+      "disambiguating_evidence": [
+        "Equipment serial number, service ticket, technician report, parts invoice, and labor documentation.",
+        "Warranty and manufacturer coverage records.",
+        "Rental, purchase, title, and capped-rental month history.",
+        "Clinical or operational evidence that the equipment was rendered unserviceable and required skilled work."
+      ],
+      "detection_rule": "SELECT supplier_id, COUNT(*) AS service_claims, SUM(allowed_amount) AS paid FROM repair_claims r LEFT JOIN equipment_episodes e ON r.beneficiary_id=e.beneficiary_id AND r.equipment_id=e.equipment_id WHERE (r.modifier='MS' AND e.rental_month < 13) OR r.modifier IN ('RP','RB') AND r.service_type IN ('routine_check','cleaning','testing') GROUP BY supplier_id HAVING COUNT(*) >= 20 OR SUM(allowed_amount) > 100000;",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 4,
+        "detectability": 4,
+        "confidence": 5
+      },
+      "cms_source": {
+        "explicit": [
+          "40.1 - General maintenance and service",
+          "40.2 - Maintenance and Service of Capped Rental Items",
+          "130.7 - Maintenance and Servicing (Providers and Suppliers)",
+          "50.5 - Payment of a Part of a DMEPOS Item"
+        ],
+        "inference": "The modifier and eligibility distinctions are explicit; the hypothesis is that economically similar servicing events may be assigned to the most favorable payable path."
+      },
+      "collision_categories": [
+        "A",
+        "D",
+        "F",
+        "H"
+      ],
+      "batch": "coding_and_entity_arbitrage",
+      "id": "h08",
+      "score": 19.0,
+      "rank": 12,
+      "is_top10": false
+    },
+    {
+      "title": "HHA-DME Consolidated-Billing Boundary Shifting",
+      "vulnerability_hypothesis": "Section 212 subjects nonroutine supplies to home health consolidated billing but expressly exempts DME, prosthetics, orthotics, and oxygen. Sections 110 and 140 provide different HHA and supplier billing routes. A coordinated HHA-supplier network may classify or sequence economically similar items to shift payment between the HHA episode and separate DMEPOS billing, particularly around plan-of-care starts, ends, and gaps.",
+      "archetypes": [
+        {
+          "name": "Home health-associated provider/supplier",
+          "why": "The archetype directly controls the boundary between HHA episodes and DMEPOS billing; coordination 4, referral relationships 4, and Medicare dependence 4 support this risk."
+        },
+        {
+          "name": "DME supplier heavily dependent on lead-generation companies",
+          "why": "Coordination 5 and beneficiary access 5 can create supplier-HHA referral channels, while compliance sophistication 2 increases risk that consolidated-billing obligations are not reliably checked."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "Coordination 5 and risk tolerance 5 support intentional division of billing between an HHA and supplier to maximize separate payments."
+        },
+        {
+          "name": "Opportunistic individual provider (no initial fraud intent, responds to incentives)",
+          "why": "Low compliance sophistication 2 and moderate willingness to exploit ambiguity 3 make gradual adoption of aggressive HHA-versus-supplier classification plausible without a formal network."
+        }
+      ],
+      "economic_incentive": "Obtaining separate DMEPOS payment for items otherwise included in the HHA PPS episode, avoiding episode-level payment limits, or increasing total reimbursement by assigning supplies and DME to the entity with the more favorable payment pathway.",
+      "claims_manifestation": "Supplier claims for nonroutine supply HCPCS occur during an active 32X or 33X HHA episode, or supplier and HHA claims show overlapping delivery and service periods. Bill type, revenue code, place of service, and HCPCS combinations may alternate around plan-of-care dates. DME or oxygen claims may be legitimate exemptions but show unusually high concentration in the same HHA-supplier relationship.",
+      "detection_signals": [
+        "For each beneficiary, intersect supplier claim dates with HHA episode dates and flag nonroutine supply codes billed separately during active episodes.",
+        "Calculate the percentage of a supplier's claims linked to beneficiaries of one or a small number of HHAs; flag concentration above peer benchmarks.",
+        "Flag abrupt shifts from HHA revenue code 0270 or PPS billing to supplier DME MAC billing immediately before or after episode boundaries without a corresponding change in HCPCS category or clinical need.",
+        "Compare HHA plan-of-care diagnoses, ordered items, and supplier claims; flag same-day or next-day duplicate supply categories.",
+        "Flag DME-exempt categories whose utilization increases materially only during active HHA episodes and is concentrated among related entities."
+      ],
+      "graph_signals": [
+        "Supplier-HHA pairs with unusually high shared beneficiary volume, shared ownership, addresses, staff, referral providers, or billing vendors.",
+        "Ordering providers who refer the same beneficiary to both the HHA and associated DME supplier for overlapping items.",
+        "Network communities in which one entity bills supplies during episodes and another bills similar items immediately outside episodes.",
+        "Shared delivery records or inventory identifiers between HHA and supplier claims."
+      ],
+      "false_positive_explanation": "DME, oxygen, prosthetics, and orthotics are expressly exempt from HHA consolidated billing. Beneficiaries may legitimately change clinical needs during an episode, and an HHA may arrange for a supplier to furnish exempt DME.",
+      "disambiguating_evidence": [
+        "The periodically applicable nonroutine-supply code list and the precise HCPCS classification in effect on each date of service.",
+        "HHA plan of care, delivery records, physician orders, and documentation identifying whether an item was a consolidated supply or exempt DME.",
+        "Ownership and contractual records between the HHA and supplier.",
+        "Beneficiary confirmation of the item received and whether it was used as DME or consumed as a routine/nonroutine supply."
+      ],
+      "detection_rule": "SELECT beneficiary_id, supplier_npi, hha_npi, COUNT(*) AS overlapping_claims FROM supplier_claims s JOIN hha_episodes h ON s.beneficiary_id = h.beneficiary_id AND s.service_date BETWEEN h.episode_start AND h.episode_end WHERE s.hcpcs IN (SELECT hcpcs FROM nonroutine_supply_list) GROUP BY beneficiary_id, supplier_npi, hha_npi HAVING COUNT(*) >= 3;",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 4,
+        "detectability": 4,
+        "confidence": 5
+      },
+      "cms_source": {
+        "explicit": [
+          "Section 212 - Home Health Consolidated Billing and Supplies Provided by DMEPOS Suppliers",
+          "Section 110 - General Billing Requirements",
+          "Section 140.2 - Billing for HHA Medical Supplies"
+        ],
+        "inference": "The distinction between consolidated nonroutine supplies and exempt DME is explicit. The intentional boundary-shifting and network-concentration theory is an inference."
+      },
+      "collision_categories": [
+        "A",
+        "C",
+        "E",
+        "H"
+      ],
+      "batch": "network_and_adaptive",
+      "id": "h24",
+      "score": 19.0,
+      "rank": 13,
+      "is_top10": false
+    },
+    {
+      "title": "Oxygen Volume-Modifier and Portable-Add-On Coordination",
+      "vulnerability_hypothesis": "Sections 30.6, 100.2.3.1, and 130.6 permit different oxygen payment adjustments based on prescribed flow, daytime/nighttime averages, and portable-equipment status, while expressly prohibiting certain combinations and imposing a 30-day timing edit. A coordinated supplier-ordering network may manipulate or distribute stationary and portable claims, flow-rate documentation, and modifier selection to maximize the applicable add-on or avoid duplicate edits.",
+      "archetypes": [
+        {
+          "name": "Oxygen/respiratory equipment supplier",
+          "why": "The supplier's core business is monthly oxygen billing, and the rules create recurring, date-driven payment events with direct financial sensitivity to flow-rate and portable status."
+        },
+        {
+          "name": "Telehealth-linked DME supplier",
+          "why": "Access to beneficiaries 5, referral relationships 5, and geographic reach 5 support remote generation of oxygen orders and distributed documentation across clinicians."
+        },
+        {
+          "name": "DME supplier heavily dependent on lead-generation companies",
+          "why": "Lead-generation dependence and coordination 5 can produce high-volume oxygen cohorts with standardized prescriptions or fragmented stationary/portable billing."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "Coordination 5 and risk tolerance 5 support dividing stationary and portable claims or using cooperating clinicians to support high-flow or portable indications."
+        }
+      ],
+      "economic_incentive": "Obtaining the 50 percent high-flow increase, a portable add-on, or the greater applicable payment while avoiding the no-double-payment and 30-day edits.",
+      "claims_manifestation": "High rates of QG, QB, QF, QR, QA, or QE modifiers; frequent stationary and portable claims near the 30-day edit window; high-flow claims concentrated among a small set of ordering providers or testing facilities. Stationary and portable lines may be billed by different related suppliers, or flow rates may change without corresponding clinical retesting.",
+      "detection_signals": [
+        "Compare each oxygen claim's modifier with the prescribed flow rate, rest/exercise status, daytime/nighttime values, and calculated average; flag mismatches.",
+        "Flag QG or QB claims with portable claims in the preceding or following 30 days, including claims split across related suppliers.",
+        "Calculate ordering-provider and testing-facility concentration for claims with flow greater than 4 LPM; flag extreme concentration versus peer suppliers.",
+        "Flag repeated modifier changes across successive months without a new order, qualifying test, or documented clinical change.",
+        "Flag beneficiaries receiving separate stationary and portable equipment claims that conflict with the ownership/rental combinations in the oxygen billing chart."
+      ],
+      "graph_signals": [
+        "Ordering providers or testing facilities linked to unusually high proportions of high-flow or portable oxygen beneficiaries across multiple suppliers.",
+        "Related suppliers splitting stationary and portable oxygen billing for the same beneficiary or cohort.",
+        "Shared marketers, call centers, testing locations, or documentation vendors across high-flow oxygen claims.",
+        "Beneficiary clusters with identical flow rates, test dates, diagnoses, and narrative language across different clinicians."
+      ],
+      "false_positive_explanation": "Severe respiratory disease may legitimately require high flow, portable oxygen, or different day/night prescriptions. Beneficiaries may change suppliers, and equipment ownership can change over time.",
+      "disambiguating_evidence": [
+        "Original physician orders, arterial blood gas or oximetry results, testing conditions, and retesting dates.",
+        "Equipment delivery, rental, ownership, and portable/stationary system records.",
+        "Clinical notes documenting activity-related need or a change in disease severity.",
+        "Beneficiary confirmation of actual use and whether both systems were present."
+      ],
+      "detection_rule": "SELECT beneficiary_id, COUNT(*) AS oxygen_claims, SUM(CASE WHEN modifier IN ('QG','QB','QF','QR') THEN 1 ELSE 0 END) AS elevated_modifier_claims FROM oxygen_claims o LEFT JOIN oxygen_tests t USING (beneficiary_id) WHERE (o.modifier IN ('QG','QB','QF','QR') AND (o.prescribed_flow_lpm IS NULL OR o.prescribed_flow_lpm <= 4 OR o.average_flow_lpm <= 4)) OR EXISTS (SELECT 1 FROM oxygen_claims p WHERE p.beneficiary_id = o.beneficiary_id AND p.service_date BETWEEN o.service_date - INTERVAL '30 days' AND o.service_date + INTERVAL '30 days' AND p.portable_flag = 1 AND o.stationary_modifier IN ('QG','QB')) GROUP BY beneficiary_id HAVING elevated_modifier_claims >= 2;",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 4,
+        "detectability": 4,
+        "confidence": 5
+      },
+      "cms_source": {
+        "explicit": [
+          "Section 30.6 - Oxygen and Oxygen Equipment",
+          "Section 100.2.3.1 - Scheduling and Documenting Recertifications of Medical Necessity for Oxygen",
+          "Section 130.6 - Billing for Oxygen and Oxygen Equipment"
+        ],
+        "inference": "The flow adjustments, modifier logic, and 30-day edits are explicit. The network coordination and intentional documentation manipulation are inferred."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "D",
+        "E"
+      ],
+      "batch": "network_and_adaptive",
+      "id": "h27",
+      "score": 19.0,
+      "rank": 14,
+      "is_top10": false
+    },
+    {
+      "title": "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "vulnerability_hypothesis": "The lymphedema benefit permits multiple body areas and daytime/nighttime garments, with explicit quantity and replacement intervals, while payment can use component, global, or newly priced codes. Component payments may not exceed the original item payment, but new-code pricing can involve claim-by-claim MAC consideration. This creates a code-path opportunity to maximize payment through combinations of component codes, body-area labels, and replacement claims.",
+      "archetypes": [
+        {
+          "name": "Orthotics/prosthetics supplier",
+          "why": "The supplier has relevant fabrication and coding expertise (coding sophistication 4) and high ambiguity tolerance (4)."
+        },
+        {
+          "name": "Supplier specializing in recurring supplies or accessories",
+          "why": "High volume objective (4), beneficiary access (4), and refill-oriented operations make quantity and replacement rules directly monetizable."
+        },
+        {
+          "name": "Rapidly growing DME supplier",
+          "why": "Growth objective (5) and beneficiary access (4) support high-volume enrollment into a newly expanded benefit."
+        },
+        {
+          "name": "Telehealth-linked DME supplier",
+          "why": "Beneficiary reach (5), geographic reach (5), and referral relationships (5) facilitate remote identification of diagnoses and body areas."
+        }
+      ],
+      "economic_incentive": "Component combinations, multiple body-area claims, and early replacement can increase total reimbursement relative to a single global item or compliant replacement cadence. New codes without established pricing may create temporary pricing variability.",
+      "claims_manifestation": "More than three daytime or two nighttime items per body area; RA replacement claims before six months for daytime or two years for nighttime items; simultaneous component and global codes; repeated claims with multiple body-area modifiers or diagnoses not supported by clinical records; allowed amounts exceeding the original item or comparable-code payment.",
+      "detection_signals": [
+        "Quantity per beneficiary, body area, garment type, and rolling 6- or 24-month window.",
+        "RA claims occurring before the applicable replacement interval.",
+        "Component-plus-global payment ratio by supplier and code family.",
+        "Number of distinct body areas billed per beneficiary compared with clinical diagnosis and therapy records.",
+        "Supplier-level average allowed amount per lymphedema episode versus national allowed amounts and peers."
+      ],
+      "graph_signals": [
+        "Supplier-referral-provider pairs with unusually high multi-body-area or early-replacement rates.",
+        "Beneficiary clusters sharing identical measurements, diagnoses, garment sizes, or order language.",
+        "Common marketer, call center, fitting location, or shipping address across apparently unrelated suppliers."
+      ],
+      "false_positive_explanation": "Patients may have bilateral or multi-limb disease and can legitimately require both daytime and nighttime garments. Loss, theft, irreparable damage, or changed medical need can justify quantities above ordinary limits or early replacement.",
+      "disambiguating_evidence": [
+        "Authorized-practitioner order and lymphedema diagnosis.",
+        "Clinical measurements identifying each body area and garment type.",
+        "Proof of loss, damage, changed medical need, or actual replacement of the prior item.",
+        "Manufacturer invoice, fitting record, and code-level determination of component versus global billing."
+      ],
+      "detection_rule": "SELECT supplier_id, COUNT(*) AS claims, SUM(allowed_amount) AS paid FROM lymphedema_claims c GROUP BY supplier_id, beneficiary_id, body_area, garment_period HAVING SUM(CASE WHEN garment_period='day' THEN units ELSE 0 END) > 3 OR SUM(CASE WHEN garment_period='night' THEN units ELSE 0 END) > 2 OR SUM(CASE WHEN modifier='RA' AND garment_period='day' AND service_date < prior_delivery_date + INTERVAL '6 months' THEN 1 ELSE 0 END) > 0 OR SUM(component_payment) > MAX(original_item_payment);",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 4,
+        "detectability": 3,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "181 - Lymphedema Compression Treatment Benefit",
+          "181.1 - Payment Policy for Lymphedema Compression Treatment Items"
+        ],
+        "inference": "Quantity, replacement, and component/global pricing limits are explicit; the hypothesis that suppliers may select combinations to maximize payment is an analytic interpretation."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "D",
+        "E",
+        "H"
+      ],
+      "batch": "coding_and_entity_arbitrage",
+      "id": "h10",
+      "score": 18.5,
+      "rank": 15,
+      "is_top10": false
+    },
+    {
+      "title": "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "vulnerability_hypothesis": "Sections 90 and 120 permit medically appropriate upgrades only with proper beneficiary knowledge and ABN procedures, and require an upgrade to follow the same rental-versus-purchase basis as the medically necessary item. The two-line GA/GZ plus GK structure, or GL for no-charge upgrades, creates a code-path opportunity to bill a more expensive item while obscuring the reasonable-and-necessary baseline or converting a rental obligation into a purchase.",
+      "archetypes": [
+        {
+          "name": "Orthotics/prosthetics supplier",
+          "why": "Complex item descriptions, customization, and coding discretion make upgrade status difficult to adjudicate from claims alone."
+        },
+        {
+          "name": "Supplier using aggressive coding/revenue-cycle consultants",
+          "why": "It has the highest coding sophistication, audit awareness, and willingness to exploit interpretive ambiguity."
+        },
+        {
+          "name": "Physician practice dispensing or ordering DME",
+          "why": "It controls the order and can shape documentation supporting the desired configuration, creating a self-referential medical-necessity risk."
+        },
+        {
+          "name": "Rapidly growing DME supplier",
+          "why": "High growth objectives and beneficiary access create incentives to sell higher-priced configurations at scale despite immature ABN controls."
+        }
+      ],
+      "economic_incentive": "Collecting beneficiary payment for deluxe features, obtaining payment for a higher-priced code, or avoiding the lower rental reimbursement that would apply to the medically necessary item.",
+      "claims_manifestation": "Upgraded claims lack the required adjacent GA/GZ and GK lines, use GA without evidence of a valid ABN, bill a purchase when the baseline item would be rented, or show a higher HCPCS without a corresponding reasonable-and-necessary line. Within-code upgrades may have charges that do not correspond to descriptor features. Upgrade patterns may begin after repeated rental months or coincide with equipment replacement.",
+      "detection_signals": [
+        "Flag upgraded claims without the required two adjacent lines and expected modifier pairing.",
+        "Flag GA claims with no ABN record, ABN date after delivery, or beneficiary knowledge inconsistent with assignment status.",
+        "Flag purchase-path upgrades where the baseline HCPCS is a rental class.",
+        "Calculate supplier-level upgrade rates, beneficiary liability, and concentration by ordering provider.",
+        "Flag repeated upgrades for the same beneficiary or ordering provider without changed medical need or new equipment features."
+      ],
+      "graph_signals": [
+        "Identify ordering providers with unusually high upgrade rates for affiliated or referring suppliers.",
+        "Link suppliers and physician practices through ownership, addresses, compensation, or shared staff.",
+        "Detect common ABN templates, signatures, or beneficiary contacts across unrelated claims."
+      ],
+      "false_positive_explanation": "A beneficiary may knowingly request a medically appropriate deluxe item and accept liability after a valid ABN. Suppliers may also provide a higher-quality item at no extra charge using GL, with Medicare paying only the standard item.",
+      "disambiguating_evidence": [
+        "Obtain the signed ABN, assignment status, beneficiary acknowledgment, item make/model, and contemporaneous order.",
+        "Verify the baseline item was medically appropriate and that the upgrade remained medically appropriate.",
+        "Confirm rental-versus-purchase consistency and the required claim-line sequence.",
+        "Review whether the supplier actually collected beneficiary liability and whether the upgrade was provided at no additional charge."
+      ],
+      "detection_rule": "SELECT u.claim_id FROM claims u WHERE u.upgrade_flag=1 AND (NOT EXISTS (SELECT 1 FROM claims gk WHERE gk.claim_id=u.claim_id AND gk.modifier='GK') OR (u.modifier='GA' AND NOT EXISTS (SELECT 1 FROM abn_records a WHERE a.beneficiary_id=u.beneficiary_id AND a.supplier_npi=u.supplier_npi AND a.signed_date<=u.service_date)) OR (u.baseline_payment_class='RENTAL' AND u.billed_purchase_flag=1));",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 4,
+        "detectability": 5,
+        "confidence": 5
+      },
+      "cms_source": {
+        "explicit": [
+          "90 - Payment for Additional Expenses for Deluxe Features",
+          "120 - DME MACs - Billing Procedures Related To ABN Upgrades",
+          "120 - Billing Instructions for ABN Upgrades",
+          "120.1 - Providing Upgrades of DMEPOS Without Any Extra Charge"
+        ],
+        "inference": "The billing structure and beneficiary protections are explicit; systematic use of invalid upgrade paths is the detection hypothesis."
+      },
+      "collision_categories": [
+        "A",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "batch": "temporal_and_lifecycle",
+      "id": "h20",
+      "score": 18.5,
+      "rank": 16,
+      "is_top10": false
+    },
+    {
+      "title": "Adaptive Modifier and Code-Path Migration",
+      "vulnerability_hypothesis": "Sections 30.3, 120, 120.1, 130.4, and 130.9 provide multiple valid paths for customized, upgraded, rented, purchased, or no-cost upgraded equipment, each with distinct HCPCS and modifier requirements. A supplier using aggressive coding expertise may respond to denials by moving claims between standard codes, E1399, upgrade lines, rental/purchase modifiers, or GL/GA/GZ/GK paths while preserving the underlying economic objective.",
+      "archetypes": [
+        {
+          "name": "Supplier using aggressive coding/revenue-cycle consultants",
+          "why": "Coding sophistication 5, willingness to exploit ambiguity 5, audit awareness 4, and risk tolerance 4 make adaptive interpretation and rapid post-edit code migration especially plausible."
+        },
+        {
+          "name": "Orthotics/prosthetics supplier",
+          "why": "Coding sophistication 4 and willingness to exploit ambiguity 4 make complex customization and code-description boundaries a strong exposure."
+        },
+        {
+          "name": "Rapidly growing DME supplier",
+          "why": "Volume-growth objective 5 and compliance sophistication 2 can lead to implementation of consultant-driven workarounds after denial pressure."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "Risk tolerance 5, coordination 5, and willingness to exploit ambiguity 5 support distributing alternate billing paths across entities and clinicians."
+        }
+      ],
+      "economic_incentive": "Increasing allowed amounts, converting rental economics to purchase economics, collecting upgrade differentials, or preserving payment after a code or modifier edit by shifting to a different defensible claim path.",
+      "claims_manifestation": "After a denial or policy edit, the supplier's mix shifts from a denied HCPCS to E1399, a neighboring code family, or an upgrade structure with adjacent GA/GK lines. Claims may alternate among NU, RR, UE, NR, GL, GA, GZ, and GK in ways inconsistent with equipment lifecycle. Make/model descriptions remain stable while billed HCPCS, purchase status, or customization narratives change.",
+      "detection_signals": [
+        "Use change-point analysis to identify material HCPCS or modifier-mix changes within 30, 60, and 90 days after denial, prepayment review, or audit notification.",
+        "For each equipment model or product identifier, calculate the number of HCPCS/modifier pathways used; flag high pathway diversity relative to peers.",
+        "Flag claims where line 1 and line 2 do not satisfy the required adjacent upgraded-item structure, or where GA/GZ/GK usage changes without corresponding ABN evidence.",
+        "Flag E1399 claims following denials of a specific coded item when make/model, ordering provider, beneficiary, and clinical indication remain materially unchanged.",
+        "Compare code-path changes across related suppliers and consultants; flag synchronized changes after a common edit or policy update."
+      ],
+      "graph_signals": [
+        "Consultant, billing-vendor, or clearinghouse links shared by suppliers that make synchronized code and modifier changes.",
+        "Same ordering providers, beneficiaries, product models, or documentation templates appearing across multiple code paths.",
+        "Network entities dividing upgrade, base-item, rental, and purchase lines among separate NPIs.",
+        "Shared narrative text, construction-cost schedules, ABN templates, or make/model descriptions across supposedly independent suppliers."
+      ],
+      "false_positive_explanation": "HCPCS updates, product availability, beneficiary preference, legitimate equipment upgrades, and actual changes in ownership status can require different codes or modifiers. Consultants may lawfully correct systemic billing errors after an edit.",
+      "disambiguating_evidence": [
+        "Product invoices, serial numbers, manufacturer specifications, construction and labor records, and actual equipment delivered.",
+        "Valid ABNs, beneficiary election records, assignment status, and evidence that the upgrade remained medically appropriate.",
+        "Denial correspondence and internal compliance analyses explaining the code transition.",
+        "Ordering-provider records showing a clinically supported change rather than a billing-only reclassification."
+      ],
+      "detection_rule": "WITH events AS (SELECT supplier_npi, hcpcs_family, denial_date, service_date, billed_hcpcs, modifiers FROM claim_events) SELECT supplier_npi, COUNT(DISTINCT billed_hcpcs) AS post_denial_codes, COUNT(DISTINCT modifier_signature) AS post_denial_paths FROM events WHERE service_date BETWEEN denial_date AND denial_date + INTERVAL '90 days' GROUP BY supplier_npi HAVING post_denial_codes >= 3 OR post_denial_paths >= 4;",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 4,
+        "detectability": 3,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "Section 30.3 - Certain Customized Items",
+          "Section 120 - General Instructions for ABN Upgrades",
+          "Section 120 - Billing Instructions for ABN Upgrades",
+          "Section 130.4 - Billing for Certain Customized Items",
+          "Section 130.9 - Showing Whether Rented or Purchased"
+        ],
+        "inference": "The alternative billing paths and required modifiers are explicit. Adaptive migration after denials and shared consultant influence are analytic inferences."
+      },
+      "collision_categories": [
+        "D",
+        "G",
+        "E",
+        "H"
+      ],
+      "batch": "network_and_adaptive",
+      "id": "h26",
+      "score": 18.5,
+      "rank": 17,
+      "is_top10": false
+    },
+    {
+      "title": "Low-and-Slow Cross-Entity Replacement and Accessory Accumulation",
+      "vulnerability_hypothesis": "Sections 10.2, 30.3, 40.1, 50, 50.1, 50.5, and 181 permit separately payable repairs, replacement parts, customized items, replacement equipment, and lymphedema garments subject to ownership, useful-lifetime, quantity, or medical-necessity rules. Individual claims may be below simple thresholds, but a distributed network can accumulate excessive accessories, repairs, replacements, and body-area-specific items over time.",
+      "archetypes": [
+        {
+          "name": "Orthotics/prosthetics supplier",
+          "why": "Coding sophistication 4 and willingness to exploit ambiguity 4 support technically defensible segmentation of custom items, parts, repairs, and replacements."
+        },
+        {
+          "name": "Supplier specializing in recurring supplies or accessories",
+          "why": "The business model is built around repeated accessory and replacement revenue, with volume-growth objective 4 and audit awareness 2."
+        },
+        {
+          "name": "Legitimate high-volume DME supplier",
+          "why": "Scale and geographic reach 4 can create material exposure even from small error rates; this is a lower-intent risk requiring control calibration rather than a presumption of fraud."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "Coordination 5 and risk tolerance 5 support distributing individually plausible claims across suppliers and beneficiaries to remain below single-entity thresholds."
+        },
+        {
+          "name": "Opportunistic individual provider (no initial fraud intent, responds to incentives)",
+          "why": "Low compliance sophistication 2 and willingness to exploit ambiguity 3 fit gradual normalization of frequent replacement or accessory billing after observing low denial rates."
+        }
+      ],
+      "economic_incentive": "Generating recurring revenue from parts, repairs, garments, and replacements while avoiding single-claim quantity or frequency thresholds and spreading utilization across entities.",
+      "claims_manifestation": "A beneficiary receives multiple related accessories, repairs, replacement parts, or lymphedema garments from different suppliers over a long period. Claims individually comply with quantity limits but collectively exceed expected useful life, replacement intervals, or clinical need. RB, RP, MS, RA, and custom-item pathways may alternate without clear equipment lifecycle progression.",
+      "detection_signals": [
+        "Aggregate claims by beneficiary, equipment family, body area, and network rather than by NPI; flag cumulative quantities exceeding section-specific limits or peer distributions.",
+        "Calculate time from original delivery to replacement and compare with useful-lifetime, six-month, two-year, or eight-year rules where applicable.",
+        "Flag repeated repair-part claims within 90 days of a replacement or purchase claim, and repeated repairs whose cumulative allowed amount approaches or exceeds replacement cost.",
+        "Flag lymphedema claims exceeding three daytime or two nighttime items per body area, or replacements earlier than six months or two years without documented exception.",
+        "Flag low-frequency patterns such as one accessory or repair every few months that become anomalous over 24-36 months."
+      ],
+      "graph_signals": [
+        "Beneficiary-level accumulation spread across suppliers sharing ordering providers, addresses, owners, fulfillment centers, or marketers.",
+        "Supplier networks where one entity bills the base item, another bills RB repair parts, and another bills replacement or accessory items.",
+        "Ordering providers with repeated replacement claims for the same equipment family across many suppliers.",
+        "Shared equipment serial numbers, product models, or clinical narratives across ostensibly independent claims."
+      ],
+      "false_positive_explanation": "Complex or progressive conditions may require multiple body areas, repairs, replacements after loss or damage, and different accessories. High-volume suppliers may serve medically complex populations and legitimately distribute claims across branches.",
+      "disambiguating_evidence": [
+        "Equipment inventory and serial-number history, delivery and return records, warranty coverage, and repair work orders.",
+        "Clinical documentation supporting changed medical need, loss, irreparable damage, or body-area-specific lymphedema treatment.",
+        "Beneficiary confirmation of possession, damage, replacement, and actual use.",
+        "Ownership, referral, and fulfillment relationships among suppliers in the beneficiary's claim history."
+      ],
+      "detection_rule": "SELECT beneficiary_id, equipment_family, SUM(units) AS cumulative_units, COUNT(DISTINCT supplier_npi) AS suppliers, COUNT(*) AS claims, MIN(service_date) AS first_date, MAX(service_date) AS last_date FROM dme_accessory_replacement_claims GROUP BY beneficiary_id, equipment_family HAVING (cumulative_units > peer_99th_percentile_units OR suppliers >= 3 AND claims >= 6) AND DATEDIFF(day, first_date, last_date) >= 365;",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 4,
+        "detectability": 3,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "Section 10.2 - Coverage Table for DME Claims",
+          "Section 40.1 - General maintenance and service",
+          "Section 50 - Payment for Replacement of Equipment",
+          "Section 50.1 - Payment for Replacement of Capped Rental Items",
+          "Section 181 - Lymphedema Compression Treatment Benefit"
+        ],
+        "inference": "The individual coverage, replacement, and quantity rules are explicit. Longitudinal aggregation across entities and low-and-slow accumulation are analytic inferences."
+      },
+      "collision_categories": [
+        "B",
+        "E",
+        "F",
+        "H"
+      ],
+      "batch": "network_and_adaptive",
+      "id": "h30",
+      "score": 18.5,
+      "rank": 18,
+      "is_top10": false
+    },
+    {
+      "title": "HHA-versus-DME-MAC Supply Routing",
+      "vulnerability_hypothesis": "The corpus exempts DME, prosthetics, orthotics, and oxygen from home-health consolidated billing, while nonroutine medical supplies remain bundled during an HH PPS episode. The same beneficiary need can therefore follow materially different billing paths depending on whether it is characterized as DME, a DME accessory, or an HHA supply.",
+      "archetypes": [
+        {
+          "name": "Home health-associated provider/supplier",
+          "why": "High referral and coordination scores (4 each) and direct access to plan-of-care information create the ability to influence whether an item is furnished through the HHA or routed to a supplier."
+        },
+        {
+          "name": "Rapidly growing DME supplier",
+          "why": "High growth objective (5), beneficiary access (4), and willingness to exploit ambiguity (4) support aggressive acquisition of HHA-associated DME volume."
+        },
+        {
+          "name": "Supplier heavily dependent on lead-generation companies",
+          "why": "High beneficiary reach and coordination (5 each) make it plausible that outsourced lead sources steer beneficiaries toward separately billed supplier channels."
+        },
+        {
+          "name": "Opportunistic individual provider (no initial fraud intent, responds to incentives)",
+          "why": "Low compliance and coding sophistication (2 each) makes misunderstanding the DME-versus-supply boundary plausible, with drift toward the more remunerative billing path."
+        }
+      ],
+      "economic_incentive": "Separate supplier billing can create payment outside the HHA PPS episode, whereas comparable nonroutine supplies may be absorbed into the HHA payment. Routing volume to the supplier can also shift beneficiary acquisition credit and revenue away from the HHA.",
+      "claims_manifestation": "Supplier claims for DME, accessories, oxygen, or related supplies overlap an active HHA episode, while HHA claims show the same patient, diagnosis, plan-of-care activity, or equipment need. The pattern may include supplier claims for items on the periodically published nonroutine-supply lists, inconsistent HHA bill types, or supplier and HHA claims for the same episode.",
+      "detection_signals": [
+        "Rate of supplier DMEPOS claims during active HH PPS episodes compared with peer suppliers: flag rates above the 95th percentile.",
+        "Percentage of supplier beneficiaries with overlapping HHA episodes and the same or related diagnosis within 7 days: flag above 50%.",
+        "Supplier claims for codes listed as HH nonroutine supplies during HH episodes, with paid amount greater than zero.",
+        "Same-beneficiary HHA and supplier claims for the same HCPCS family within 1, 3, and 7 days.",
+        "Change-point analysis showing increased supplier billing after an HHA referral, ownership, or contracting change."
+      ],
+      "graph_signals": [
+        "Dense supplier-HHA-beneficiary triads with repeated referrals involving the same ordering clinicians.",
+        "Shared ownership, address, phone, bank account, or enrollment contacts between the HHA and supplier.",
+        "Beneficiaries concentrated among a small set of HHA episodes or ordering providers relative to the supplier's broader panel."
+      ],
+      "false_positive_explanation": "DME, prosthetics, orthotics, and oxygen are expressly exempt from HH consolidated billing. A supplier may legitimately furnish exempt DME while the HHA separately furnishes bundled supplies. Transitional discharge needs and different clinical suppliers can also generate close dates.",
+      "disambiguating_evidence": [
+        "HCPCS-level determination of whether each item is exempt DME or a bundled nonroutine supply.",
+        "HHA plan of care, ordered equipment, delivery records, and documentation identifying the responsible furnishing entity.",
+        "Evidence that the item was actually delivered and used at home rather than supplied as part of an HHA visit.",
+        "Contracting and ownership records showing whether the HHA and supplier are independent."
+      ],
+      "detection_rule": "WITH active_hh AS (SELECT beneficiary_id, start_date, end_date FROM hh_episodes WHERE status='active') SELECT supplier_id, COUNT(*) AS claims, SUM(paid_amount) AS paid FROM dmepos_claims c JOIN active_hh h ON c.beneficiary_id=h.beneficiary_id AND c.service_date BETWEEN h.start_date AND h.end_date WHERE c.hcpcs IN (nonroutine_supply_list UNION exempt_dme_list) GROUP BY supplier_id HAVING SUM(CASE WHEN c.hcpcs IN (nonroutine_supply_list) THEN 1 ELSE 0 END) / NULLIF(COUNT(*),0) > 0.25 OR COUNT(DISTINCT c.beneficiary_id) > peer_percentile(95);",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 4,
+        "detectability": 4,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "212 - Home Health Consolidated Billing and Supplies Provided by DMEPOS Suppliers",
+          "110.2 - Application of DMEPOS Fee Schedule",
+          "140.2 - Billing for HHA Medical Supplies"
+        ],
+        "inference": "The corpus explicitly defines exempt DME and bundled nonroutine supplies; the abuse hypothesis is that entity selection and item characterization may be used to move economically similar services between those paths."
+      },
+      "collision_categories": [
+        "C",
+        "D",
+        "E",
+        "H"
+      ],
+      "batch": "coding_and_entity_arbitrage",
+      "id": "h01",
+      "score": 18.0,
+      "rank": 19,
+      "is_top10": false
+    },
+    {
+      "title": "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "vulnerability_hypothesis": "Sections 210 and 211.2 permit a full capped-rental month when the beneficiary is home on the from or anniversary date, including when that date is discharge. If an inpatient stay overlaps the anniversary date, discharge becomes the new anniversary date. The from-date-only crossover edit can leave payment dependent on precise claim dating and discharge timing.",
+      "archetypes": [
+        {
+          "name": "Home health-associated provider/supplier",
+          "why": "It operates at the home/institution boundary and has access to admission, discharge, and plan-of-care information, while coordination risk and Medicare dependence increase exposure."
+        },
+        {
+          "name": "Skilled nursing facility-associated provider/supplier",
+          "why": "SNF admission and discharge data directly control the anniversary-date outcome, creating a strong opportunity for timing-sensitive billing behavior."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "High coordination and risk tolerance support deliberate alignment of claim dates, discharge information, and supplier billing."
+        },
+        {
+          "name": "Oxygen/respiratory equipment supplier",
+          "why": "Its recurring monthly rental model and date-driven billing make full-month payment around institutional transitions financially material."
+        }
+      ],
+      "economic_incentive": "Preserving or restarting a full monthly rental payment despite an institutional stay, and avoiding an unpaid month or lost rental month.",
+      "claims_manifestation": "Capped-rental claims use discharge dates as new from dates, show abrupt anniversary-date shifts, or receive a full monthly allowance despite only a brief home period. Claims may be submitted soon after discharge with annotations, while inpatient or SNF records show conflicting admission/discharge dates, overlapping supplier claims, or no evidence the equipment was at home.",
+      "detection_signals": [
+        "Calculate the percentage of capped-rental claims with a from date equal to an inpatient or SNF discharge date.",
+        "Flag full-month payments where home days on the anniversary date are supported only by same-day discharge and no home-delivery or possession evidence exists.",
+        "Measure claim resubmission and date-change rates within 30 days of inpatient or SNF denials.",
+        "Flag suppliers with unusually high proportions of anniversary-date changes, discharge-date claims, or paid claims immediately following institutional stays.",
+        "Compare rental-month sequence and KH/KI/KJ modifiers before and after every anniversary-date reset."
+      ],
+      "graph_signals": [
+        "Link suppliers to facilities with unusually high shared beneficiary discharge-date claims.",
+        "Identify facility discharge planners, ordering providers, or DME liaisons associated with abnormal concentrations of discharge-date rental claims.",
+        "Detect sequential suppliers billing the same beneficiary on the same discharge date or sharing delivery documentation."
+      ],
+      "false_positive_explanation": "A beneficiary may legitimately be home on the discharge date and entitled to a full rental month under the explicit policy. Hospitalizations that overlap an anniversary date can legitimately require a new anniversary date.",
+      "disambiguating_evidence": [
+        "Validate facility admission and discharge timestamps, discharge destination, and whether the destination was a qualified home-like setting.",
+        "Obtain delivery, possession, and home-use records for the equipment on the claimed from date.",
+        "Review original delivery date, rental-month sequence, claim annotations, and CWF adjudication history.",
+        "Exclude claims where the beneficiary was discharged to another inpatient or SNF facility rather than home."
+      ],
+      "detection_rule": "SELECT c.* FROM claims c JOIN institutional_stays s ON c.beneficiary_id=s.beneficiary_id AND c.from_date=s.discharge_date WHERE c.rental_class='CAPPED' AND c.paid_amount>0 AND c.units=1 AND c.from_date BETWEEN s.admit_date AND s.discharge_date + INTERVAL '1 day' AND NOT EXISTS (SELECT 1 FROM home_delivery d WHERE d.beneficiary_id=c.beneficiary_id AND d.delivery_date<=c.from_date AND d.item_group=c.item_group);",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 4,
+        "detectability": 4,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "210 - CWF Crossover Editing for DMEPOS Claims During an Inpatient Stay",
+          "211.2.B - Policy"
+        ],
+        "inference": "The payment rule is explicit; suspicion arises only when discharge-date claims lack corroborating home possession or show abnormal supplier/facility concentration."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "H"
+      ],
+      "batch": "temporal_and_lifecycle",
+      "id": "h12",
+      "score": 18.0,
+      "rank": 20,
+      "is_top10": false
+    },
+    {
+      "title": "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "vulnerability_hypothesis": "Sections 40.1 and 130.7 generally prohibit maintenance and servicing while equipment is rented, while Section 210/211 permits capped-rental maintenance claims with modifier MS even when the beneficiary is institutionalized. This creates a code-path and timing collision in which repair, replacement-part, maintenance, or MS claims may be used to obtain payment for costs already included in rental or facility responsibility.",
+      "archetypes": [
+        {
+          "name": "Oxygen/respiratory equipment supplier",
+          "why": "Equipment is recurring and service-intensive, and institutional stays are common, creating repeated opportunities to classify routine service as separately payable maintenance."
+        },
+        {
+          "name": "Supplier specializing in recurring supplies or accessories",
+          "why": "Its operational model and high refill volume can blur the distinction between replacement accessories, repair parts, and routine servicing."
+        },
+        {
+          "name": "Home health-associated provider/supplier",
+          "why": "It operates across home and institutional settings and has elevated coordination risk with facilities and caregivers."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "Coordination across supplier, facility, and beneficiary records can support distributed repair and maintenance billing."
+        }
+      ],
+      "economic_incentive": "Collecting separate payment for routine service, parts, delivery, or maintenance that should be included in rental, warranty, PPS, or the capped-rental maintenance allowance.",
+      "claims_manifestation": "MS or RP claims appear during active rental months, during inpatient/SNF stays, or shortly after delivery. The same date may include rental, repair part RB, replacement accessory, and maintenance lines. Claims may lack evidence of an actual repair incident, contain repeated low-dollar services, or show parts inconsistent with the base equipment.",
+      "detection_signals": [
+        "Flag MS/RP/RB claims during active rental periods except explicitly payable capped-rental maintenance circumstances.",
+        "Flag maintenance claims during inpatient or SNF stays and compare with equipment possession and facility responsibility.",
+        "Calculate repair and maintenance frequency per equipment-month and supplier-level outlier rates.",
+        "Identify same-day or near-day rental plus MS/RP/RB combinations for the same HCPCS or serial number.",
+        "Flag maintenance payments within warranty periods or without documented labor, part, and incident records."
+      ],
+      "graph_signals": [
+        "Link suppliers to repair vendors, facilities, and manufacturers; identify common ownership or billing addresses.",
+        "Detect repeated repair claims across beneficiaries using the same equipment serial-number family or service technician.",
+        "Identify facilities whose stays are associated with unusually high supplier MS/RP activity."
+      ],
+      "false_positive_explanation": "A genuine repair may be payable for beneficiary-owned equipment, and capped-rental MS fees have specific exceptions. Equipment can require necessary servicing during an institutional stay, and warranty status may be incorrectly recorded.",
+      "disambiguating_evidence": [
+        "Verify rental, ownership, warranty, and capped-rental month status.",
+        "Obtain work orders, technician notes, parts invoices, serial numbers, and proof that the repair actually occurred.",
+        "Determine whether the charge is a covered capped-rental maintenance fee, an actual repair part, or a nonpayable routine service.",
+        "Review facility records to establish who supplied and was responsible for the equipment during the stay."
+      ],
+      "detection_rule": "SELECT c.* FROM claims c JOIN equipment_status e ON c.beneficiary_id=e.beneficiary_id AND c.item_serial=e.item_serial WHERE c.modifier IN ('MS','RP','RB') AND c.service_date BETWEEN e.rental_start AND COALESCE(e.rental_end,DATE '9999-12-31') AND NOT (c.modifier='MS' AND e.rental_class='CAPPED' AND e.months_of_continuous_use>=13) ;",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 4,
+        "detectability": 4,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "40.1 - General maintenance and service",
+          "40.2 - Maintenance and Service of Capped Rental Items",
+          "130.7 - Maintenance and Servicing (Providers and Suppliers)",
+          "210 - CWF Crossover Editing for DMEPOS Claims During an Inpatient Stay"
+        ],
+        "inference": "The payable exceptions are explicit; misuse of those paths or substitution for included services is the detection hypothesis."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "batch": "temporal_and_lifecycle",
+      "id": "h15",
+      "score": 18.0,
+      "rank": 21,
+      "is_top10": false
+    },
+    {
+      "title": "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "vulnerability_hypothesis": "Section 50.1 measures useful lifetime from delivery to the beneficiary, not manufacture or acquisition date, and permits replacement after useful lifetime or loss/irreparable damage. Sections 30.5.4 and 50 also state that supplier changes and different but similar equipment do not automatically create new rental periods. These rules create opportunities to characterize early replacement, supplier transfer, or an upgrade as a qualifying replacement event.",
+      "archetypes": [
+        {
+          "name": "Orthotics/prosthetics supplier",
+          "why": "Its coding sophistication and high willingness to exploit ambiguity make nuanced replacement, customization, and same-or-similar distinctions attractive."
+        },
+        {
+          "name": "Supplier using aggressive coding/revenue-cycle consultants",
+          "why": "It has the highest coding sophistication and ambiguity tolerance, enabling technical arguments about useful lifetime, configuration, and replacement basis."
+        },
+        {
+          "name": "Multi-state supplier",
+          "why": "Geographic reach enables routing replacement activity across jurisdictions and billing entities, complicating lifecycle matching."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "Coordinated suppliers and clinicians can distribute original, replacement, and ownership events across entities."
+        }
+      ],
+      "economic_incentive": "Obtaining a new purchase or rental stream before the prior item reaches its useful lifetime, or converting a similar-item change into a separately payable replacement or accessory episode.",
+      "claims_manifestation": "Replacement claims occur before the beneficiary-specific useful lifetime, use RA or replacement indicators inconsistently, or follow a supplier change without a documented transfer of rental months. New equipment may have the same HCPCS, serial number, diagnosis, ordering provider, or functional purpose as prior equipment. A higher-priced configuration may be billed as replacement without evidence of changed medical need, loss, or irreparable damage.",
+      "detection_signals": [
+        "Calculate elapsed time from verified delivery of the prior item to each replacement claim and flag intervals below the MAC-established useful lifetime.",
+        "Flag same-or-similar HCPCS replacements within 60 months absent documented loss, irreparable damage, or substantial clinical change.",
+        "Identify replacements where the prior item has active rental payments or ownership status and no retrieval, destruction, theft, or damage record.",
+        "Compare replacement rates by supplier, ordering provider, beneficiary cohort, and HCPCS against peer distributions.",
+        "Flag replacement claims with changed supplier but unchanged serial number, address, diagnosis, and equipment configuration."
+      ],
+      "graph_signals": [
+        "Link old and new suppliers through common ownership, addresses, employees, warehouse locations, or ordering providers.",
+        "Track equipment serial numbers across suppliers and beneficiaries.",
+        "Identify clinician-supplier pairs with unusually high rates of early replacements or upgraded replacements."
+      ],
+      "false_positive_explanation": "Items may be lost, stolen, irreparably damaged, or rendered inadequate by a genuine change in condition. Supplier bankruptcy or service failure can also require replacement under specific rules.",
+      "disambiguating_evidence": [
+        "Obtain delivery date, serial number, title records, repair history, damage reports, police or loss documentation, and retrieval records.",
+        "Review current physician order and clinical documentation for changed medical need.",
+        "Validate supplier bankruptcy or court records when that exception is invoked.",
+        "Compare the replacement configuration with the prior item and assess whether it is truly different or merely similar."
+      ],
+      "detection_rule": "SELECT r.* FROM replacement_claims r JOIN equipment_history h ON r.beneficiary_id=h.beneficiary_id AND r.same_similar_group=h.same_similar_group WHERE r.service_date < h.prior_delivery_date + INTERVAL '60 months' AND NOT EXISTS (SELECT 1 FROM replacement_evidence e WHERE e.claim_id=r.claim_id AND e.reason IN ('LOSS','IRREPARABLE_DAMAGE','CHANGED_CONDITION','BANKRUPTCY'));",
+      "severity": {
+        "financial_impact": 5,
+        "likelihood": 3,
+        "detectability": 3,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "50 - Payment for Replacement of Equipment",
+          "50.1 - Payment for Replacement of Capped Rental Items",
+          "30.5.4 - Payments for Capped Rental Items During a Period of Continuous Use"
+        ],
+        "inference": "The manual states the replacement and same-or-similar rules; the proposed early-replacement pattern is an analytic hypothesis."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "H"
+      ],
+      "batch": "temporal_and_lifecycle",
+      "id": "h14",
+      "score": 17.5,
+      "rank": 22,
+      "is_top10": false
+    },
+    {
+      "title": "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "vulnerability_hypothesis": "Sections 30.7.1 and 100.2.2.1 end PEN medical need after two consecutive months without medically necessary services and permit a new rental period only with a documented break. A prescription change between parenteral and enteral nutrients is an exception to the no-additional-rental rule. The combination may permit a continuing therapy program to be represented as a new therapy type or interrupted episode.",
+      "archetypes": [
+        {
+          "name": "Enteral/parenteral nutrition supplier",
+          "why": "It controls recurring pump rentals, nutrients, and certification workflows, and the therapy-type distinction directly affects its revenue stream."
+        },
+        {
+          "name": "Home health-associated provider/supplier",
+          "why": "It sees therapy changes and care-setting transitions, with coordination across HHA, physician, and supplier records."
+        },
+        {
+          "name": "Supplier using aggressive coding/revenue-cycle consultants",
+          "why": "Technical sophistication and high ambiguity tolerance support exploiting the distinction between prescription changes and genuine medical-need termination."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "Multiple parties can coordinate prescriptions, supplier changes, and claims to create apparent therapy breaks."
+        }
+      ],
+      "economic_incentive": "Obtaining additional pump rental months beyond the 15-month limit or restarting a pump rental after a purported two-month end of medical need.",
+      "claims_manifestation": "A new pump rental sequence follows two months with no pump or nutrient claims, but clinical records show ongoing nutrition support, supplies continue, or the beneficiary retains the same pump. Alternatively, enteral-to-parenteral or parenteral-to-enteral transitions occur without corresponding clinical documentation, while the same equipment and supplier continue billing.",
+      "detection_signals": [
+        "Flag new 15-month pump episodes following exactly two or three months without pump claims but with ongoing PEN nutrients, supplies, HHA visits, or nutrition-related diagnoses.",
+        "Flag therapy-type changes unsupported by a revised certification, new physician order, or clinical event.",
+        "Identify pump rentals beyond 15 cumulative months by beneficiary and equipment family across suppliers.",
+        "Compare pump, nutrient, kit, and certification timelines for gaps and inconsistent therapy states.",
+        "Flag supplier changes that coincide with the apparent break but show continuous equipment possession or unchanged delivery location."
+      ],
+      "graph_signals": [
+        "Link suppliers, ordering physicians, dietitians, HHAs, and facilities around therapy transitions.",
+        "Identify clinicians associated with unusually high enteral/parenteral switching or pump resets.",
+        "Track the same pump serial number across supposed new episodes and suppliers."
+      ],
+      "false_positive_explanation": "A real change in nutritional route, hospitalization, temporary voluntary nonbilling, or clinically documented cessation of nutrients can legitimately affect the rental period. Section 30.7.1 specifically recognizes a prescription change between parenteral and enteral nutrients.",
+      "disambiguating_evidence": [
+        "Obtain nutrition notes, hospitalization records, revised certifications, prescriptions, dietitian assessments, and evidence of the actual two-month cessation.",
+        "Verify whether nutrients were medically necessary and furnished during the alleged break.",
+        "Match pump serial number, possession, maintenance, and delivery records across episodes.",
+        "Confirm that the therapy change was clinically real rather than a billing-only classification."
+      ],
+      "detection_rule": "SELECT p.* FROM pen_pump_episodes p JOIN pen_history h ON p.beneficiary_id=h.beneficiary_id WHERE p.start_date > h.last_episode_end AND p.start_date-h.last_episode_end BETWEEN 60 AND 150 AND EXISTS (SELECT 1 FROM pen_claims x WHERE x.beneficiary_id=p.beneficiary_id AND x.service_date BETWEEN h.last_episode_end AND p.start_date AND x.category IN ('NUTRIENT','SUPPLY','HHA_NUTRITION')) AND NOT EXISTS (SELECT 1 FROM certifications z WHERE z.beneficiary_id=p.beneficiary_id AND z.effective_date<=p.start_date AND z.documents_true_break=1);",
+      "severity": {
+        "financial_impact": 5,
+        "likelihood": 3,
+        "detectability": 4,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "30.7.1 - Payment for Parenteral and Enteral Pumps",
+          "100.2.2.1 - Scheduling and Documenting Certifications and Recertifications of Medical Necessity for PEN",
+          "100.2.2.3 - Revised Certifications/Change in Prescription"
+        ],
+        "inference": "The two-month termination and therapy-change exception are explicit; using unrelated continuing claims to identify false breaks is an SIU inference."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "H"
+      ],
+      "batch": "temporal_and_lifecycle",
+      "id": "h18",
+      "score": 17.0,
+      "rank": 23,
+      "is_top10": false
+    },
+    {
+      "title": "Pre-Discharge Delivery Date-of-Service Inflation",
+      "vulnerability_hypothesis": "Pre-discharge delivery is permitted for home-use DME, prosthetics, and orthotics only under narrow fitting and training conditions, with the discharge date generally serving as the claim date and no payment for pre-discharge days. The distinction between facility delivery, fitting, caregiver possession, and actual home delivery creates a place-of-service and date-of-service vulnerability.",
+      "archetypes": [
+        {
+          "name": "Rapidly growing DME supplier",
+          "why": "High beneficiary access (4), referral relationships (4), and growth objective (5) encourage discharge-day acquisition and rapid processing."
+        },
+        {
+          "name": "Telehealth-linked DME supplier",
+          "why": "Geographic reach (5) and beneficiary access (5) make remote order generation and weak physical verification more likely."
+        },
+        {
+          "name": "Home health-associated provider/supplier",
+          "why": "The provider operates at the transition boundary and has coordination (4) with discharge and home-health staff."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "High coordination (5) and beneficiary access (5) support synchronized facility, supplier, and beneficiary documentation."
+        }
+      ],
+      "economic_incentive": "Backdating or treating facility fitting as home delivery can create an additional payable rental or purchase date, avoid inpatient bundling, or support a new rental episode earlier than allowed.",
+      "claims_manifestation": "DME claims dated before discharge, delivery records showing facility addresses without home delivery, claims on discharge dates despite discharge to another inpatient or SNF, rental periods beginning before the beneficiary's actual home receipt, or multiple suppliers reporting delivery for the same transition.",
+      "detection_signals": [
+        "Claims with service dates 1-2 days before inpatient discharge.",
+        "Percentage of pre-discharge claims lacking a qualified home-like discharge destination.",
+        "Delivery address mismatch between claim, supplier proof of delivery, and beneficiary residence.",
+        "Rental first-month claims with a date earlier than discharge or actual home delivery.",
+        "Multiple delivery or fitting events from different suppliers within 3 days of discharge."
+      ],
+      "graph_signals": [
+        "Repeated supplier-discharge-planner or supplier-facility relationships with unusually high pre-discharge utilization.",
+        "Shared clinicians or referral sources between the supplier and facility.",
+        "Beneficiary clusters receiving identical equipment on facility discharge dates."
+      ],
+      "false_positive_explanation": "The manual expressly permits pre-discharge fitting and training within two days before discharge when the item is medically necessary for home use and reaches the home on discharge. Caregiver transport and facility-leave arrangements can produce legitimate date discrepancies.",
+      "disambiguating_evidence": [
+        "Discharge destination, discharge summary, and actual home-delivery timestamp.",
+        "Proof of delivery signed by beneficiary or caregiver at the home address.",
+        "Fitting and training records showing the qualifying two-day window.",
+        "Evidence that the facility did not shift its inpatient obligation to the supplier."
+      ],
+      "detection_rule": "SELECT supplier_id, COUNT(*) AS pre_discharge_claims FROM dmepos_claims c JOIN inpatient_stays s ON c.beneficiary_id=s.beneficiary_id AND c.service_date BETWEEN s.discharge_date-2 AND s.discharge_date WHERE c.service_date < s.discharge_date OR c.delivery_address_type='facility' GROUP BY supplier_id HAVING COUNT(*) >= 10 OR SUM(CASE WHEN c.service_date < s.discharge_date THEN 1 ELSE 0 END) / NULLIF(COUNT(*),0) > 0.10;",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 3,
+        "detectability": 4,
+        "confidence": 5
+      },
+      "cms_source": {
+        "explicit": [
+          "110.3.1 - Conditions That Must Be Met",
+          "110.3.2 - Date of Service for Pre-Discharge Delivery of DMEPOS",
+          "110.3.3 - Facility Responsibilities During the Transition Period"
+        ],
+        "inference": "The permitted scenarios and date rules are explicit; the abuse hypothesis concerns misreporting facility fitting or delivery as qualifying home delivery."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "C",
+        "H"
+      ],
+      "batch": "coding_and_entity_arbitrage",
+      "id": "h07",
+      "score": 15.0,
+      "rank": 24,
+      "is_top10": false
+    },
+    {
+      "title": "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "vulnerability_hypothesis": "Sections 110.3.1 and 110.3.2 allow pre-discharge delivery of DME, prosthetics, or orthotics for fitting or training within two days before discharge, but the date of service is generally discharge or later home delivery, and no pre-discharge day is separately billable. The distinction between fitting delivery, deemed delivery, and actual home delivery can be operationally difficult to validate.",
+      "archetypes": [
+        {
+          "name": "Physician practice dispensing or ordering DME",
+          "why": "It controls both the order and beneficiary access, making it capable of coordinating fitting documentation with equipment billing."
+        },
+        {
+          "name": "Rapidly growing DME supplier",
+          "why": "High growth objectives and access to beneficiaries create incentives to deliver early and bill quickly, while compliance build-out may lag operations."
+        },
+        {
+          "name": "Telehealth-linked DME supplier",
+          "why": "Geographic reach and decoupled order generation make physical delivery, fitting, and home use harder to independently verify."
+        },
+        {
+          "name": "Skilled nursing facility-associated provider/supplier",
+          "why": "It has direct access to facility discharge timelines and can influence whether an item is characterized as training, facility equipment, or home equipment."
+        }
+      ],
+      "economic_incentive": "Accelerating claim submission, obtaining payment for equipment associated with an inpatient stay, or duplicating facility and supplier payment for the same item.",
+      "claims_manifestation": "Claims use delivery or fitting dates before discharge, duplicate lines for the same HCPCS around discharge, home POS inconsistent with facility records, or separate delivery charges despite the prohibition. The item may remain at the facility after discharge, be removed and later redelivered, or appear on both a facility and supplier claim.",
+      "detection_signals": [
+        "Flag DME/P&O claims with service dates one or two days before discharge.",
+        "Flag claims where the billed date is earlier than both discharge and verified home delivery.",
+        "Calculate duplicate or near-duplicate HCPCS/serial-number claims within 14 days of discharge across facility and supplier bill types.",
+        "Flag pre-discharge claims with no discharge to home-like POS within two days.",
+        "Measure separate delivery-charge frequency on pre-discharge cases and compare with peers."
+      ],
+      "graph_signals": [
+        "Match suppliers to facilities, discharge planners, and ordering clinicians with repeated pre-discharge billing.",
+        "Identify common serial numbers or item identifiers across facility and supplier claims.",
+        "Detect suppliers receiving referrals from facilities where nearly all deliveries occur immediately before discharge."
+      ],
+      "false_positive_explanation": "Fitting and training before discharge are expressly permitted when the equipment is medically necessary for home use and delivered within the permitted window. Some facilities may document the item as left at the facility and taken home by the caregiver on discharge.",
+      "disambiguating_evidence": [
+        "Verify discharge destination, caregiver acknowledgment, home-delivery or pickup records, and item serial number.",
+        "Review fitting/training notes, physician order, initial need date, and exact delivery chronology.",
+        "Check whether the facility was responsible for a similar item during the stay and whether any facility claim included the equipment.",
+        "Confirm that the claim date follows the deemed-delivery rules in Section 110.3.2."
+      ],
+      "detection_rule": "SELECT c.* FROM claims c JOIN inpatient_stays s ON c.beneficiary_id=s.beneficiary_id WHERE c.item_category IN ('DME','P&O') AND c.service_date BETWEEN s.discharge_date-INTERVAL '2 day' AND s.discharge_date-INTERVAL '1 day' OR (c.service_date<s.discharge_date AND c.paid_amount>0);",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 3,
+        "detectability": 4,
+        "confidence": 5
+      },
+      "cms_source": {
+        "explicit": [
+          "110.3.1 - Conditions That Must Be Met",
+          "110.3.2 - Date of Service for Pre-Discharge Delivery of DMEPOS",
+          "110.3.3 - Facility Responsibilities During the Transition Period"
+        ],
+        "inference": "The manual explicitly defines allowable pre-discharge activity; premature billing, duplicate billing, and unsupported home delivery are detection hypotheses."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "H"
+      ],
+      "batch": "temporal_and_lifecycle",
+      "id": "h13",
+      "score": 15.0,
+      "rank": 25,
+      "is_top10": false
+    },
+    {
+      "title": "Jurisdiction and Billing-Entity Arbitrage",
+      "vulnerability_hypothesis": "Sections 10, 20.2, 30, 110, 130.1, and 160 assign DMEPOS claims to different contractors or claim formats based on supplier location, beneficiary residence, HCPCS category, institutional status, and whether the item is implanted, PEN, P&O, or DME. A multi-state or multi-entity network may exploit these routing differences to move economically similar claims among billing entities or jurisdictions with differing edits and documentation practices.",
+      "archetypes": [
+        {
+          "name": "Multi-state supplier",
+          "why": "Geographic reach 5 and explicit ability to route activity across jurisdictions create the strongest structural basis for entity and jurisdiction arbitrage."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "Coordination 5 and geographic reach 4 support routing claims through cooperating entities while maintaining a common beneficiary or referral pipeline."
+        },
+        {
+          "name": "Supplier using aggressive coding/revenue-cycle consultants",
+          "why": "Coding sophistication 5, audit awareness 4, and willingness to exploit ambiguity 5 support deliberate identification of alternate HCPCS, contractor, or institutional billing paths."
+        },
+        {
+          "name": "Telehealth-linked DME supplier",
+          "why": "Geographic reach 5 and referral relationships 5 allow remote ordering and fulfillment across multiple jurisdictions, although the pattern requires a multi-entity or multi-state operating structure."
+        }
+      ],
+      "economic_incentive": "Obtaining payment under a more favorable contractor pathway, avoiding a jurisdiction-specific edit, accessing an alternative fee schedule or claim format, or reducing documentation friction for an economically similar item.",
+      "claims_manifestation": "Related claims for similar products appear under supplier versus HHA, hospital, SNF, or physician-associated entities; implanted-DME accessories route to A/B MAC (B), while other DME routes to a DME MAC. New or reclassified HCPCS codes shift abruptly between contractor jurisdictions. Supplier location, beneficiary residence, ordering-provider location, place of service, and delivery address are inconsistent or unusually distant.",
+      "detection_signals": [
+        "Calculate the proportion of a supplier's claims routed to each MAC and compare with expected jurisdiction based on supplier location, beneficiary residence, HCPCS, and provider type.",
+        "Flag economically similar HCPCS families where the same network bills different entities or claim formats within 30 days for comparable beneficiaries.",
+        "Flag supplier-to-beneficiary delivery distances above the 99th percentile, especially when local suppliers exist and separate delivery charges are claimed.",
+        "Flag abrupt increases in claims for codes newly assigned to A/B MAC jurisdiction or changes in billing entity immediately after a denial or edit.",
+        "Compare paid amounts and denial rates for the same HCPCS family across related entities and jurisdictions; flag material divergence unexplained by beneficiary residence."
+      ],
+      "graph_signals": [
+        "Shared ownership, addresses, bank accounts, officers, employees, fulfillment facilities, ordering providers, or referral marketers across entities billing different MACs.",
+        "Cross-jurisdiction beneficiary migration in which the same marketer or ordering provider feeds multiple supplier NPIs.",
+        "Network paths connecting one clinician to multiple billing entities that alternate by HCPCS category or contractor jurisdiction.",
+        "Entity pairs with unusually high claim substitution: one entity bills DME while another bills implanted accessories, PEN, P&O, or HHA versions for overlapping beneficiaries."
+      ],
+      "false_positive_explanation": "Legitimate multi-state suppliers may centralize billing while serving beneficiaries nationwide. Contractor jurisdiction genuinely varies by HCPCS, provider type, implanted status, and beneficiary or supplier location; fee schedules and code assignments also change over time.",
+      "disambiguating_evidence": [
+        "Enrollment records, ownership disclosures, service locations, state licenses, and actual fulfillment locations.",
+        "Purchase orders, delivery records, equipment serial numbers, and documentation showing the correct benefit category and billing entity.",
+        "MAC jurisdiction files and effective-date histories for HCPCS assignments.",
+        "Contractual arrangements explaining shared administrative services without shared clinical or billing control."
+      ],
+      "detection_rule": "SELECT network_id, hcpcs_family, COUNT(DISTINCT mac_id) AS macs, COUNT(DISTINCT billing_entity_type) AS entity_types, AVG(delivery_distance_miles) AS avg_distance FROM claims_enriched WHERE paid_flag = 1 GROUP BY network_id, hcpcs_family HAVING COUNT(DISTINCT mac_id) >= 2 OR COUNT(DISTINCT billing_entity_type) >= 3 AND AVG(delivery_distance_miles) > 200;",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 3,
+        "detectability": 3,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "Section 10 - Where to Bill DMEPOS and PEN Items and Services",
+          "Section 20.2 - Locality",
+          "Section 110 - General Billing Requirements",
+          "Section 160.1 - Billing for TPN and EN Furnished to Part B Inpatients"
+        ],
+        "inference": "The routing and locality rules are explicit. The inference is that related entities may deliberately select pathways based on operational payment or edit differences."
+      },
+      "collision_categories": [
+        "C",
+        "D",
+        "E",
+        "G",
+        "H"
+      ],
+      "batch": "network_and_adaptive",
+      "id": "h23",
+      "score": 14.5,
+      "rank": 26,
+      "is_top10": false
+    },
+    {
+      "title": "Discharge-Date and Anniversary-Date Cycling",
+      "vulnerability_hypothesis": "Sections 110.3, 210, and 211.2 permit full-month DME payment when the beneficiary is home on the from or anniversary date and allow a capped-rental anniversary date to reset to a discharge date when an inpatient stay overlaps that date. Coordinated suppliers may exploit repeated transitions among home, hospital, and SNF settings or inconsistent date reporting to create paymentable months while obscuring continuous use.",
+      "archetypes": [
+        {
+          "name": "Skilled nursing facility-associated provider/supplier",
+          "why": "The archetype operates directly at admission and discharge boundaries, with coordination 4 and access to beneficiaries 4; timing-sensitive billing is a natural exposure."
+        },
+        {
+          "name": "Home health-associated provider/supplier",
+          "why": "Home-based care and transition coordination create access to discharge information, while referral relationships 4 and coordination 4 support billing around return-to-home dates."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "Coordination 5 and risk tolerance 5 support deliberate synchronization of claims, discharge dates, and supplier changes."
+        },
+        {
+          "name": "Oxygen/respiratory equipment supplier",
+          "why": "Oxygen is billed monthly and has high recurring revenue; access to beneficiaries 4 and Medicare dependence 4 make hospitalization and discharge timing especially material."
+        }
+      ],
+      "economic_incentive": "Preserving a full monthly rental payment, creating additional payable rental months, or restarting or extending rental revenue after a hospitalization or SNF stay.",
+      "claims_manifestation": "Capped-rental claims repeatedly use discharge dates as new from or anniversary dates, show multiple anniversary resets for the same episode, or have claim from dates inconsistent with inpatient and SNF records. Monthly claims may be paid when the beneficiary was institutionalized for most of the month but home on the billing date. Supplier changes cluster immediately before or after discharge.",
+      "detection_signals": [
+        "Count anniversary-date resets per beneficiary-HCPCS episode and flag more than one reset within 12 months.",
+        "Flag claims whose from date equals discharge date but whose delivery, possession, or home-use evidence is absent or occurs later.",
+        "Flag full-month rental claims where the beneficiary was inpatient or in an SNF for more than 80% of the month, even if home on the from date.",
+        "Flag sequential claims where the new anniversary date is not the documented discharge date after an overlapping stay.",
+        "Compare supplier-change dates with discharge dates; flag changes within plus or minus 3 days when the replacement supplier bills an initial or early-month rental modifier."
+      ],
+      "graph_signals": [
+        "Supplier clusters coordinating with the same hospitals, SNFs, or discharge planners and receiving beneficiaries immediately after discharge.",
+        "Shared beneficiaries moving among suppliers at each institutional transition.",
+        "Repeated discharge-date claim patterns linked to one facility, ordering provider, or case-management vendor.",
+        "Common equipment identifiers or delivery personnel across suppliers reporting different delivery and anniversary dates."
+      ],
+      "false_positive_explanation": "Actual hospital or SNF stays can overlap an anniversary date and legitimately reset the billing date. Beneficiaries may change suppliers after discharge, and a home delivery or fitting process may occur immediately around discharge.",
+      "disambiguating_evidence": [
+        "CWF inpatient and SNF dates, facility discharge summaries, and the supplier's annotated claim documentation.",
+        "Proof of actual home delivery, beneficiary possession, and home use on the claimed date.",
+        "Equipment serial numbers and transfer records across suppliers.",
+        "Beneficiary and facility confirmation that the item was not merely used or stored in the institution before discharge."
+      ],
+      "detection_rule": "SELECT beneficiary_id, hcpcs_family, COUNT(*) AS reset_count, SUM(CASE WHEN from_date = inpatient_discharge_date THEN 1 ELSE 0 END) AS discharge_dated_claims FROM capped_rental_claims_enriched GROUP BY beneficiary_id, hcpcs_family HAVING reset_count > 1 OR discharge_dated_claims >= 2 AND COUNT(DISTINCT supplier_npi) >= 2;",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 3,
+        "detectability": 3,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "Section 110.3.2 - Date of Service for Pre-Discharge Delivery of DMEPOS",
+          "Section 210 - CWF Crossover Editing for DMEPOS Claims During an Inpatient Stay",
+          "Section 211.2.B - Policy"
+        ],
+        "inference": "The discharge-date and anniversary rules are explicit. Repeated coordinated cycling and the quantitative thresholds are investigative hypotheses."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "C",
+        "E"
+      ],
+      "batch": "network_and_adaptive",
+      "id": "h25",
+      "score": 14.5,
+      "rank": 27,
+      "is_top10": false
+    },
+    {
+      "title": "PEN Therapy and Pump-Reset Coordination",
+      "vulnerability_hypothesis": "Sections 30.7.1, 40.3, 50.3, and 100.2.2 establish 15-month pump rental limits, require a two-month break in medical need before another rental period, and allow special treatment when the physician changes between parenteral and enteral therapy. A coordinated supplier-clinician network may exploit therapy transitions, apparent breaks, or replacement-versus-rental pathways to extend recurring pump revenue or avoid the normal cap.",
+      "archetypes": [
+        {
+          "name": "Enteral/parenteral nutrition supplier",
+          "why": "The archetype directly monetizes recurring nutrients, supplies, and pump rentals; Medicare dependence 4 and compliance sophistication 2 increase exposure to documentation and continuity failures."
+        },
+        {
+          "name": "Supplier specializing in recurring supplies or accessories",
+          "why": "Recurring revenue and volume-growth objective 4 create incentive to preserve therapy continuity and add equipment or supply claims around changes in therapy."
+        },
+        {
+          "name": "Home health-associated provider/supplier",
+          "why": "Coordination 4 and access to beneficiaries 4 provide visibility into hospitalizations, therapy interruptions, and care-setting transitions that affect the two-month rule."
+        },
+        {
+          "name": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "why": "Coordination 5 and willingness to exploit ambiguity 5 support synchronized prescription changes, supplier changes, and documentation of alleged breaks."
+        }
+      ],
+      "economic_incentive": "Extending pump rental payments beyond 15 months, restarting a rental episode, converting rental to a new purchase or replacement, and maintaining associated recurring supply revenue.",
+      "claims_manifestation": "PEN pump rental sequences exceed 15 months or restart shortly after the prior episode without two consecutive months of absent medically required services. Enteral-to-parenteral or parenteral-to-enteral changes occur near the rental cap and are associated with new prescriptions, supplier changes, or new pump claims. Supply claims continue during alleged breaks or appear before the revised certification date.",
+      "detection_signals": [
+        "For each beneficiary-pump combination, count paid rental months across all suppliers and flag totals above 15 absent documented qualifying breaks.",
+        "Flag new pump rental periods beginning within 90 days of the prior rental end without two consecutive months showing no medically required PEN services.",
+        "Flag therapy-type changes within 60 days of month 12 or 15 of rental, especially when ordering provider, supplier, and diagnosis remain unchanged.",
+        "Flag pump purchase or replacement claims occurring near the rental cap without documented purchase date, eight-year ownership history, or revised clinical need.",
+        "Flag supply claims during purported two-month medical-need breaks or before the certification and therapy onset dates."
+      ],
+      "graph_signals": [
+        "Supplier-clinician pairs repeatedly documenting enteral/parenteral switches for the same beneficiary cohort.",
+        "Beneficiaries moving between related suppliers at months 14-16 of pump rental.",
+        "Shared ordering providers, nutrition clinics, dietitians, fulfillment centers, or documentation vendors across transition claims.",
+        "Network communities with synchronized therapy changes and identical certification language."
+      ],
+      "false_positive_explanation": "Patients may genuinely transition between enteral and parenteral therapy, experience hospitalization or voluntary nonbilling periods, or require replacement after long-term ownership. Medical need can fluctuate in complex patients.",
+      "disambiguating_evidence": [
+        "Clinical records showing the two-month absence of medically required PEN services and the reason for the therapy transition.",
+        "Physician prescriptions, revised certifications, nutrient and infusion-method changes, and therapy administration records.",
+        "Pump serial numbers, purchase invoices, rental histories, and maintenance records.",
+        "Hospital and home-health records confirming interruptions, therapy resumption, and actual pump use."
+      ],
+      "detection_rule": "SELECT beneficiary_id, pump_id, SUM(rental_months) AS total_rental_months, COUNT(DISTINCT supplier_npi) AS suppliers, SUM(CASE WHEN therapy_change_flag = 1 THEN 1 ELSE 0 END) AS therapy_changes FROM pen_pump_episode_claims GROUP BY beneficiary_id, pump_id HAVING total_rental_months > 15 OR therapy_changes >= 1 AND MAX(rental_month_number) >= 12 AND documented_two_month_break = 0;",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 3,
+        "detectability": 3,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "Section 30.7.1 - Payment for Parenteral and Enteral Pumps",
+          "Section 40.3 - Maintenance and Service of PEN Pumps",
+          "Section 50.3 - Payment for Replacement of Parenteral and Enteral Pumps",
+          "Section 100.2.2.1 - Scheduling and Documenting Certifications and Recertifications of Medical Necessity for PEN"
+        ],
+        "inference": "The caps, break requirements, and therapy-change provisions are explicit. The theory of coordinated manipulation of transitions and breaks is an inference."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "E",
+        "H"
+      ],
+      "batch": "network_and_adaptive",
+      "id": "h29",
+      "score": 14.5,
+      "rank": 28,
+      "is_top10": false
+    },
+    {
+      "title": "SNF and Inpatient Boundary Reclassification",
+      "vulnerability_hypothesis": "DME is not payable for use in an SNF, while Part B prosthetics and orthotics may remain payable in institutional settings and certain noncovered Part A circumstances create different billing instructions. This creates an entity and place-of-service boundary where similar items may be routed through a supplier, SNF, hospital, or A/B MAC pathway.",
+      "archetypes": [
+        {
+          "name": "SNF-associated provider/supplier",
+          "why": "High Medicare dependence (4), institutional access (4), referral relationships (4), and coordination (4) support exposure to admission, discharge, and coverage-status boundaries."
+        },
+        {
+          "name": "Home health-associated provider/supplier",
+          "why": "Care-setting coordination (4) and beneficiary access (4) make transitions between institutional and home settings a plausible source of billing ambiguity."
+        },
+        {
+          "name": "Physician practice dispensing or ordering DME",
+          "why": "Access to beneficiaries and ordering providers (5 each) permits the practice to shape the item description and setting supporting medical necessity."
+        },
+        {
+          "name": "Multi-state supplier",
+          "why": "Geographic reach (5) and moderate coding sophistication can support routing claims to different contractors or institutional billing entities."
+        }
+      ],
+      "economic_incentive": "Separate payment may be available for an item characterized as a covered P&O service or a post-discharge home-use item, while DME used in the SNF is bundled or noncovered. The financial advantage is avoiding institutional bundling and obtaining a DME fee-schedule payment.",
+      "claims_manifestation": "Supplier DME claims have dates or place-of-service indicators overlapping SNF or inpatient stays; hospital or SNF institutional claims omit corresponding P&O or DME lines; the same HCPCS family appears on supplier claims immediately before admission or immediately after discharge. Claims may alternate between 0274 P&O reporting and DME MAC professional billing.",
+      "detection_signals": [
+        "Percentage of supplier claims with service dates within 0-2 days of SNF admission or discharge.",
+        "Paid supplier claims whose delivery date falls during an inpatient or SNF stay, excluding validated pre-discharge fitting rules.",
+        "Same HCPCS or clinically similar HCPCS billed by both an institution and supplier within 3 days.",
+        "Institutional episodes lacking expected bundled items despite supplier claims for the same beneficiary and diagnosis.",
+        "Frequency of supplier claims on the discharge date compared with peer distribution."
+      ],
+      "graph_signals": [
+        "Repeated supplier-SNF pairs with unusually high discharge-day claim concentration.",
+        "Ordering providers affiliated with both the SNF and supplier, or shared ownership and addresses.",
+        "Beneficiary clusters linked to a particular facility's discharge planner or ordering clinician."
+      ],
+      "false_positive_explanation": "P&O devices and supplies have different institutional billing rules from DME, and qualifying pre-discharge delivery may be billed with the discharge date. A beneficiary may also legitimately receive a home-use item after discharge or receive P&O outside the PPS rate.",
+      "disambiguating_evidence": [
+        "Admission, discharge, and covered-status records from the SNF or hospital.",
+        "HCPCS classification showing DME versus P&O and whether the item was for home use or institutional use.",
+        "Delivery, fitting, training, and home-delivery records satisfying the two-day pre-discharge rule.",
+        "Institutional claim detail and facility responsibility documentation."
+      ],
+      "detection_rule": "SELECT c.supplier_id, COUNT(*) AS boundary_claims, SUM(c.paid_amount) AS paid FROM dmepos_claims c JOIN institutional_stays s ON c.beneficiary_id=s.beneficiary_id AND c.service_date BETWEEN s.admit_date AND s.discharge_date WHERE c.paid_amount>0 AND c.hcpcs IN (dme_codes UNION oxygen_codes) GROUP BY c.supplier_id HAVING COUNT(*) >= 10 OR SUM(c.paid_amount) > 25000;",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 3,
+        "detectability": 4,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "01 - Foreword",
+          "30 - General Payment Rules",
+          "211.1 - General Information",
+          "130.1 - Provider Billing for Prosthetic and Orthotic Devices",
+          "110.3.1 - Conditions That Must Be Met"
+        ],
+        "inference": "The corpus explicitly distinguishes DME, P&O, institutional settings, and qualifying discharge delivery; the hypothesis concerns deliberate or systematic selection among those valid paths."
+      },
+      "collision_categories": [
+        "A",
+        "C",
+        "D",
+        "E",
+        "H"
+      ],
+      "batch": "coding_and_entity_arbitrage",
+      "id": "h02",
+      "score": 14.0,
+      "rank": 29,
+      "is_top10": false
+    },
+    {
+      "title": "Installment-Purchase and Rental Classification Drift",
+      "vulnerability_hypothesis": "Equipment purchased through installments reports the total equipment price on the first bill while monthly payments resemble rental amounts. Separately, claims must identify rental versus purchase and new versus used status, with distinct modifiers for BP, BR, BU, NR, NU, RR, and UE. Ambiguity between installment purchase, rental, and purchase-after-rental can produce inconsistent cumulative payment and ownership outcomes.",
+      "archetypes": [
+        {
+          "name": "Supplier using aggressive coding/revenue-cycle consultants",
+          "why": "High coding sophistication (5), ambiguity tolerance (5), and audit awareness (4) support deliberate manipulation of classification and modifier combinations."
+        },
+        {
+          "name": "Legitimate high-volume DME supplier",
+          "why": "Mature systems and high volume can generate systematic interface or configuration errors with significant aggregate financial impact."
+        },
+        {
+          "name": "Supplier with unusually high Medicare concentration",
+          "why": "Medicare dependence (5) increases incentive to maximize the value of rental, installment, and purchase pathways."
+        },
+        {
+          "name": "Small independent DME supplier under financial pressure",
+          "why": "Financial pressure (5) and low compliance sophistication (2) make both opportunistic misclassification and weak tracking plausible."
+        }
+      ],
+      "economic_incentive": "Installment or rental coding can affect when payment is received, whether a purchase allowance is available, whether title transfers, and whether total payments exceed the applicable purchase fee schedule.",
+      "claims_manifestation": "First claims reporting rental modifiers but full purchase charges; conflicting BP/BR/BU and NU/NR/UE combinations; purchase claims after rental without credit for prior rental amounts; cumulative payments exceeding the purchase fee schedule; used equipment reported as new after prior use or rental.",
+      "detection_signals": [
+        "Cumulative paid amount by beneficiary-equipment episode compared with purchase fee schedule amount.",
+        "Claims with both installment indicators and ordinary rental modifiers in the same episode.",
+        "Purchase-after-rental claims lacking prior-rental offsets.",
+        "New-equipment claims where the item or serial number was previously rented, purchased, or used for another beneficiary.",
+        "Supplier-specific rates of BP, BR, BU, NR, NU, RR, and UE combinations inconsistent with peers."
+      ],
+      "graph_signals": [
+        "Equipment serial numbers reused across beneficiaries or suppliers.",
+        "Supplier-finance, delivery, and billing entities sharing ownership or bank accounts.",
+        "Beneficiary transfers between related suppliers immediately before purchase conversion."
+      ],
+      "false_positive_explanation": "Installment arrangements, beneficiary election changes, used demonstrator equipment, and administrative corrections can legitimately create mixed modifiers. Claims may also be submitted in separate transactions that obscure the episode chronology.",
+      "disambiguating_evidence": [
+        "Contract showing whether the transaction is rental, installment purchase, or purchase after rental.",
+        "Serial-number equipment history and delivery records.",
+        "Beneficiary election documentation and title-transfer date.",
+        "Cumulative claim and adjustment history, including prior rental offsets."
+      ],
+      "detection_rule": "WITH ep AS (SELECT beneficiary_id, equipment_id, SUM(allowed_amount) paid, MAX(purchase_fee_schedule) purchase_limit, MAX(CASE WHEN modifier IN ('BP','NU','NR') THEN 1 ELSE 0 END) has_purchase, MAX(CASE WHEN modifier IN ('BR','BU','RR') THEN 1 ELSE 0 END) has_rental FROM dme_claims GROUP BY beneficiary_id,equipment_id) SELECT * FROM ep WHERE paid > purchase_limit * 1.05 OR (has_purchase=1 AND has_rental=1 AND paid > purchase_limit);",
+      "severity": {
+        "financial_impact": 4,
+        "likelihood": 3,
+        "detectability": 4,
+        "confidence": 4
+      },
+      "cms_source": {
+        "explicit": [
+          "130.8 - Installment Payments",
+          "130.9 - Showing Whether Rented or Purchased",
+          "30.1.1.2 - Used Rental Equipment",
+          "30.5 - Capped Rental Items"
+        ],
+        "inference": "The corpus explicitly defines transaction indicators and cumulative limits; the proposed episode-level inconsistencies are detection inferences."
+      },
+      "collision_categories": [
+        "A",
+        "B",
+        "D",
+        "F",
+        "H"
+      ],
+      "batch": "coding_and_entity_arbitrage",
+      "id": "h09",
+      "score": 14.0,
+      "rank": 30,
+      "is_top10": false
+    }
+  ],
+  "hardest_to_detect": []
+}

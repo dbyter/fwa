@@ -1,0 +1,902 @@
+[
+  {
+    "signal": "Calculate refill interval variance and flag near-deterministic shipment schedules over six or more cycles.",
+    "used_in": [
+      "h17"
+    ]
+  },
+  {
+    "signal": "Flag refills with no documented beneficiary/caregiver request within the required pre-dispensing window.",
+    "used_in": [
+      "h17"
+    ]
+  },
+  {
+    "signal": "Flag shipments after death, hospice election, institutional admission, therapy discontinuation, or equipment return.",
+    "used_in": [
+      "h17"
+    ]
+  },
+  {
+    "signal": "Compare billed quantity and days' supply with prior utilization, remaining inventory, and early-refill history.",
+    "used_in": [
+      "h17"
+    ]
+  },
+  {
+    "signal": "Measure beneficiary complaint, return-to-supplier, unopened-package, and reversal rates by supplier and marketer.",
+    "used_in": [
+      "h17"
+    ]
+  },
+  {
+    "signal": "For each supplier, calculate the percentage of refill claims preceded by a documented beneficiary/caregiver request within a defined operational window; flag rates below the plan benchmark.",
+    "used_in": [
+      "h21"
+    ]
+  },
+  {
+    "signal": "Calculate ordering-provider and marketer-linked beneficiary concentration using Herfindahl-Hirschman Index; flag suppliers where the top 5 ordering providers account for more than 50% of recurring-supply beneficiaries or where one provider is shared across multiple suppliers.",
+    "used_in": [
+      "h21"
+    ]
+  },
+  {
+    "signal": "Flag refill intervals with coefficient of variation below 0.10 across at least four cycles when beneficiary-request timestamps are absent or identical across many beneficiaries.",
+    "used_in": [
+      "h21"
+    ]
+  },
+  {
+    "signal": "Flag beneficiaries receiving the same supply category from multiple network suppliers within the same expected replacement interval.",
+    "used_in": [
+      "h21"
+    ]
+  },
+  {
+    "signal": "Compare billed units with prior utilization, documented DME ownership, and days since last shipment; flag repeated claims at or near frequency limits.",
+    "used_in": [
+      "h21"
+    ]
+  },
+  {
+    "signal": "Calculate ordering-provider concentration by supplier, HCPCS family, diagnosis, and month; flag top-provider share above 40% or HHI above peer percentile.",
+    "used_in": [
+      "h28"
+    ]
+  },
+  {
+    "signal": "Measure template similarity of order narratives, CMNs, or supporting notes; flag high textual similarity across unrelated beneficiaries.",
+    "used_in": [
+      "h28"
+    ]
+  },
+  {
+    "signal": "Flag ordering providers whose DMEPOS order volume is extreme relative to their Medicare patient panel, specialty, or evaluation-and-management activity.",
+    "used_in": [
+      "h28"
+    ]
+  },
+  {
+    "signal": "Flag short intervals between beneficiary enrollment, telehealth encounter, order signature, and high-volume DMEPOS claim across many beneficiaries.",
+    "used_in": [
+      "h28"
+    ]
+  },
+  {
+    "signal": "Compare order diagnoses and equipment combinations with clinical encounters, functional findings, and prior equipment history; flag product-specific diagnosis patterns.",
+    "used_in": [
+      "h28"
+    ]
+  },
+  {
+    "signal": "Rate of QG, QF, QB, or high-flow claims by supplier compared with regional peers.",
+    "used_in": [
+      "h04"
+    ]
+  },
+  {
+    "signal": "Beneficiary-months with mutually exclusive stationary, portable, and contents payments.",
+    "used_in": [
+      "h04"
+    ]
+  },
+  {
+    "signal": "Ownership-status transitions without a corresponding purchase, title, or equipment history event.",
+    "used_in": [
+      "h04"
+    ]
+  },
+  {
+    "signal": "Portable oxygen claims within 30 days before or after QG claims despite the stated CWF edit.",
+    "used_in": [
+      "h04"
+    ]
+  },
+  {
+    "signal": "Average prescribed flow rates just above modifier thresholds, such as greater than 4 LPM, by ordering provider.",
+    "used_in": [
+      "h04"
+    ]
+  },
+  {
+    "signal": "Beneficiary-equipment episodes with more than 15 paid rental months absent a validated reset.",
+    "used_in": [
+      "h06"
+    ]
+  },
+  {
+    "signal": "Number of supplier changes during a single equipment episode.",
+    "used_in": [
+      "h06"
+    ]
+  },
+  {
+    "signal": "New KH claims within 12 months of a prior supplier's KJ or month-10/15 claim.",
+    "used_in": [
+      "h06"
+    ]
+  },
+  {
+    "signal": "Rental claims with gaps shorter than 60 days but new prescriptions or apparent new episodes.",
+    "used_in": [
+      "h06"
+    ]
+  },
+  {
+    "signal": "Anniversary-date changes not supported by an inpatient or SNF stay overlapping the original anniversary date.",
+    "used_in": [
+      "h06"
+    ]
+  },
+  {
+    "signal": "For each beneficiary-HCPCS family, construct a continuous rental episode and flag more than 15 paid rental months absent a documented qualifying interruption or managed-care transition.",
+    "used_in": [
+      "h22"
+    ]
+  },
+  {
+    "signal": "Flag a new KH or first-month rental modifier within 60 days of the prior supplier's KJ month or final rental claim.",
+    "used_in": [
+      "h22"
+    ]
+  },
+  {
+    "signal": "Flag supplier changes where the replacement supplier bills more months than the calculated remaining months in the episode.",
+    "used_in": [
+      "h22"
+    ]
+  },
+  {
+    "signal": "Flag overlapping monthly rental claims from different suppliers for the same or similar HCPCS family.",
+    "used_in": [
+      "h22"
+    ]
+  },
+  {
+    "signal": "Flag post-cap rental claims lacking evidence of title status, beneficiary ownership, or the applicable maintenance-and-servicing pathway.",
+    "used_in": [
+      "h22"
+    ]
+  },
+  {
+    "signal": "Flag supplier claims for nonroutine supply codes during active HHA PPS episodes.",
+    "used_in": [
+      "h19"
+    ]
+  },
+  {
+    "signal": "Flag DMEPOS claims during hospice enrollment where the diagnosis is related to the terminal condition or no unrelated-condition documentation exists.",
+    "used_in": [
+      "h19"
+    ]
+  },
+  {
+    "signal": "Measure abrupt HCPCS/POS/entity changes within 14 days of HHA admission, discharge, hospice election, or revocation.",
+    "used_in": [
+      "h19"
+    ]
+  },
+  {
+    "signal": "Identify duplicate or functionally equivalent supply claims across HHA, hospice, and DME supplier entities.",
+    "used_in": [
+      "h19"
+    ]
+  },
+  {
+    "signal": "Compare beneficiary-level DME, supply, oxygen, and plan-of-care utilization before, during, and after institutional episodes.",
+    "used_in": [
+      "h19"
+    ]
+  },
+  {
+    "signal": "Flag beneficiaries with a second capped-rental start within 180 days of the last rental or ownership event.",
+    "used_in": [
+      "h11"
+    ]
+  },
+  {
+    "signal": "Calculate the gap between the last paid rental month and the new episode; prioritize gaps near the regulatory interruption threshold.",
+    "used_in": [
+      "h11"
+    ]
+  },
+  {
+    "signal": "Measure the proportion of new episodes supported by an inpatient stay, HHA episode, voluntary nonbilling period, or supplier change rather than documented clinical resolution.",
+    "used_in": [
+      "h11"
+    ]
+  },
+  {
+    "signal": "Flag same-or-similar HCPCS restarts with unchanged beneficiary address, ordering provider, diagnosis, and equipment serial number.",
+    "used_in": [
+      "h11"
+    ]
+  },
+  {
+    "signal": "Compare episode-reset frequency and paid months per beneficiary against peer suppliers and specialty benchmarks.",
+    "used_in": [
+      "h11"
+    ]
+  },
+  {
+    "signal": "Flag mutually exclusive oxygen payment combinations within the same calendar month.",
+    "used_in": [
+      "h16"
+    ]
+  },
+  {
+    "signal": "Calculate frequency of ownership-status changes by beneficiary and supplier, especially changes occurring near month-end or before a higher-paying modifier.",
+    "used_in": [
+      "h16"
+    ]
+  },
+  {
+    "signal": "Flag QG/QB/QF claims without corroborating prescribed flow and portable-system status.",
+    "used_in": [
+      "h16"
+    ]
+  },
+  {
+    "signal": "Identify portable add-ons or contents fees inconsistent with the oxygen billing chart for the beneficiary's equipment ownership state.",
+    "used_in": [
+      "h16"
+    ]
+  },
+  {
+    "signal": "Measure flow-rate and modifier changes within 30 days of a claim and compare with physician-order changes and test dates.",
+    "used_in": [
+      "h16"
+    ]
+  },
+  {
+    "signal": "E1399 share of supplier P&O claims compared with specialty peers.",
+    "used_in": [
+      "h05"
+    ]
+  },
+  {
+    "signal": "Median allowed amount for E1399 divided by the closest standard L-code allowance.",
+    "used_in": [
+      "h05"
+    ]
+  },
+  {
+    "signal": "Duplicate or near-duplicate construction narratives across beneficiaries, measured by text similarity above 0.90.",
+    "used_in": [
+      "h05"
+    ]
+  },
+  {
+    "signal": "Custom claims lacking a documented design, fabrication, or labor component.",
+    "used_in": [
+      "h05"
+    ]
+  },
+  {
+    "signal": "Percentage of custom claims where billed item features are reused across more than 80% of cases.",
+    "used_in": [
+      "h05"
+    ]
+  },
+  {
+    "signal": "Percentage of pump-kit claims lacking a paid pump rental, pump purchase, or documented pump order within 90 days.",
+    "used_in": [
+      "h03"
+    ]
+  },
+  {
+    "signal": "Component lines billed separately within 30 days of a kit line, normalized by beneficiary and therapy type.",
+    "used_in": [
+      "h03"
+    ]
+  },
+  {
+    "signal": "Beneficiaries whose billed administration method changes more than once in 12 months without a revised certification.",
+    "used_in": [
+      "h03"
+    ]
+  },
+  {
+    "signal": "Pump-kit utilization above the 95th supplier percentile after adjustment for therapy duration.",
+    "used_in": [
+      "h03"
+    ]
+  },
+  {
+    "signal": "Claims where billed calories or units are inconsistent with the current PEN certification.",
+    "used_in": [
+      "h03"
+    ]
+  },
+  {
+    "signal": "Repair or maintenance claims per equipment unit per year by supplier versus peer percentile.",
+    "used_in": [
+      "h08"
+    ]
+  },
+  {
+    "signal": "MS claims occurring before the 13-month or applicable post-cap threshold.",
+    "used_in": [
+      "h08"
+    ]
+  },
+  {
+    "signal": "RP or RB claims without a same-day or nearby documented equipment failure or repair labor code.",
+    "used_in": [
+      "h08"
+    ]
+  },
+  {
+    "signal": "Repeated identical parts at intervals shorter than expected useful life.",
+    "used_in": [
+      "h08"
+    ]
+  },
+  {
+    "signal": "Cumulative repair payments exceeding 50% or 75% of comparable replacement cost.",
+    "used_in": [
+      "h08"
+    ]
+  },
+  {
+    "signal": "For each beneficiary, intersect supplier claim dates with HHA episode dates and flag nonroutine supply codes billed separately during active episodes.",
+    "used_in": [
+      "h24"
+    ]
+  },
+  {
+    "signal": "Calculate the percentage of a supplier's claims linked to beneficiaries of one or a small number of HHAs; flag concentration above peer benchmarks.",
+    "used_in": [
+      "h24"
+    ]
+  },
+  {
+    "signal": "Flag abrupt shifts from HHA revenue code 0270 or PPS billing to supplier DME MAC billing immediately before or after episode boundaries without a corresponding change in HCPCS category or clinical need.",
+    "used_in": [
+      "h24"
+    ]
+  },
+  {
+    "signal": "Compare HHA plan-of-care diagnoses, ordered items, and supplier claims; flag same-day or next-day duplicate supply categories.",
+    "used_in": [
+      "h24"
+    ]
+  },
+  {
+    "signal": "Flag DME-exempt categories whose utilization increases materially only during active HHA episodes and is concentrated among related entities.",
+    "used_in": [
+      "h24"
+    ]
+  },
+  {
+    "signal": "Compare each oxygen claim's modifier with the prescribed flow rate, rest/exercise status, daytime/nighttime values, and calculated average; flag mismatches.",
+    "used_in": [
+      "h27"
+    ]
+  },
+  {
+    "signal": "Flag QG or QB claims with portable claims in the preceding or following 30 days, including claims split across related suppliers.",
+    "used_in": [
+      "h27"
+    ]
+  },
+  {
+    "signal": "Calculate ordering-provider and testing-facility concentration for claims with flow greater than 4 LPM; flag extreme concentration versus peer suppliers.",
+    "used_in": [
+      "h27"
+    ]
+  },
+  {
+    "signal": "Flag repeated modifier changes across successive months without a new order, qualifying test, or documented clinical change.",
+    "used_in": [
+      "h27"
+    ]
+  },
+  {
+    "signal": "Flag beneficiaries receiving separate stationary and portable equipment claims that conflict with the ownership/rental combinations in the oxygen billing chart.",
+    "used_in": [
+      "h27"
+    ]
+  },
+  {
+    "signal": "Quantity per beneficiary, body area, garment type, and rolling 6- or 24-month window.",
+    "used_in": [
+      "h10"
+    ]
+  },
+  {
+    "signal": "RA claims occurring before the applicable replacement interval.",
+    "used_in": [
+      "h10"
+    ]
+  },
+  {
+    "signal": "Component-plus-global payment ratio by supplier and code family.",
+    "used_in": [
+      "h10"
+    ]
+  },
+  {
+    "signal": "Number of distinct body areas billed per beneficiary compared with clinical diagnosis and therapy records.",
+    "used_in": [
+      "h10"
+    ]
+  },
+  {
+    "signal": "Supplier-level average allowed amount per lymphedema episode versus national allowed amounts and peers.",
+    "used_in": [
+      "h10"
+    ]
+  },
+  {
+    "signal": "Flag upgraded claims without the required two adjacent lines and expected modifier pairing.",
+    "used_in": [
+      "h20"
+    ]
+  },
+  {
+    "signal": "Flag GA claims with no ABN record, ABN date after delivery, or beneficiary knowledge inconsistent with assignment status.",
+    "used_in": [
+      "h20"
+    ]
+  },
+  {
+    "signal": "Flag purchase-path upgrades where the baseline HCPCS is a rental class.",
+    "used_in": [
+      "h20"
+    ]
+  },
+  {
+    "signal": "Calculate supplier-level upgrade rates, beneficiary liability, and concentration by ordering provider.",
+    "used_in": [
+      "h20"
+    ]
+  },
+  {
+    "signal": "Flag repeated upgrades for the same beneficiary or ordering provider without changed medical need or new equipment features.",
+    "used_in": [
+      "h20"
+    ]
+  },
+  {
+    "signal": "Use change-point analysis to identify material HCPCS or modifier-mix changes within 30, 60, and 90 days after denial, prepayment review, or audit notification.",
+    "used_in": [
+      "h26"
+    ]
+  },
+  {
+    "signal": "For each equipment model or product identifier, calculate the number of HCPCS/modifier pathways used; flag high pathway diversity relative to peers.",
+    "used_in": [
+      "h26"
+    ]
+  },
+  {
+    "signal": "Flag claims where line 1 and line 2 do not satisfy the required adjacent upgraded-item structure, or where GA/GZ/GK usage changes without corresponding ABN evidence.",
+    "used_in": [
+      "h26"
+    ]
+  },
+  {
+    "signal": "Flag E1399 claims following denials of a specific coded item when make/model, ordering provider, beneficiary, and clinical indication remain materially unchanged.",
+    "used_in": [
+      "h26"
+    ]
+  },
+  {
+    "signal": "Compare code-path changes across related suppliers and consultants; flag synchronized changes after a common edit or policy update.",
+    "used_in": [
+      "h26"
+    ]
+  },
+  {
+    "signal": "Aggregate claims by beneficiary, equipment family, body area, and network rather than by NPI; flag cumulative quantities exceeding section-specific limits or peer distributions.",
+    "used_in": [
+      "h30"
+    ]
+  },
+  {
+    "signal": "Calculate time from original delivery to replacement and compare with useful-lifetime, six-month, two-year, or eight-year rules where applicable.",
+    "used_in": [
+      "h30"
+    ]
+  },
+  {
+    "signal": "Flag repeated repair-part claims within 90 days of a replacement or purchase claim, and repeated repairs whose cumulative allowed amount approaches or exceeds replacement cost.",
+    "used_in": [
+      "h30"
+    ]
+  },
+  {
+    "signal": "Flag lymphedema claims exceeding three daytime or two nighttime items per body area, or replacements earlier than six months or two years without documented exception.",
+    "used_in": [
+      "h30"
+    ]
+  },
+  {
+    "signal": "Flag low-frequency patterns such as one accessory or repair every few months that become anomalous over 24-36 months.",
+    "used_in": [
+      "h30"
+    ]
+  },
+  {
+    "signal": "Rate of supplier DMEPOS claims during active HH PPS episodes compared with peer suppliers: flag rates above the 95th percentile.",
+    "used_in": [
+      "h01"
+    ]
+  },
+  {
+    "signal": "Percentage of supplier beneficiaries with overlapping HHA episodes and the same or related diagnosis within 7 days: flag above 50%.",
+    "used_in": [
+      "h01"
+    ]
+  },
+  {
+    "signal": "Supplier claims for codes listed as HH nonroutine supplies during HH episodes, with paid amount greater than zero.",
+    "used_in": [
+      "h01"
+    ]
+  },
+  {
+    "signal": "Same-beneficiary HHA and supplier claims for the same HCPCS family within 1, 3, and 7 days.",
+    "used_in": [
+      "h01"
+    ]
+  },
+  {
+    "signal": "Change-point analysis showing increased supplier billing after an HHA referral, ownership, or contracting change.",
+    "used_in": [
+      "h01"
+    ]
+  },
+  {
+    "signal": "Calculate the percentage of capped-rental claims with a from date equal to an inpatient or SNF discharge date.",
+    "used_in": [
+      "h12"
+    ]
+  },
+  {
+    "signal": "Flag full-month payments where home days on the anniversary date are supported only by same-day discharge and no home-delivery or possession evidence exists.",
+    "used_in": [
+      "h12"
+    ]
+  },
+  {
+    "signal": "Measure claim resubmission and date-change rates within 30 days of inpatient or SNF denials.",
+    "used_in": [
+      "h12"
+    ]
+  },
+  {
+    "signal": "Flag suppliers with unusually high proportions of anniversary-date changes, discharge-date claims, or paid claims immediately following institutional stays.",
+    "used_in": [
+      "h12"
+    ]
+  },
+  {
+    "signal": "Compare rental-month sequence and KH/KI/KJ modifiers before and after every anniversary-date reset.",
+    "used_in": [
+      "h12"
+    ]
+  },
+  {
+    "signal": "Flag MS/RP/RB claims during active rental periods except explicitly payable capped-rental maintenance circumstances.",
+    "used_in": [
+      "h15"
+    ]
+  },
+  {
+    "signal": "Flag maintenance claims during inpatient or SNF stays and compare with equipment possession and facility responsibility.",
+    "used_in": [
+      "h15"
+    ]
+  },
+  {
+    "signal": "Calculate repair and maintenance frequency per equipment-month and supplier-level outlier rates.",
+    "used_in": [
+      "h15"
+    ]
+  },
+  {
+    "signal": "Identify same-day or near-day rental plus MS/RP/RB combinations for the same HCPCS or serial number.",
+    "used_in": [
+      "h15"
+    ]
+  },
+  {
+    "signal": "Flag maintenance payments within warranty periods or without documented labor, part, and incident records.",
+    "used_in": [
+      "h15"
+    ]
+  },
+  {
+    "signal": "Calculate elapsed time from verified delivery of the prior item to each replacement claim and flag intervals below the MAC-established useful lifetime.",
+    "used_in": [
+      "h14"
+    ]
+  },
+  {
+    "signal": "Flag same-or-similar HCPCS replacements within 60 months absent documented loss, irreparable damage, or substantial clinical change.",
+    "used_in": [
+      "h14"
+    ]
+  },
+  {
+    "signal": "Identify replacements where the prior item has active rental payments or ownership status and no retrieval, destruction, theft, or damage record.",
+    "used_in": [
+      "h14"
+    ]
+  },
+  {
+    "signal": "Compare replacement rates by supplier, ordering provider, beneficiary cohort, and HCPCS against peer distributions.",
+    "used_in": [
+      "h14"
+    ]
+  },
+  {
+    "signal": "Flag replacement claims with changed supplier but unchanged serial number, address, diagnosis, and equipment configuration.",
+    "used_in": [
+      "h14"
+    ]
+  },
+  {
+    "signal": "Flag new 15-month pump episodes following exactly two or three months without pump claims but with ongoing PEN nutrients, supplies, HHA visits, or nutrition-related diagnoses.",
+    "used_in": [
+      "h18"
+    ]
+  },
+  {
+    "signal": "Flag therapy-type changes unsupported by a revised certification, new physician order, or clinical event.",
+    "used_in": [
+      "h18"
+    ]
+  },
+  {
+    "signal": "Identify pump rentals beyond 15 cumulative months by beneficiary and equipment family across suppliers.",
+    "used_in": [
+      "h18"
+    ]
+  },
+  {
+    "signal": "Compare pump, nutrient, kit, and certification timelines for gaps and inconsistent therapy states.",
+    "used_in": [
+      "h18"
+    ]
+  },
+  {
+    "signal": "Flag supplier changes that coincide with the apparent break but show continuous equipment possession or unchanged delivery location.",
+    "used_in": [
+      "h18"
+    ]
+  },
+  {
+    "signal": "Claims with service dates 1-2 days before inpatient discharge.",
+    "used_in": [
+      "h07"
+    ]
+  },
+  {
+    "signal": "Percentage of pre-discharge claims lacking a qualified home-like discharge destination.",
+    "used_in": [
+      "h07"
+    ]
+  },
+  {
+    "signal": "Delivery address mismatch between claim, supplier proof of delivery, and beneficiary residence.",
+    "used_in": [
+      "h07"
+    ]
+  },
+  {
+    "signal": "Rental first-month claims with a date earlier than discharge or actual home delivery.",
+    "used_in": [
+      "h07"
+    ]
+  },
+  {
+    "signal": "Multiple delivery or fitting events from different suppliers within 3 days of discharge.",
+    "used_in": [
+      "h07"
+    ]
+  },
+  {
+    "signal": "Flag DME/P&O claims with service dates one or two days before discharge.",
+    "used_in": [
+      "h13"
+    ]
+  },
+  {
+    "signal": "Flag claims where the billed date is earlier than both discharge and verified home delivery.",
+    "used_in": [
+      "h13"
+    ]
+  },
+  {
+    "signal": "Calculate duplicate or near-duplicate HCPCS/serial-number claims within 14 days of discharge across facility and supplier bill types.",
+    "used_in": [
+      "h13"
+    ]
+  },
+  {
+    "signal": "Flag pre-discharge claims with no discharge to home-like POS within two days.",
+    "used_in": [
+      "h13"
+    ]
+  },
+  {
+    "signal": "Measure separate delivery-charge frequency on pre-discharge cases and compare with peers.",
+    "used_in": [
+      "h13"
+    ]
+  },
+  {
+    "signal": "Calculate the proportion of a supplier's claims routed to each MAC and compare with expected jurisdiction based on supplier location, beneficiary residence, HCPCS, and provider type.",
+    "used_in": [
+      "h23"
+    ]
+  },
+  {
+    "signal": "Flag economically similar HCPCS families where the same network bills different entities or claim formats within 30 days for comparable beneficiaries.",
+    "used_in": [
+      "h23"
+    ]
+  },
+  {
+    "signal": "Flag supplier-to-beneficiary delivery distances above the 99th percentile, especially when local suppliers exist and separate delivery charges are claimed.",
+    "used_in": [
+      "h23"
+    ]
+  },
+  {
+    "signal": "Flag abrupt increases in claims for codes newly assigned to A/B MAC jurisdiction or changes in billing entity immediately after a denial or edit.",
+    "used_in": [
+      "h23"
+    ]
+  },
+  {
+    "signal": "Compare paid amounts and denial rates for the same HCPCS family across related entities and jurisdictions; flag material divergence unexplained by beneficiary residence.",
+    "used_in": [
+      "h23"
+    ]
+  },
+  {
+    "signal": "Count anniversary-date resets per beneficiary-HCPCS episode and flag more than one reset within 12 months.",
+    "used_in": [
+      "h25"
+    ]
+  },
+  {
+    "signal": "Flag claims whose from date equals discharge date but whose delivery, possession, or home-use evidence is absent or occurs later.",
+    "used_in": [
+      "h25"
+    ]
+  },
+  {
+    "signal": "Flag full-month rental claims where the beneficiary was inpatient or in an SNF for more than 80% of the month, even if home on the from date.",
+    "used_in": [
+      "h25"
+    ]
+  },
+  {
+    "signal": "Flag sequential claims where the new anniversary date is not the documented discharge date after an overlapping stay.",
+    "used_in": [
+      "h25"
+    ]
+  },
+  {
+    "signal": "Compare supplier-change dates with discharge dates; flag changes within plus or minus 3 days when the replacement supplier bills an initial or early-month rental modifier.",
+    "used_in": [
+      "h25"
+    ]
+  },
+  {
+    "signal": "For each beneficiary-pump combination, count paid rental months across all suppliers and flag totals above 15 absent documented qualifying breaks.",
+    "used_in": [
+      "h29"
+    ]
+  },
+  {
+    "signal": "Flag new pump rental periods beginning within 90 days of the prior rental end without two consecutive months showing no medically required PEN services.",
+    "used_in": [
+      "h29"
+    ]
+  },
+  {
+    "signal": "Flag therapy-type changes within 60 days of month 12 or 15 of rental, especially when ordering provider, supplier, and diagnosis remain unchanged.",
+    "used_in": [
+      "h29"
+    ]
+  },
+  {
+    "signal": "Flag pump purchase or replacement claims occurring near the rental cap without documented purchase date, eight-year ownership history, or revised clinical need.",
+    "used_in": [
+      "h29"
+    ]
+  },
+  {
+    "signal": "Flag supply claims during purported two-month medical-need breaks or before the certification and therapy onset dates.",
+    "used_in": [
+      "h29"
+    ]
+  },
+  {
+    "signal": "Percentage of supplier claims with service dates within 0-2 days of SNF admission or discharge.",
+    "used_in": [
+      "h02"
+    ]
+  },
+  {
+    "signal": "Paid supplier claims whose delivery date falls during an inpatient or SNF stay, excluding validated pre-discharge fitting rules.",
+    "used_in": [
+      "h02"
+    ]
+  },
+  {
+    "signal": "Same HCPCS or clinically similar HCPCS billed by both an institution and supplier within 3 days.",
+    "used_in": [
+      "h02"
+    ]
+  },
+  {
+    "signal": "Institutional episodes lacking expected bundled items despite supplier claims for the same beneficiary and diagnosis.",
+    "used_in": [
+      "h02"
+    ]
+  },
+  {
+    "signal": "Frequency of supplier claims on the discharge date compared with peer distribution.",
+    "used_in": [
+      "h02"
+    ]
+  },
+  {
+    "signal": "Cumulative paid amount by beneficiary-equipment episode compared with purchase fee schedule amount.",
+    "used_in": [
+      "h09"
+    ]
+  },
+  {
+    "signal": "Claims with both installment indicators and ordinary rental modifiers in the same episode.",
+    "used_in": [
+      "h09"
+    ]
+  },
+  {
+    "signal": "Purchase-after-rental claims lacking prior-rental offsets.",
+    "used_in": [
+      "h09"
+    ]
+  },
+  {
+    "signal": "New-equipment claims where the item or serial number was previously rented, purchased, or used for another beneficiary.",
+    "used_in": [
+      "h09"
+    ]
+  },
+  {
+    "signal": "Supplier-specific rates of BP, BR, BU, NR, NU, RR, and UE combinations inconsistent with peers.",
+    "used_in": [
+      "h09"
+    ]
+  }
+]

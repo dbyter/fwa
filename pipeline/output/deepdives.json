@@ -1,0 +1,954 @@
+{
+  "h05": {
+    "recommended_actions": [
+      {
+        "action": "Implement a prepayment clinical-coding edit for E1399 and other custom P&O claims when the submitted item is reasonably describable by an existing L-code, with referral for manual review rather than automatic denial.",
+        "rationale": "This directly addresses code-path arbitrage by requiring the supplier to establish why no specific standard code applies and why the item is more than custom fitting, measurement, or adaptation.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Orthotics/prosthetics supplier",
+          "Small independent DME supplier under financial pressure",
+          "Physician practice dispensing or ordering DME"
+        ]
+      },
+      {
+        "action": "Require a standardized custom-item documentation packet for E1399, including beneficiary-specific design rationale, raw-material or component description, fabrication or substantial-modification steps, labor categories and hours, itemized material cost, final delivery record, and responsible clinician or orthotist attestation.",
+        "rationale": "A structured packet distinguishes true individualized fabrication from standard products with routine fitting or reused boilerplate narratives and supports individualized cost review.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Orthotics/prosthetics supplier",
+          "Small independent DME supplier under financial pressure"
+        ]
+      },
+      {
+        "action": "Establish targeted prior authorization or post-payment review for E1399 claims with allowed amounts above a defined multiple of the closest comparable L-code, unusually high labor or material components, or repeated construction descriptions.",
+        "rationale": "These thresholds focus review on the claims most likely to generate excess payment while preserving a path for legitimate rare or unusually complex items.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Orthotics/prosthetics supplier",
+          "Small independent DME supplier under financial pressure",
+          "Physician practice dispensing or ordering DME"
+        ]
+      },
+      {
+        "action": "Deploy supplier-level monitoring for E1399 share, E1399-to-L-code allowed-amount ratios, narrative similarity, feature reuse, missing fabrication evidence, reversal and resubmission behavior, and outlier rates compared with specialty- and geography-matched peers.",
+        "rationale": "The vulnerability is most visible as a sustained behavioral pattern rather than a single claim; peer-normalized monitoring identifies suppliers whose custom-code use or payment levels are inconsistent with comparable practice.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Orthotics/prosthetics supplier",
+          "Small independent DME supplier under financial pressure"
+        ]
+      },
+      {
+        "action": "Create a referral-and-ordering integrity review for physician practices that both order or dispense the item and show elevated E1399 use, generic order language, or unusually concentrated supplier relationships.",
+        "rationale": "A practice controlling both the order and supporting documentation may create a medical-necessity narrative that does not independently establish unique construction or substantial customization.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Physician practice dispensing or ordering DME",
+          "Orthotics/prosthetics supplier"
+        ]
+      },
+      {
+        "action": "Require claim-level linkage between the custom item, the treating clinician's order, the orthotist or supplier's design record, and delivery documentation; reject or pend claims when the order only states a generic orthosis while the claim asserts unique construction.",
+        "rationale": "This closes the documentation mismatch in which generic physician language is used to support a more expensive custom-code pathway.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Physician practice dispensing or ordering DME",
+          "Orthotics/prosthetics supplier",
+          "Small independent DME supplier under financial pressure"
+        ]
+      },
+      {
+        "action": "Recommend that CMS publish explicit national guidance mapping common P&O scenarios to standard L-codes versus E1399, define what constitutes substantial customization and qualifying fabrication, and specify minimum cost-review documentation and treatment of physician-ordered P&O billing.",
+        "rationale": "The stated vulnerability arises partly from an ambiguous boundary; clearer national rules reduce discretionary code-path selection and improve consistency across contractors and plans.",
+        "priority": "structural",
+        "addresses_archetypes": [
+          "Orthotics/prosthetics supplier",
+          "Physician practice dispensing or ordering DME",
+          "Small independent DME supplier under financial pressure"
+        ]
+      }
+    ],
+    "minimum_viable_analytic": "Build a supplier-month E1399 misuse score using claims, beneficiary, provider, order, authorization, payment, and document-text data. Start with all P&O claims containing E1399 or custom-item modifiers, then join by claim line and beneficiary/date to the closest clinically comparable L-code family using HCPCS crosswalks, diagnosis/body-site fields, product descriptions, and same-beneficiary historical claims. Compute: E1399 share of P&O lines and allowed dollars; median and 90th-percentile E1399 allowed amount divided by the matched L-code allowance; percentage of claims with missing design, fabrication, labor, or material fields; percentage with generic order language; percentage with reused item features; and pairwise or locality-sensitive text similarity of construction narratives, flagging supplier-months with similarity above 0.90 or feature reuse above 80%. Add a documentation-completeness indicator based on linked design records, itemized costs, labor hours, raw-material entries, and delivery evidence. Standardize each feature against specialty- and geography-matched peer distributions using robust z-scores or percentile ranks. Produce a weighted score such as 25% payment-ratio percentile, 20% E1399 utilization percentile, 20% narrative-reuse percentile, 20% documentation-deficiency percentile, and 15% generic-order or linkage-deficiency percentile. Send the top-scoring supplier-months to manual review, sample both flagged and unflagged claims for validation, and suppress or adjust features when low volume, legitimate rare indications, or incomplete document feeds could create false positives.",
+    "archetype_misuse_ranking": [
+      {
+        "archetype": "Orthotics/prosthetics supplier",
+        "misuse_potential": 5,
+        "why": "High coding sophistication (4) and willingness to exploit ambiguity (4), combined with direct control over P&O coding and construction documentation.",
+        "how": "The supplier would show elevated E1399 use where a comparable L-code may exist, with allowed amounts above peer benchmarks and repeated descriptions of supposedly unique fabrication. Claims may lack beneficiary-specific design or raw-material evidence despite asserting custom construction."
+      },
+      {
+        "archetype": "Small independent DME supplier under financial pressure",
+        "misuse_potential": 4,
+        "why": "Very high financial pressure (5), risk tolerance (4), and ambiguity exploitation (4) create strong incentive even with lower coding sophistication (2).",
+        "how": "The supplier may shift selected standard or lightly modified orthoses into E1399 to improve reimbursement, producing inconsistent documentation, reused templates, and a high rate of custom claims without complete labor or fabrication support."
+      },
+      {
+        "archetype": "Physician practice dispensing or ordering DME",
+        "misuse_potential": 3,
+        "why": "High beneficiary access (5) and referral relationships (5) support documentation influence, but coding sophistication (3), financial pressure (2), and ambiguity exploitation (3) are more moderate.",
+        "how": "The practice may generate generic orders while associated claims describe unique construction or custom cost components, especially when it dispenses the item or works closely with the supplier. The resulting signature is concentrated referrals, weak order-to-claim specificity, and elevated E1399 use among linked suppliers."
+      }
+    ]
+  },
+  "h11": {
+    "recommended_actions": [
+      {
+        "action": "Implement a claim-level same-or-similar equipment episode-reset edit that identifies a new capped-rental sequence when the beneficiary has a prior rental or ownership event for the same or related HCPCS within 180 days, and pend payment until reset documentation is validated.",
+        "rationale": "Directly addresses the economic mechanism of restarting rental payments for equipment that may remain continuously needed or already have a completed rental history.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Rapidly growing DME supplier",
+          "Supplier specializing in recurring supplies or accessories"
+        ]
+      },
+      {
+        "action": "Require structured submission and prepayment review for resets, including the new prescription, contemporaneous medical-necessity documentation, supplier statement that the prior episode ended, documented date of clinical resolution or equipment discontinuation, and evidence supporting the regulatory interruption period.",
+        "rationale": "Converts narrative reset justification into auditable fields and prevents a hospitalization, voluntary nonbilling interval, or supplier change from being treated as sufficient evidence by itself.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "Rapidly growing DME supplier"
+        ]
+      },
+      {
+        "action": "Create a cross-supplier beneficiary-equipment episode ledger using HCPCS, modifiers, serial number, delivery address, ordering clinician, diagnosis, supplier NPI, and paid rental-month history; deny or pend overlapping or sequential episodes unless the prior equipment disposition and new need are corroborated.",
+        "rationale": "Prevents supplier changes, NPI rotation, or relabeling of the same equipment from obscuring a continuing episode.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "Rapidly growing DME supplier",
+          "Supplier specializing in recurring supplies or accessories"
+        ]
+      },
+      {
+        "action": "Deploy supplier-level monitoring for reset frequency, short interruption intervals, resets associated with inpatient/HHA/nonbilling periods, same-serial-number restarts, and paid rental months per beneficiary, benchmarked by HCPCS, geography, and beneficiary mix; trigger focused medical-record and supplier-document audits for outliers.",
+        "rationale": "Identifies systematic use of the ambiguity rather than relying only on individual claims, including patterns that shift after an edit or denial.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "Rapidly growing DME supplier",
+          "Supplier specializing in recurring supplies or accessories"
+        ]
+      },
+      {
+        "action": "Add feedback-responsiveness surveillance: compare reset rates, supplier mix, documentation sources, and gap distributions before and after edits, denials, or education, and escalate abrupt migration to new NPIs, clinicians, geographies, or documentation patterns.",
+        "rationale": "A coordinated or technically sophisticated actor may change observable billing relationships after payer feedback without resolving the underlying clinical continuity; the resulting migration is itself a program-integrity signal.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Rapidly growing DME supplier"
+        ]
+      },
+      {
+        "action": "Recommend that CMS issue clearer operational guidance defining acceptable evidence of a true end of medical need, how inpatient stays and temporary nonbilling periods affect the interruption calculation, treatment of same equipment and serial numbers, and responsibility when a new supplier initiates the reset.",
+        "rationale": "The vulnerability is partly created by documentation-based ambiguity; uniform national rules reduce inconsistent adjudication and limit defensible but unsupported reinterpretations of an interruption.",
+        "priority": "structural",
+        "addresses_archetypes": [
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "Supplier specializing in recurring supplies or accessories"
+        ]
+      }
+    ],
+    "minimum_viable_analytic": "Build a beneficiary-equipment episode table from Medicare Advantage or FFS claims, DME rental-month/payment history, enrollment, inpatient and HHA claims, prescription/order records where available, supplier and clinician NPIs, beneficiary address, HCPCS/modifiers, and equipment serial numbers. Normalize HCPCS into same-or-similar equipment groups; partition records by beneficiary and group; identify each prior rental or ownership event and its last paid rental month, then identify a subsequent rental start within 180 days. Compute features for each candidate reset: gap in days from last paid rental month or ownership event; distance from the applicable 60-day-plus-remaining-month threshold; prior paid rental months; same HCPCS/group indicator; same serial-number indicator; unchanged address, ordering clinician, diagnosis, and delivery channel; supplier-change indicator; presence and timing of inpatient, HHA, or voluntary nonbilling intervals; new-prescription indicator; reset-documentation completeness; and number of suppliers or NPIs involved. Score candidates with a transparent weighted rule or logistic model, for example assigning high weights to same serial number, same address and clinician, short or threshold-adjacent gaps, continuous diagnosis, and a prior rental history near completion, while treating corroborated clinical resolution and documented equipment return as mitigating factors. Aggregate candidate resets by supplier, ordering clinician, HCPCS group, and month; calculate reset rate per 1,000 rental episodes, median gap, proportion with only inpatient/nonbilling support, and paid months generated after reset. Compare each entity with specialty, geography, and beneficiary-mix peers using robust z-scores or percentile ranks; queue claims or suppliers when a candidate-level score and supplier-level outlier score both exceed policy thresholds. Preserve an auditable explanation record listing the exact claims and fields that generated each alert, and re-run the measures monthly to detect post-edit migration to new suppliers, clinicians, or documentation sources.",
+    "archetype_misuse_ranking": [
+      {
+        "archetype": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+        "misuse_potential": 5,
+        "why": "Very high coordination (5), access to beneficiaries and referrals (5 each), risk tolerance (5), and willingness to exploit ambiguity (5) support repeated coordinated resets.",
+        "how": "Claims would show clustered second episodes across cooperating suppliers or NPIs, often with unchanged equipment, address, diagnosis, or delivery channel despite nominally new prescriptions and end-of-episode statements. After payer feedback, the pattern may migrate across suppliers, clinicians, beneficiaries, or geographies while retaining similar gap and equipment-continuity signals."
+      },
+      {
+        "archetype": "Supplier using aggressive coding/revenue-cycle consultants",
+        "misuse_potential": 5,
+        "why": "Maximum willingness to exploit ambiguity (5) and coding sophistication (5), combined with high audit awareness (4), favor technically defensible-looking reset documentation and rapid adaptation.",
+        "how": "Claims would show consistently formatted resets near the regulatory threshold, complete-looking documentation, and selective use of new providers or suppliers while clinical and equipment continuity remains high. After denials or edits, reset volume or documentation sources may shift quickly, producing a changed but still abnormal data signature."
+      },
+      {
+        "archetype": "Rapidly growing DME supplier",
+        "misuse_potential": 4,
+        "why": "High volume-growth objective (5), risk tolerance and ambiguity exploitation (4 each), and strong referral relationships (4) create pressure to use resets at scale.",
+        "how": "Claims would show elevated new episode starts among recently acquired beneficiaries, frequent supplier transitions, and short gaps supported mainly by inpatient, HHA, or nonbilling intervals. After feedback, the supplier may reduce obvious same-supplier repeats or redistribute starts across referral channels, while its reset rate and paid months remain above peers."
+      },
+      {
+        "archetype": "Supplier specializing in recurring supplies or accessories",
+        "misuse_potential": 3,
+        "why": "High Medicare dependence (4), beneficiary access (4), volume-growth objective (4), and ambiguity exploitation (4) create scale potential, but the business model is less directly aligned with capped-rental resets.",
+        "how": "Claims would show repeated same-or-similar equipment starts for existing beneficiaries, with new prescriptions and end-of-episode statements but limited evidence of true clinical resolution. After feedback, the supplier may show fewer borderline resets or a shift toward different related HCPCS groups, with persistent beneficiary-level continuity."
+      }
+    ]
+  },
+  "h28": {
+    "recommended_actions": [
+      {
+        "action": "Deploy an ordering-provider concentration edit that evaluates supplier-level, HCPCS-family, diagnosis, and monthly ordering shares, using a top-provider share threshold above 40% or peer-adjusted HHI outlier threshold for prepayment review.",
+        "rationale": "A small repeat-referral clinician panel is the central vulnerability; concentration that persists across products or beneficiaries is unlikely to reflect ordinary clinical variation and can identify distributed supplier networks.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Telehealth-linked DME supplier",
+          "Physician practice dispensing or ordering DME",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      },
+      {
+        "action": "Require enhanced documentation review or prior authorization for high-risk DMEPOS categories when orders show product-specific diagnosis patterns, repeated estimated lengths of need, or high narrative similarity across unrelated beneficiaries.",
+        "rationale": "Templated medical-necessity narratives can make orders appear complete while failing to demonstrate individualized functional findings, clinical progression, or a reasonable connection between the beneficiary and the equipment.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Telehealth-linked DME supplier",
+          "Physician practice dispensing or ordering DME",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      },
+      {
+        "action": "Build a provider-utilization outlier monitor comparing DMEPOS order volume with the ordering clinician's Medicare patient panel, specialty, evaluation-and-management activity, encounter modality, and documented functional findings.",
+        "rationale": "Clinicians generating unusually large DMEPOS order volumes relative to their clinical activity may be acting as order-generation hubs rather than reflecting ordinary patient care.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Telehealth-linked DME supplier",
+          "Physician practice dispensing or ordering DME",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      },
+      {
+        "action": "Create a cross-entity referral-network analytic linking ordering clinicians, supplier NPIs, marketers where available, beneficiaries, addresses, phone numbers, bank or ownership indicators, HCPCS families, and states; escalate persistent multi-supplier or multi-state concentration.",
+        "rationale": "The vulnerability can be distributed so that each supplier appears ordinary individually, while shared clinicians and standardized order patterns reveal the underlying network.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "DME supplier heavily dependent on lead-generation companies",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "Telehealth-linked DME supplier"
+        ]
+      },
+      {
+        "action": "Add a clinical-consistency review that joins orders to encounter diagnoses, examination findings, prior equipment, replacement history, beneficiary eligibility, and time between encounter, signature, delivery, and claim submission.",
+        "rationale": "Manufactured necessity is exposed when the ordered product, diagnosis, functional limitation, or replacement timing is not supported by contemporaneous clinical records or when many beneficiaries follow the same rapid order-to-claim sequence.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Telehealth-linked DME supplier",
+          "Physician practice dispensing or ordering DME",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      },
+      {
+        "action": "Ask CMS to clarify, through rulemaking or authoritative guidance, the minimum individualized content required when clinician employees prepare portions of medical-necessity documentation, including physician attestation, encounter linkage, prohibited product-driven templates, and retention of authorship and audit-trail data.",
+        "rationale": "The vulnerability is amplified by ambiguity about how much documentation preparation may be delegated and what constitutes meaningful physician review; explicit standards would reduce inconsistent interpretation and improve enforceability.",
+        "priority": "structural",
+        "addresses_archetypes": [
+          "Physician practice dispensing or ordering DME",
+          "Telehealth-linked DME supplier",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      }
+    ],
+    "minimum_viable_analytic": "Use the claims warehouse, Medicare enrollment and provider files, beneficiary eligibility, encounter and E&M claims, DMEPOS order or CMN repositories, clinical-document metadata where available, supplier ownership and location data, and marketer or lead-source records where contractually available. Normalize ordering-provider identifiers, supplier NPIs, HCPCS codes into product families, ICD diagnoses into clinically meaningful groups, and service dates to a monthly grain. Create a base table with one row per beneficiary-order-supplier-month and compute: ordering-provider share of a supplier's beneficiaries and allowed claim volume; ordering-provider share by HCPCS family and diagnosis; supplier/provider HHI; order volume divided by the clinician's attributed Medicare patient count and E&M volume; telehealth encounter share; days from encounter to order signature and from signature to first claim; repeat diagnosis, length-of-need, accessory-combination, and narrative-template indicators; replacement-history conflicts; and cross-supplier, cross-state, shared-beneficiary, shared-address, shared-phone, ownership, and marketer link counts. For narrative fields, remove identifiers, dates, and common boilerplate, then calculate token n-gram or MinHash similarity within HCPCS-family and diagnosis cohorts, with a separate exact-template rate. Score each supplier-provider-month using a weighted percentile model: 25% concentration/HHI, 20% provider-to-clinical-activity ratio, 20% documentation similarity, 15% clinical-consistency failures, 10% rapid encounter-to-order-to-claim timing, and 10% cross-entity network connectivity. Calibrate thresholds against specialty, geography, product family, and legitimate high-volume provider peers; generate a beneficiary-level sample for record review and a provider-supplier network queue for SIU investigation. Require at least two independent signal families before adverse action and retain feature values, peer groups, and source records for reproducibility.",
+    "archetype_misuse_ranking": [
+      {
+        "archetype": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+        "misuse_potential": 5,
+        "why": "Very high risk tolerance (5), willingness to exploit ambiguity (5), coordination (5), Medicare dependence (5), and volume-growth objective (5) support deliberate networked misuse.",
+        "how": "A shared clinician and marketer network would generate highly standardized orders across multiple suppliers, products, and regions, producing cross-entity concentration, repeated documentation, rapid order-to-claim timing, and coordinated beneficiary patterns."
+      },
+      {
+        "archetype": "Telehealth-linked DME supplier",
+        "misuse_potential": 5,
+        "why": "High beneficiary access (5), referral relationships (5), geographic reach (5), volume-growth objective (5), and willingness to exploit ambiguity (4) make concentrated remote ordering especially plausible.",
+        "how": "The supplier would show large volumes of orders tied to a small clinician panel, with high telehealth-to-order rates, standardized diagnoses and narratives, and product-specific equipment combinations across many beneficiaries."
+      },
+      {
+        "archetype": "DME supplier heavily dependent on lead-generation companies",
+        "misuse_potential": 5,
+        "why": "High coordination (5), beneficiary access (5), referral relationships (5), geographic reach (5), volume-growth objective (5), and willingness to exploit ambiguity (4) create substantial network risk.",
+        "how": "Claims would cluster around shared clinicians, marketers, and product families despite separate supplier identities, with surges after lead-source activation and repeated order narratives or beneficiary contact patterns."
+      },
+      {
+        "archetype": "Physician practice dispensing or ordering DME",
+        "misuse_potential": 3,
+        "why": "High access to beneficiaries (5) and referral relationships (5), combined with control over both orders and supporting documentation, increase the opportunity, but lower volume-growth objective (2) and Medicare dependence (2) reduce expected scale.",
+        "how": "The practice may produce equipment orders whose diagnoses, functional findings, and medical-necessity language closely track the products dispensed, with unusually concentrated ordering within its own patient panel."
+      }
+    ]
+  },
+  "h17": {
+    "recommended_actions": [
+      {
+        "action": "Implement a prepayment edit requiring a beneficiary or authorized caregiver refill-request record, with request date, channel, identity, requested item, and requested quantity linked to the claim; deny or suspend claims lacking a qualifying request within the applicable window.",
+        "rationale": "The central vulnerability is that dispensing dates and quantities do not establish that the beneficiary requested the shipment. A structured request record creates an auditable event distinct from a prescription renewal.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Supplier specializing in recurring supplies or accessories",
+          "Enteral/parenteral nutrition supplier",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Telehealth-linked DME supplier"
+        ]
+      },
+      {
+        "action": "Create a hard-stop or rapid-review edit for refills after death, hospice election, institutional admission, therapy discontinuation, equipment return, documented nonuse, or a material change in prescribed equipment.",
+        "rationale": "These events strongly indicate that a subsequent recurring shipment was not beneficiary-directed or medically appropriate, even when a prescription remains active.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Supplier specializing in recurring supplies or accessories",
+          "Enteral/parenteral nutrition supplier",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Telehealth-linked DME supplier"
+        ]
+      },
+      {
+        "action": "Deploy supplier-level surveillance using at least six refill cycles to calculate interval variance, quantity regularity, early-refill frequency, request-record completeness, reversals, returns, unopened-package reports, complaints, and post-discontinuation shipments; apply peer-group percentile thresholds and trend alerts.",
+        "rationale": "A recurring auto-refill program produces repeated, low-variance shipment patterns and downstream evidence of unwanted delivery. Supplier-level aggregation identifies systematic behavior that individual-claim edits may miss.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Supplier specializing in recurring supplies or accessories",
+          "Enteral/parenteral nutrition supplier",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Telehealth-linked DME supplier"
+        ]
+      },
+      {
+        "action": "Require documentation linking each refill request to the beneficiary or authorized caregiver, including call recording or authenticated portal evidence where applicable, and require retention of the request record for audit; do not accept a physician renewal alone as proof of a refill request.",
+        "rationale": "The rule distinguishes a beneficiary request from prescription renewal. Documentation standards prevent renewal activity, standing orders, or marketer-generated records from being treated as beneficiary authorization.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "DME supplier heavily dependent on lead-generation companies",
+          "Telehealth-linked DME supplier",
+          "Supplier specializing in recurring supplies or accessories"
+        ]
+      },
+      {
+        "action": "Establish enhanced review for suppliers or marketing arrangements with high beneficiary acquisition volume, rapid recurring-refill growth, concentrated referral sources, missing request documentation, or elevated complaint and return rates; suspend implicated marketer-supplier channels pending validation.",
+        "rationale": "Lead-generation and telehealth-linked models can separate the person generating the order from the beneficiary and supplier fulfilling it. Channel-level review addresses coordination and weak provenance of requests.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "DME supplier heavily dependent on lead-generation companies",
+          "Telehealth-linked DME supplier"
+        ]
+      },
+      {
+        "action": "Ask CMS to issue operational guidance defining the required evidence and timing of a specific beneficiary or caregiver refill request, the treatment of standing recurring requests, permissible outreach, and the distinction between prescription renewal and refill authorization; standardize claim fields or an attachment indicator for the request event.",
+        "rationale": "The vulnerability persists because the request event is often absent from claims and operational expectations may be interpreted inconsistently. Standardized definitions and data requirements make the prohibition testable across suppliers and payers.",
+        "priority": "structural",
+        "addresses_archetypes": [
+          "Supplier specializing in recurring supplies or accessories",
+          "Enteral/parenteral nutrition supplier",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Telehealth-linked DME supplier"
+        ]
+      }
+    ],
+    "minimum_viable_analytic": "Build a beneficiary-supplier-item episode table from medical and DME claims, pharmacy-equivalent supply claims where available, eligibility/death data, hospice election, institutional admission, therapy-discontinuation and equipment-return records, prescription/order and renewal records, beneficiary/caregiver contact logs, prior-authorization records, complaints, reversals, returns, and supplier/marketer identifiers. Join claims to beneficiary, supplier, HCPCS or product family, and order identifiers; sort each item episode by service date and compute for every refill: days since prior paid shipment, billed quantity, days' supply, estimated depletion date from prior quantity and utilization, days early or late relative to depletion, whether a qualifying request exists in the defined pre-dispensing window, whether the latest event is only a prescription renewal, and whether a death, hospice, admission, discontinuation, or return event precedes shipment. For each beneficiary-item-supplier episode with at least six cycles, calculate coefficient of variation of refill intervals, proportion of intervals within a narrow regularity band, proportion of near-maximum-quantity claims, early-refill rate, request-missing rate, post-stop-event rate, reversal/return/unopened-package/complaint rate, and continuation rate after therapy or equipment status changes. Produce a risk score using transparent weighted components: 25% missing-request rate, 20% post-stop-event rate, 15% refill-interval regularity, 15% early or near-depletion billing, 10% quantity regularity or maximum-quantity rate, and 15% adverse downstream outcomes. Aggregate scores by supplier, marketer, referral source, and product family using beneficiary-adjusted peer percentiles; flag episodes with high scores and suppliers in the top 1-5% of peer risk for manual request-record validation. Add a post-intervention change monitor that compares pre- and post-feedback distributions for interval variance, quantity variance, request documentation, reversals, and complaints, because a reduction in regularity without improved request evidence should remain high risk rather than being treated as remediation.",
+    "archetype_misuse_ranking": [
+      {
+        "archetype": "Telehealth-linked DME supplier",
+        "misuse_potential": 5,
+        "why": "High access to beneficiaries (5), referral relationships (5), geographic reach (5), willingness to exploit ambiguity (4), and volume-growth objective (5) create strong capacity and incentive.",
+        "how": "Claims would show high-volume recurring shipments generated through remote channels, often with a renewal or call-center order but no beneficiary-request evidence. After payer feedback, the pattern may become less uniformly timed while missing-request rates, post-discontinuation shipments, or complaint and return signals remain elevated."
+      },
+      {
+        "archetype": "DME supplier heavily dependent on lead-generation companies",
+        "misuse_potential": 5,
+        "why": "Very high volume-growth objective (5), access (5), referral relationships (5), coordination (5), and risk tolerance (4) create substantial misuse potential.",
+        "how": "The supplier would exhibit recurring claims tied to large marketer or referral networks, with weak provenance for the beneficiary request and continued shipments across inactive or unreachable beneficiaries. After feedback, risk may shift among marketing channels or appear as less regular intervals, while request documentation and downstream return patterns remain anomalous."
+      },
+      {
+        "archetype": "Supplier specializing in recurring supplies or accessories",
+        "misuse_potential": 4,
+        "why": "The business model directly monetizes refill cadence, with high access (4), Medicare dependence (4), volume-growth objective (4), and willingness to exploit ambiguity (4).",
+        "how": "Claims would show highly regular, repeated quantities near allowable limits, early shipments, and continuation despite utilization or equipment-status changes. After feedback, the supplier may show more variable timing, but persistent missing request records and elevated reversals, returns, or complaints would remain visible."
+      },
+      {
+        "archetype": "Enteral/parenteral nutrition supplier",
+        "misuse_potential": 3,
+        "why": "Recurring-supply exposure and Medicare dependence (4) are relevant, but lower access (3), coordination (2), volume-growth objective (3), and ambiguity tolerance (3) reduce potential relative to the other archetypes.",
+        "how": "Claims could show scheduled nutrition shipments continuing without a distinct beneficiary or caregiver request, including after therapy changes or institutional admission. After feedback, shipment timing may become less uniform, while unsupported renewal-based shipments or post-discontinuation billing may persist."
+      }
+    ]
+  },
+  "h21": {
+    "recommended_actions": [
+      {
+        "action": "Require a beneficiary- or caregiver-initiated refill request record, with timestamp, channel, authenticated caller relationship, requested item, and shipment linkage, before adjudicating repetitive supply claims; reject or pend claims lacking a valid request within the defined operational window.",
+        "rationale": "This directly closes the gap between continued medical necessity and the separate requirement for a specific request before dispensing. It prevents supplier-initiated recurring billing from being treated as beneficiary-requested refills.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Telehealth-linked DME supplier",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Supplier specializing in recurring supplies or accessories",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      },
+      {
+        "action": "Create a refill-cycle edit that compares billed units and dates with the prior shipment, documented DME ownership, expected replacement interval, remaining authorized quantity, and prior utilization; pend claims at or near frequency or quantity limits when supporting documentation is absent or inconsistent.",
+        "rationale": "The vulnerability monetizes predictable recurring revenue and maximum allowable utilization. A claim-level edit makes the refill independently supportable rather than allowing an original order to justify every later shipment.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Rapidly growing DME supplier",
+          "Supplier specializing in recurring supplies or accessories",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      },
+      {
+        "action": "Implement network-level monitoring for common ordering providers, marketers, beneficiary cohorts, and shared shipment or contact infrastructure across suppliers, using provider and marketer concentration, cross-supplier duplicate supply, and beneficiary-level replacement-interval exceptions as referral triggers.",
+        "rationale": "A lead-generated network can distribute claims across multiple NPIs while preserving common upstream relationships. Cross-entity linkage detects the network even when each individual supplier appears only moderately abnormal.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Telehealth-linked DME supplier",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers)"
+        ]
+      },
+      {
+        "action": "Require suppliers to retain and produce the original beneficiary request, order provenance, clinical-support documentation, delivery evidence, and marketing or lead-source attribution for sampled recurring claims; apply targeted prepayment review or postpayment audit when request rates, refill regularity, or concentration exceed benchmarks.",
+        "rationale": "A standardized audit package tests whether the apparent order reflects an actual beneficiary request and whether the supplier exercised meaningful control over lead generation and fulfillment. It also creates accountability when acquisition is outsourced.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Telehealth-linked DME supplier",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Rapidly growing DME supplier",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      },
+      {
+        "action": "Issue CMS billing guidance clarifying how Section 200's specific-request requirement applies to recurring supplies under Sections 10.2 and 110.4, including acceptable request evidence, timing, who may initiate contact, treatment of standing orders, and consequences when suppliers cannot distinguish beneficiary requests from supplier outreach.",
+        "rationale": "Ambiguity between ongoing medical necessity and a new specific request can produce inconsistent payer edits and defenses. A uniform rule would reduce exploitability and improve audit consistency across contractors and plans.",
+        "priority": "structural",
+        "addresses_archetypes": [
+          "Telehealth-linked DME supplier",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Supplier specializing in recurring supplies or accessories",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      },
+      {
+        "action": "Establish an escalation rule combining low documented-request rates, refill-interval coefficient of variation below 0.10, high ordering-provider or marketer HHI, and rapid beneficiary or claim growth; route entities meeting multiple criteria to enhanced enrollment screening, supplier education, corrective action, or SIU investigation.",
+        "rationale": "No single signal proves improper billing, but the combination identifies a recurring pattern in which standardized lead generation and supplier-initiated refills replace individualized beneficiary demand. Tiered escalation limits false positives while prioritizing concentrated risk.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "DME supplier heavily dependent on lead-generation companies",
+          "Rapidly growing DME supplier",
+          "Supplier specializing in recurring supplies or accessories",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      }
+    ],
+    "minimum_viable_analytic": "Build a monthly supplier-beneficiary-refill analytic using claims, authorization/order records, shipment and delivery records, beneficiary contact/request logs, provider and supplier master data, marketing or lead-source attribution where available, and beneficiary eligibility and geography data. Normalize HCPCS codes into supply categories and define an expected replacement interval and maximum quantity/frequency for each category. Join each refill claim to the most recent prior shipment for the same beneficiary, supply category, and supplier, then separately search a configurable lookback window for a beneficiary- or caregiver-initiated request linked to that shipment; retain request presence, request-to-claim days, request channel, caller relationship, identical timestamp indicators, billed units, days since shipment, and whether the beneficiary had documented DME ownership and medical necessity. Aggregate by supplier and rolling 90-day period: request-supported refill rate, percentage of claims within 5% of quantity or frequency limits, refill-interval coefficient of variation for beneficiaries with at least four cycles, duplicate-category claims across suppliers within the expected replacement interval, new-beneficiary growth rate, ordering-provider HHI, marketer HHI, and shared-provider or shared-marketer counts. Compute a supplier risk score using percentile ranks or standardized values for low request-supported rate, low interval variation, high limit proximity, high duplicate rate, high concentration, and rapid growth; require at least two independent indicators and a minimum claim or beneficiary volume before referral. At the beneficiary level, flag repeated claims where no request exists, the request timestamp is identical to other beneficiaries, the shipment interval is implausibly regular, or another supplier billed the same category during the replacement interval. Produce explainable outputs with supplier, ordering provider, marketer, beneficiary cohort, claim IDs, prior shipment, request evidence, feature values, and the rule contributions; validate against a manually reviewed sample and exclude documented exceptions such as authorized caregiver programs, institutional supply workflows, manufacturer replacement policies, and clinically justified early replacement.",
+    "archetype_misuse_ranking": [
+      {
+        "archetype": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+        "misuse_potential": 5,
+        "why": "Very high coordination (5), risk tolerance (5), willingness to exploit ambiguity (5), Medicare dependence (5), and volume-growth objective (5) support deliberate networked misuse.",
+        "how": "Claims would show recurring supplies distributed across cooperating suppliers with common ordering providers, marketers, beneficiary cohorts, and highly regular replacement cycles. After payer feedback, the pattern would likely shift across NPIs, providers, cohorts, or geography while retaining shared-network relationships and similar refill behavior."
+      },
+      {
+        "archetype": "DME supplier heavily dependent on lead-generation companies",
+        "misuse_potential": 5,
+        "why": "High access and referral relationships (5), coordination (5), geographic reach (5), volume-growth objective (5), and willingness to exploit ambiguity (4) create substantial lead-to-refill risk.",
+        "how": "The supplier would submit large recurring-supply volumes tied to marketer-generated beneficiaries and common ordering providers, with weak or standardized evidence of beneficiary requests. After feedback, claims may fragment among lead sources or suppliers, while concentration and regular refill timing remain detectable at the network level."
+      },
+      {
+        "archetype": "Telehealth-linked DME supplier",
+        "misuse_potential": 5,
+        "why": "High beneficiary access, referral relationships, and geographic reach (5 each), combined with risk tolerance (4), ambiguity exploitation (4), and volume-growth objective (5), enable scalable remote order generation.",
+        "how": "Claims would show many beneficiaries receiving similar recurring supplies from a small set of telehealth-linked ordering providers, followed by regular refills with limited individualized request evidence. After feedback, the supplier may vary providers or documentation formats, but common cohorts and refill regularity would persist."
+      },
+      {
+        "archetype": "Supplier specializing in recurring supplies or accessories",
+        "misuse_potential": 4,
+        "why": "The recurring-refill business model, Medicare dependence (4), willingness to exploit ambiguity (4), and volume-growth objective (4) make the vulnerability directly aligned with revenue generation.",
+        "how": "Claims would cluster around recurring HCPCS categories, near allowable quantities and predictable replacement intervals, with supplier-initiated or poorly differentiated refill contacts. After feedback, the supplier may reduce obvious limit-level billing or alter cadence, while continued low request-supported rates remain a concern."
+      },
+      {
+        "archetype": "Rapidly growing DME supplier",
+        "misuse_potential": 4,
+        "why": "High growth objective (5), risk tolerance and ambiguity exploitation (4), and limited compliance sophistication (2) create risk when acquisition outpaces controls.",
+        "how": "Claims would show a sharp increase in new beneficiaries followed by standardized recurring supplies from a concentrated set of ordering providers or marketers. After payer feedback, volume may move to new cohorts or product categories, with growth and refill regularity serving as the observable residual signals."
+      }
+    ]
+  },
+  "h19": {
+    "recommended_actions": [
+      {
+        "action": "Implement prospective and retrospective claim edits linking DMEPOS and supply claims to active HHA PPS episodes, hospice election periods, and hospice revocation dates; suspend or pend nonroutine supply claims when the item appears included in the HHA payment or hospice bundle.",
+        "rationale": "Direct episode-status matching addresses separate billing for items that may already be covered by HHA or hospice payment and detects claims that begin or continue during an active episode.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Home health-associated provider/supplier",
+          "Telehealth-linked DME supplier",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      },
+      {
+        "action": "Require claim-level documentation for DME, oxygen, accessories, and disputed supplies billed during hospice enrollment, including the terminal-versus-unrelated condition determination, ordering practitioner, medical-necessity narrative, delivery evidence, and hospice-provider coordination record.",
+        "rationale": "The rule permits certain DMEPOS claims only under specific exceptions; requiring contemporaneous evidence reduces unsupported reclassification of terminal-condition items as unrelated or exempt equipment.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Telehealth-linked DME supplier",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      },
+      {
+        "action": "Create a beneficiary-level duplicate and functional-equivalence edit comparing HHA, hospice, and DME supplier claims for the same or substitutable item, body site, clinical purpose, and service interval, with manual review for overlapping rental, replacement, accessory, and supply billing.",
+        "rationale": "HCPCS changes can obscure that multiple entities are billing for the same functional need; clinical-purpose and time-overlap logic addresses both exact duplicates and reclassified equivalents.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Home health-associated provider/supplier",
+          "Telehealth-linked DME supplier",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      },
+      {
+        "action": "Deploy a boundary-event surveillance report covering the 14 days before and after HHA admission, HHA discharge, hospice election, hospice revocation, and care-plan changes; score abrupt changes in HCPCS, POS, billing entity, ordering clinician, diagnosis relationship, and utilization intensity.",
+        "rationale": "Lifecycle and entity switching is the central vulnerability. A boundary-event model remains effective when billing changes from supplies to DME, changes POS, or moves between related entities after payer scrutiny.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Home health-associated provider/supplier",
+          "Telehealth-linked DME supplier",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      },
+      {
+        "action": "Establish supplier, clinician, marketer, hospice, and HHA network monitoring using shared beneficiaries, ordering patterns, ownership or address links, referral concentration, geographic spread, and synchronized billing changes; escalate high-risk connected components for SIU review and prepayment controls.",
+        "rationale": "Coordinated entities can distribute claims across suppliers or rotate billing identities. Network-level review detects common control and coordinated boundary switching that beneficiary-level edits may miss.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "DME supplier heavily dependent on lead-generation companies",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "Telehealth-linked DME supplier"
+        ]
+      },
+      {
+        "action": "Ask CMS to publish a uniform national crosswalk and adjudication guidance distinguishing HHA-consolidated supplies, DMEPOS, oxygen, accessories, prosthetics, orthotics, and unrelated-condition hospice items, including required claim indicators and documentation standards.",
+        "rationale": "Ambiguous category boundaries create inconsistent payment decisions and enable reclassification. A standardized crosswalk and evidence rule would reduce payer variation and limit ambiguity-based billing.",
+        "priority": "structural",
+        "addresses_archetypes": [
+          "Home health-associated provider/supplier",
+          "Telehealth-linked DME supplier",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      }
+    ],
+    "minimum_viable_analytic": "Build a beneficiary-episode boundary-switching analytic using medical and pharmacy claims, DMEPOS claims, HHA episode and plan-of-care data, hospice election and revocation data, provider and supplier master files, referral/order data, diagnosis-to-terminal-condition mappings, and ownership or address affiliations. Normalize each claim to beneficiary, service date, HCPCS or product family, modifier, POS, billing NPI, rendering or ordering NPI, supplier, diagnosis group, units, rental or purchase status, and allowed amount. Join claims to HHA and hospice intervals using beneficiary ID and service-date overlap, then generate event windows from 14 days before through 14 days after HHA admission, HHA discharge, hospice election, hospice revocation, and material plan-of-care changes. For each beneficiary and event window compute: active-episode indicator; DMEPOS or supply claim count and allowed amount; proportion of claims during HHA or hospice intervals; exact and functional-equivalent overlap with HHA or hospice-covered items; HCPCS-family change; POS change; billing-entity change; ordering-clinician change; diagnosis relationship to the terminal condition; oxygen or DME exception documentation indicator; pre/post-event utilization ratio; same-item replacement or rental overlap; and supplier-to-beneficiary referral concentration. Produce a weighted anomaly score, for example 25% for functional-overlap or duplicate evidence, 20% for claims during an active bundled interval, 15% for abrupt HCPCS or POS change, 15% for entity or ordering-clinician change, 10% for terminal-condition billing without unrelated-condition support, 10% for abnormal pre/post-event timing, and 5% for network concentration. Calibrate thresholds by product family, hospice or HHA type, geography, and beneficiary clinical severity, and compare against matched beneficiaries without the relevant episode. Route high-scoring cases to prepayment review or SIU investigation. Monitor post-intervention behavior by measuring whether the same supplier or connected network shifts from nonroutine supplies to DME or accessories, changes POS or billing entities, reduces claims immediately after a denial, or concentrates claims around later episode boundaries; treat these observable shifts as additional risk features rather than as evidence of compliance.",
+    "archetype_misuse_ranking": [
+      {
+        "archetype": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+        "misuse_potential": 5,
+        "why": "Very high willingness to exploit ambiguity (5), risk tolerance (5), coordination (5), beneficiary access (5), and volume-growth objective (5).",
+        "how": "Claims would be distributed across cooperating suppliers or clinicians and would show repeated switching among supply, DME, accessory, oxygen, POS, and diagnosis categories around HHA or hospice boundaries. After payer feedback, the network may show synchronized entity or code changes, beneficiary churn, and geographic redistribution."
+      },
+      {
+        "archetype": "DME supplier heavily dependent on lead-generation companies",
+        "misuse_potential": 5,
+        "why": "High volume-growth objective (5), beneficiary access (5), referral relationships (5), coordination risk (5), and willingness to exploit ambiguity (4).",
+        "how": "The supplier would show high-volume DMEPOS claims tied to externally generated orders, with elevated billing during HHA or hospice periods and frequent changes in ordering clinicians, HCPCS families, or POS. Following denials or edits, the observable pattern may shift toward different product categories or affiliated billing entities."
+      },
+      {
+        "archetype": "Telehealth-linked DME supplier",
+        "misuse_potential": 4,
+        "why": "High beneficiary reach (5), referral relationships (5), volume-growth objective (5), and willingness to exploit ambiguity (4), with limited audit awareness (2).",
+        "how": "Claims would show broad geographic reach, concentrated ordering relationships, and DME or oxygen billing during hospice or HHA intervals without consistent evidence of an unrelated condition or in-person clinical context. After feedback, code, POS, or ordering-provider distributions may change while beneficiary-level utilization remains elevated."
+      },
+      {
+        "archetype": "Home health-associated provider/supplier",
+        "misuse_potential": 3,
+        "why": "Access to beneficiaries (4), referral relationships (4), coordination (4), and Medicare dependence (4) create opportunity, but risk tolerance and ambiguity exploitation are moderate (3 each).",
+        "how": "Claims may involve overlapping HHA and supplier billing for nonroutine supplies or related accessories, particularly near admission and discharge, with occasional shifts between the HHA and an affiliated supplier. After payer feedback, billing may move to a different entity or item category while remaining tied to the same plan of care."
+      }
+    ]
+  },
+  "h06": {
+    "recommended_actions": [
+      {
+        "action": "Implement a beneficiary-equipment episode master that links rental claims across suppliers using beneficiary ID, HCPCS, modifiers, dates of service, serial number or equipment identifier when available, and supplier history; deny or pend new KH or first-month rental indicators when the active episode already contains prior paid rental months.",
+        "rationale": "The vulnerability depends on treating a supplier change as a new episode. A cross-supplier episode ledger prevents duplicate starts and identifies rentals that exceed the permitted 15-month sequence.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "Rapidly growing DME supplier",
+          "Supplier specializing in recurring supplies or accessories",
+          "Multi-state supplier"
+        ]
+      },
+      {
+        "action": "Add claim edits for overlapping or near-overlapping rental periods for the same beneficiary and same or clinically equivalent equipment, including cross-supplier overlap and claims submitted shortly after a prior supplier's KJ or month-10/month-15 billing.",
+        "rationale": "Supplier rotation and apparent first-month billing commonly produce duplicate rental periods. A time-window edit can stop payment before the episode is fully adjudicated.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "Rapidly growing DME supplier",
+          "Supplier specializing in recurring supplies or accessories"
+        ]
+      },
+      {
+        "action": "Require prepayment documentation review for any claimed reset after an interruption shorter than 60 days, including a new prescription, medical-necessity documentation, and evidence that the prior rental episode ended under the applicable rule; automatically pend claims lacking required records.",
+        "rationale": "Short gaps followed by new episodes are a direct manifestation of applying the interruption exception without satisfying its documentation requirements.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Supplier specializing in recurring supplies or accessories",
+          "Rapidly growing DME supplier",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)"
+        ]
+      },
+      {
+        "action": "Create an automated anniversary-reset validation that compares the original anniversary date with inpatient and SNF claims, verifies that the qualifying stay overlaps the anniversary date without incorrectly treating unrelated or incomplete overlaps as resets, and pends unsupported anniversary changes.",
+        "rationale": "The inpatient/SNF exception is narrow but can be misapplied to extend rental periods. Direct validation of facility dates reduces unsupported anniversary shifts while preserving legitimate resets.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "Rapidly growing DME supplier",
+          "Multi-state supplier"
+        ]
+      },
+      {
+        "action": "Deploy a supplier-level monitoring dashboard and anomaly score using rates of rentals beyond 15 counted months, supplier changes per episode, new KH claims within 12 months of prior KJ or month-10/month-15 claims, short-gap restarts, cross-supplier overlap, and unsupported anniversary changes; route high-scoring suppliers and linked referral networks to SIU review.",
+        "rationale": "The behavior may be distributed across suppliers or jurisdictions, so episode-level and network-level monitoring is needed to detect coordinated activity that individual claim edits may miss.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "Rapidly growing DME supplier",
+          "Multi-state supplier",
+          "Supplier specializing in recurring supplies or accessories"
+        ]
+      },
+      {
+        "action": "Ask CMS to publish an explicit national rule and data-standard specification for capped-rental episode continuity, supplier transfers, interruption thresholds, required reset documentation, month counting, and the precise inpatient/SNF anniversary exception; require a standardized episode identifier or month-sequence field on DME rental claims.",
+        "rationale": "Rule ambiguity and inconsistent implementation create opportunities to characterize ordinary supplier changes or unsupported anniversary changes as new episodes. A national definition and episode identifier would reduce jurisdictional variation and improve cross-supplier adjudication.",
+        "priority": "structural",
+        "addresses_archetypes": [
+          "Multi-state supplier",
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "Rapidly growing DME supplier"
+        ]
+      }
+    ],
+    "minimum_viable_analytic": "Build an episode-level analytic from adjudicated DME claims, reversals and adjustments, beneficiary eligibility, supplier/NPI and TIN data, HCPCS/modifier and rental-month indicators, equipment serial or asset identifiers when available, prescription and medical-necessity document metadata, and inpatient/SNF facility claims. Normalize claims to beneficiary-equipment keys using beneficiary ID plus HCPCS and clinically equivalent-code groups; use serial number, manufacturer asset ID, or supplier-reported equipment identifier as a stronger key when present. For each key, sort paid rental service months across all suppliers, collapse reversals, and assign a cumulative paid-month sequence while retaining supplier, claim date, modifier, and billed month. Join inpatient/SNF stays by beneficiary and test whether each claimed anniversary reset has a qualifying facility stay whose date range overlaps the prior anniversary date under the applicable rule. Compute features over rolling 12- and 24-month windows: paid rental months, maximum cumulative episode length, number of suppliers, supplier changes within 365 days, new KH or first-month indicators within 12 months of prior KJ or month-10/month-15 claims, days between the prior rental and restart, overlapping rental days, short-gap restart count, unsupported anniversary-reset count, percentage of months billed by multiple suppliers, and documentation-present indicators for purported resets. Assign an anomaly score using a weighted points model: 5 points for more than 15 paid rental months without a validated reset, 4 for any overlapping supplier rental, 4 for a new KH/first-month indicator within 12 months of a prior late-episode claim, 3 for a restart after less than 60 days without validated documentation, 4 for an unsupported anniversary shift, 2 for each additional supplier after the first, and 2 for each additional excess paid month; cap or winsorize extreme counts. Aggregate beneficiary-level scores to supplier, TIN, referral-source, and geographic-network levels using counts, rates per 1,000 episodes, and percentile ranks against peer suppliers. Produce two work queues: immediate prepayment review for active claims with score at least 5 or any overlap, and retrospective SIU review for suppliers in the top 1 percent of episode-level rates or with at least 10 affected beneficiaries. Exclude documented valid exceptions from the numerator after manual adjudication, retain them as labeled outcomes, and periodically recalibrate thresholds against confirmed improper-payment findings.",
+    "archetype_misuse_ranking": [
+      {
+        "archetype": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+        "misuse_potential": 5,
+        "why": "High coordination (5), willingness to exploit ambiguity (5), access to beneficiaries (5), and volume-growth objective (5) support deliberate cross-supplier episode manipulation.",
+        "how": "Claims would show repeated supplier changes, new KH or apparent first-month indicators, overlapping rentals, unsupported short-gap restarts, and anniversary shifts distributed across cooperating entities. Activity may migrate across NPIs or jurisdictions after payer scrutiny."
+      },
+      {
+        "archetype": "Rapidly growing DME supplier",
+        "misuse_potential": 4,
+        "why": "Very high volume-growth objective (5), risk tolerance (4), and willingness to exploit ambiguity (4) create pressure to extend episodes before compliance controls mature.",
+        "how": "The supplier would show elevated new-episode indicators after prior rental months, short interruptions followed by resumed billing, and an unusually high share of beneficiaries exceeding 15 paid months. The pattern would concentrate among recently acquired beneficiaries and referral sources."
+      },
+      {
+        "archetype": "Supplier specializing in recurring supplies or accessories",
+        "misuse_potential": 4,
+        "why": "The business model directly monetizes recurring billing, with high ambiguity exploitation (4), beneficiary access (4), and volume objective (4).",
+        "how": "Claims would show frequent supplier or equipment-episode restarts, repeated first-month indicators after short gaps, and extended rental sequences across many beneficiaries. Documentation for purported resets would be inconsistent or absent."
+      },
+      {
+        "archetype": "Multi-state supplier",
+        "misuse_potential": 3,
+        "why": "High geographic reach (5) and moderate willingness to exploit ambiguity (3) enable inconsistent application of episode and anniversary rules across jurisdictions.",
+        "how": "The supplier may show different restart and anniversary-reset rates by state or MAC, with excess rental months concentrated where interpretation or enforcement is less consistent. Cross-jurisdiction beneficiary-equipment linkage would reveal continuity that local review misses."
+      }
+    ]
+  },
+  "h16": {
+    "recommended_actions": [
+      {
+        "action": "Implement an automated claim edit that rejects or suspends mutually exclusive oxygen payment combinations within the same beneficiary, supplier, and calendar month, including incompatible QG/QF, QB/QG, ownership indicators, portable add-ons, and contents fees.",
+        "rationale": "The vulnerability depends on combining payment paths that are contingent on different ownership and equipment states. A same-month compatibility edit blocks the most direct overpayment pattern and creates a review queue for clinically documented exceptions.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Oxygen/respiratory equipment supplier",
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Telehealth-linked DME supplier",
+          "Supplier with unusually high Medicare concentration"
+        ]
+      },
+      {
+        "action": "Create an episode-level oxygen state machine that maintains, by beneficiary and equipment category, the active prescription, flow rate, stationary-versus-portable status, rental or ownership status, capped-rental milestones, and supplier responsibility; suspend claims when a state transition lacks a valid effective date and supporting order.",
+        "rationale": "The vulnerability is driven by cycling ownership and equipment states around billing dates. A longitudinal state model detects alternating rental/owned indicators, premature ownership changes, duplicate active systems, and transitions that are not supported by prescription sequencing.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Oxygen/respiratory equipment supplier",
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Telehealth-linked DME supplier"
+        ]
+      },
+      {
+        "action": "Require targeted prepayment documentation or prior authorization for high-flow modifiers, portable add-ons, contents fees, and any ownership-state change within 30 days of another oxygen claim; require the signed order, qualifying flow-rate evidence, equipment type, delivery record, and replacement or transition rationale.",
+        "rationale": "These lines require facts that are not reliably established by claim fields alone. Requiring evidence when multiple states or modifiers occur in a short interval directly tests whether the prescribed flow, portable equipment, and ownership status actually changed.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Telehealth-linked DME supplier",
+          "Oxygen/respiratory equipment supplier"
+        ]
+      },
+      {
+        "action": "Deploy supplier-level monitoring for abnormal oxygen-state cycling, including rates of ownership changes, modifier changes within 30 days, QG/QF/QB/QR usage, portable-add-on-to-portable-equipment ratios, contents-fee rates, denial resubmission patterns, and concentration of changes near month-end.",
+        "rationale": "A supplier may shift from overt incompatible combinations to subtler sequencing or documentation changes after edits and denials. Peer-normalized monitoring identifies both the original billing pattern and higher-level adaptation without relying on a single code combination.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Telehealth-linked DME supplier",
+          "Oxygen/respiratory equipment supplier",
+          "Supplier with unusually high Medicare concentration"
+        ]
+      },
+      {
+        "action": "Perform beneficiary-centered reconciliation across all suppliers, DME claims, orders, delivery records, and applicable clinical test dates, with outreach or audit when concurrent systems, repeated new orders, or flow-rate changes lack a meaningful clinical change.",
+        "rationale": "Supplier claims can appear individually plausible while the beneficiary-level record shows duplicate equipment, unsupported transitions, or repeated orders. Cross-supplier reconciliation is especially important when referral and order generation are distributed across telehealth or affiliated entities.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Telehealth-linked DME supplier",
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Oxygen/respiratory equipment supplier"
+        ]
+      },
+      {
+        "action": "Ask CMS to publish a single authoritative oxygen billing decision table and machine-readable definitions for ownership status, contents fees, portable add-ons, modifier exclusivity, 30-day sequencing, capped-rental conversion, replacement equipment, and valid order-effective-date scenarios.",
+        "rationale": "Ambiguity across Sections 30.6, 30.6.1, and 130.6 creates room for technically defensible but incompatible interpretations. Explicit precedence rules and examples would reduce inconsistent adjudication and limit exploitation of rule collisions.",
+        "priority": "structural",
+        "addresses_archetypes": [
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Oxygen/respiratory equipment supplier",
+          "Supplier with unusually high Medicare concentration"
+        ]
+      }
+    ],
+    "minimum_viable_analytic": "Build a beneficiary-month oxygen episode table from claims, beneficiary eligibility, supplier identifiers, HCPCS/modifier fields, place of service, rental-versus-purchase indicators, order/prior-authorization records, clinical flow-rate or qualifying-test records, delivery and inventory records, and denial/resubmission history. Join claim lines to beneficiary, supplier, and equipment episode using beneficiary ID plus service date, with a rolling 30-day lookback and 90-day episode window; retain supplier changes and overlapping active equipment. For each beneficiary-month compute: counts of stationary and portable system lines; ownership-state transitions; QG, QF, QA, QB, QE, and QR counts; incompatible-pair indicators; portable-add-on-without-portable-equipment indicator; contents-fee-with-rented-system or owned-concentrator indicator; days between order, test, delivery, ownership change, flow-rate change, and claim; percentage of changes within 3 days of month-end; repeated new-order count; concurrent supplier count; and post-denial resubmission count. First apply deterministic rules for known incompatible combinations and missing corroborating order or equipment evidence. Then calculate supplier-peer standardized scores by month and beneficiary-adjusted expected utilization, using robust z-scores or median absolute deviation for each feature. Combine the rule flags and normalized features into a risk score, for example 50% deterministic incompatibility/sequencing flags, 25% state-transition anomaly score, 15% supplier peer outlier score, and 10% post-denial adaptation score. Route high-scoring beneficiary-supplier episodes to prepayment review or retrospective audit, and retain an explanation vector listing the exact incompatible lines, state transitions, missing evidence, and timing features that produced the score.",
+    "archetype_misuse_ranking": [
+      {
+        "archetype": "Supplier using aggressive coding/revenue-cycle consultants",
+        "misuse_potential": 5,
+        "why": "Very high willingness to exploit ambiguity (5), coding sophistication (5), compliance sophistication (4), volume-growth objective (4), and audit awareness (4) support deliberate use of rule collisions and rapid adaptation.",
+        "how": "Claims would show technically varied but incompatible ownership, modifier, portable, and contents-fee combinations, with transitions timed around billing cycles. After edits or denials, the supplier would likely shift toward less obvious sequencing changes and more selective resubmissions while preserving the same aggregate overbilling pattern."
+      },
+      {
+        "archetype": "Telehealth-linked DME supplier",
+        "misuse_potential": 5,
+        "why": "High volume-growth objective (5), beneficiary access (5), referral relationships (5), geographic reach (5), coordination (4), and willingness to exploit ambiguity (4) create broad opportunity to generate unsupported oxygen orders.",
+        "how": "Claims would show repeated new orders, flow-rate changes, portable add-ons, and ownership transitions across many beneficiaries, sometimes without corresponding tests or meaningful clinical change. Following payer feedback, the pattern may spread across suppliers or ordering channels and appear as reduced single-code anomalies but persistent beneficiary-level state cycling."
+      },
+      {
+        "archetype": "Oxygen/respiratory equipment supplier",
+        "misuse_potential": 4,
+        "why": "Direct equipment access (4), Medicare dependence (4), and recurring date-driven rental and recertification events create a practical opportunity, combined with moderate willingness to exploit ambiguity (3).",
+        "how": "Claims would show alternating rental and owned indicators, unsupported portable or contents lines, and flow or modifier changes clustered near monthly billing events. After denials, billing may become more selective, with fewer overtly incompatible lines but continued short-interval ownership and modifier transitions."
+      },
+      {
+        "archetype": "Supplier with unusually high Medicare concentration",
+        "misuse_potential": 3,
+        "why": "Medicare dependence is very high (5), but willingness to exploit ambiguity (3), coding sophistication (3), and access to beneficiaries (3) are only moderate.",
+        "how": "Claims may show persistent use of the most favorable allowable oxygen payment path, elevated contents or portable billing, and ownership changes concentrated within Medicare episodes. After payer feedback, the supplier may reduce visible same-month combinations while maintaining higher-than-peer rates of state changes and modifier use."
+      }
+    ]
+  },
+  "h04": {
+    "recommended_actions": [
+      {
+        "action": "Implement a real-time claims edit that evaluates stationary oxygen, portable equipment, contents, ownership status, and QF/QG/QB modifiers together at the beneficiary-month level; pend or deny mutually exclusive combinations and inconsistent portable add-ons.",
+        "rationale": "The vulnerability arises from payment-path changes created by interacting fields rather than by any single line. A composite edit directly blocks incompatible combinations and prevents separate payment when the modifier or ownership state already includes the service.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Oxygen/respiratory equipment supplier",
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Rapidly growing DME supplier",
+          "Home health-associated provider/supplier"
+        ]
+      },
+      {
+        "action": "Require prior authorization or targeted medical-review documentation for QG/QB high-flow claims, including the signed order, prescribed liters per minute, qualifying testing, medical-necessity rationale, equipment type, and the applicable ownership or rental status.",
+        "rationale": "High-flow modifiers create a materially different payment path and are vulnerable to flow-rate or documentation inconsistencies. Requiring source documentation makes the payment category auditable before recurring claims accumulate.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Rapidly growing DME supplier",
+          "Oxygen/respiratory equipment supplier"
+        ]
+      },
+      {
+        "action": "Create an ownership-history reconciliation edit that matches rental, purchase, capped-rental completion, title-transfer, and equipment-history events before paying ownership-dependent oxygen or contents claims.",
+        "rationale": "An ownership transition without a corresponding purchase or title event is a direct indicator of an incorrect payment path. The edit should pend claims when the current status conflicts with the beneficiary's documented equipment history.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Oxygen/respiratory equipment supplier",
+          "Rapidly growing DME supplier"
+        ]
+      },
+      {
+        "action": "Deploy supplier- and ordering-provider-level monitoring for QF/QG/QB rates, flow-rate distributions, portable-add-on frequency, contents-fee frequency, ownership transitions, and mutually exclusive beneficiary-month combinations, benchmarked against regional peers and adjusted for case mix.",
+        "rationale": "Supplier-level concentration and threshold bunching can identify systematic behavior that beneficiary-level edits miss. Monitoring should also compare periods before and after edits or denials for shifts toward alternate modifiers, timing, or billing paths.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Rapidly growing DME supplier",
+          "Oxygen/respiratory equipment supplier"
+        ]
+      },
+      {
+        "action": "Apply a longitudinal 30-day pre/post review window around QG claims and other high-flow oxygen events, with referrals for portable claims, separately paid equipment, or contents fees that conflict with the stated CWF logic.",
+        "rationale": "The identified vulnerability can manifest through timing around high-flow claims even when individual lines appear payable. A longitudinal review captures inconsistent sequencing and attempts to move services just outside a single-date edit.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Home health-associated provider/supplier",
+          "Oxygen/respiratory equipment supplier"
+        ]
+      },
+      {
+        "action": "Ask CMS to publish a single authoritative oxygen payment matrix defining allowable QF/QG/QB combinations, portable-equipment treatment, contents-fee eligibility, ownership transitions, and the exact CWF lookback/lookforward period; require consistent implementation across contractors and plans.",
+        "rationale": "Ambiguous or fragmented rules allow materially different interpretations of the same ownership, flow-rate, and modifier facts. A machine-readable national rule set would reduce ambiguity and make both prospective edits and retrospective audits consistent.",
+        "priority": "structural",
+        "addresses_archetypes": [
+          "Supplier using aggressive coding/revenue-cycle consultants",
+          "Home health-associated provider/supplier",
+          "Oxygen/respiratory equipment supplier",
+          "Rapidly growing DME supplier"
+        ]
+      }
+    ],
+    "minimum_viable_analytic": "Build a beneficiary-month oxygen episode table from adjudicated claims, including claim and service dates, HCPCS/modifiers, units, allowed amount, supplier, ordering provider, place of service, rental-versus-purchase indicators, and denial or edit outcomes. Join each episode to durable-medical-equipment rental and purchase history, title or capped-rental completion records, prior authorizations, signed orders, oximetry or qualifying-test records, and CWF-equivalent portable-oxygen history using beneficiary ID plus service-date validity windows; join provider and supplier reference tables for specialty, geography, and enrollment status. Normalize each line into attributes: stationary present, portable present, contents present, ownership state, QF/QG/QB state, prescribed LPM, qualifying-test date, and whether a purchase or ownership event exists. For every beneficiary-month, derive mutually-exclusive-combination flags, QG/QB-to-portable claims within 30 days before or after, contents fees without qualifying rented or owned equipment, ownership transitions without a purchase/title event, separately paid portable equipment during an active QF/QB period, and LPM values near or above modifier thresholds. Aggregate these features by supplier and ordering provider over rolling 90-day and 12-month windows, computing rates per oxygen beneficiary-month, regional peer percentile or robust z-score, threshold-bunching statistics, new-beneficiary growth, and pre/post-edit changes. Produce a composite risk score using transparent weighted rules: for example, 30% mutually exclusive payment-path rate, 20% unsupported ownership transitions, 20% high-flow/portable timing conflicts, 15% contents-without-equipment rate, and 15% supplier or provider peer deviation; require minimum volume, suppress scores for sparse cells, and route the highest-scoring supplier-beneficiary clusters for medical-record and equipment-history validation. Retain line-level explanations for each score so investigators can distinguish documentation gaps from systematic billing behavior.",
+    "archetype_misuse_ranking": [
+      {
+        "archetype": "Supplier using aggressive coding/revenue-cycle consultants",
+        "misuse_potential": 5,
+        "why": "Very high willingness to exploit ambiguity (5), coding sophistication (5), audit awareness (4), and volume-growth objective (4) make this the strongest profile for manipulating payment-path interpretations.",
+        "how": "Claims would show unusually high QF/QG/QB use, threshold-concentrated flow rates, and technically defensible but inconsistent combinations of ownership, portable equipment, and contents. After edits or denials, the supplier would likely show a measurable shift in modifier mix, timing, or affected beneficiary segments."
+      },
+      {
+        "archetype": "Rapidly growing DME supplier",
+        "misuse_potential": 4,
+        "why": "High volume-growth objective (5), risk tolerance (4), willingness to exploit ambiguity (4), and beneficiary access (4) favor broad use of higher-paying oxygen paths before controls mature.",
+        "how": "Claims would show rapid beneficiary and oxygen-line growth with elevated high-flow, portable-add-on, or contents billing and incomplete ownership histories. Following payer feedback, the pattern may persist through broader supplier or referral-channel expansion rather than precise technical refinement."
+      },
+      {
+        "archetype": "Oxygen/respiratory equipment supplier",
+        "misuse_potential": 4,
+        "why": "High Medicare dependence (4), beneficiary access (4), and recurring date-driven oxygen billing create sustained opportunity, despite only moderate willingness to exploit ambiguity (3).",
+        "how": "Claims would show recurring beneficiary-month inconsistencies involving rental, ownership, contents, and portable equipment, especially around recertification or capped-rental milestones. After feedback, anomalies may cluster around ownership-status changes or alternate modifier selections while maintaining similar recurring volume."
+      },
+      {
+        "archetype": "Home health-associated provider/supplier",
+        "misuse_potential": 3,
+        "why": "Strong referral relationships (4), coordination with others (4), Medicare dependence (4), and access to beneficiaries (4) create opportunity, but moderate coding and ambiguity-exploitation scores reduce the likelihood of systematic misuse.",
+        "how": "Claims would show oxygen equipment and modifier changes timed near home-health episodes, with possible overlap between DME, portable, contents, and consolidated-billing treatment. After feedback, the observable shift would most likely be changes in episode timing or supplier allocation rather than highly specialized modifier behavior."
+      }
+    ]
+  },
+  "h22": {
+    "recommended_actions": [
+      {
+        "action": "Implement a beneficiary-HCPCS-family episode edit that carries the original rental start and anniversary date across supplier changes, rejects or pends a new KH or first-month rental claim when a prior episode exists, and caps cumulative paid rental months unless an approved interruption is documented.",
+        "rationale": "The core vulnerability is loss of longitudinal episode history when billing moves between NPIs. A payer-controlled episode ledger prevents supplier changes from resetting month counts or creating duplicate starts.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Rapidly growing DME supplier",
+          "Supplier with unusually high Medicare concentration"
+        ]
+      },
+      {
+        "action": "Require a replacement-supplier transfer packet before paying rental claims after a supplier change, including the original rental start date, prior supplier and final billed month, HCPCS and serial-number or equipment identifier where available, beneficiary possession confirmation, and the calculated remaining rental months.",
+        "rationale": "Requiring transfer documentation makes supplier responsibility and remaining liability explicit and prevents a replacement supplier from billing an initial rental without evidence of continuity.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Rapidly growing DME supplier"
+        ]
+      },
+      {
+        "action": "Create a post-cap claim policy edit that requires evidence of title transfer, beneficiary ownership, or an applicable maintenance-and-servicing pathway before paying any rental or related service claim after the applicable capped-rental period.",
+        "rationale": "This addresses the incentive to continue monthly rental revenue or avoid post-cap equipment obligations by moving billing to another entity after month fifteen.",
+        "priority": "immediate",
+        "addresses_archetypes": [
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Supplier with unusually high Medicare concentration"
+        ]
+      },
+      {
+        "action": "Deploy a supplier-network analytics program linking suppliers by shared beneficiaries, ordering providers, delivery addresses, beneficiary contact information, bank or ownership indicators where permitted, equipment identifiers, and closely timed supplier handoffs; prioritize connected components with unusually high episode resets or excess rental months.",
+        "rationale": "Coordinated networks may distribute claims across NPIs so that supplier-level monitoring misses the continuous episode. Network-level linkage exposes shared operational infrastructure and repeated handoff behavior.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Rapidly growing DME supplier"
+        ]
+      },
+      {
+        "action": "Establish an automated review trigger for a new supplier billing within 60 days of a prior supplier's KJ or final rental claim, overlapping rental months, more than 15 cumulative paid months, or replacement billing that exceeds calculated remaining months; suspend only the affected episode pending documentation rather than applying an unsupported blanket denial.",
+        "rationale": "These events are direct observable indicators of continuity failure and distinguish ordinary supplier transitions from duplicate or extended rental billing while preserving due process for legitimate transfers.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Rapidly growing DME supplier",
+          "Supplier with unusually high Medicare concentration"
+        ]
+      },
+      {
+        "action": "Require targeted prepayment review or prior authorization for suppliers or supplier clusters with high rates of first-month rentals after recent supplier handoffs, episode excess-month flags, or post-cap claims, and require periodic reconciliation of their rental ledgers.",
+        "rationale": "Focused controls address suppliers exhibiting the economic pattern without imposing broad prior authorization on all capped-rental equipment.",
+        "priority": "near_term",
+        "addresses_archetypes": [
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Rapidly growing DME supplier"
+        ]
+      },
+      {
+        "action": "Ask CMS to publish a uniform national data standard and adjudication rule for supplier changes, qualifying interruptions, anniversary-date preservation, KJ final-rental handling, and the evidence required to reset or continue an episode.",
+        "rationale": "Ambiguity or inconsistent payer implementation can allow the same episode to be treated differently across suppliers and contractors. A common rule and data standard would reduce reset opportunities and improve cross-payer enforcement.",
+        "priority": "structural",
+        "addresses_archetypes": [
+          "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+          "DME supplier heavily dependent on lead-generation companies",
+          "Rapidly growing DME supplier",
+          "Supplier with unusually high Medicare concentration"
+        ]
+      }
+    ],
+    "minimum_viable_analytic": "Build a monthly episode-ledger analytic using paid and denied Medicare claims, beneficiary enrollment and managed-care transition data, supplier NPI and enrollment data, HCPCS/modifier fields, dates of service, ordering and referring provider identifiers, place of service, delivery address, equipment serial or inventory identifiers where available, and transfer or ownership documentation. Normalize claims to a beneficiary-HCPCS-family key, with family mappings maintained by clinical and DME policy staff. For each key, sort paid rental claims by service month and retain supplier NPI, KH/KI/KJ status, units, allowed amount, and claim status. Start an episode at the earliest supported rental month; preserve the episode across supplier changes; increment the cumulative paid-month counter by distinct service month, while applying a policy table for qualifying interruptions and managed-care transitions rather than treating every gap as a reset. Join each claim to the immediately prior paid rental month and prior supplier, then compute: days since prior rental, supplier-change indicator, new-KH-after-prior-episode indicator, overlapping supplier-month indicator, cumulative paid rental months, months beyond the applicable cap, replacement months billed versus calculated remaining months, post-cap claim indicator, missing-transfer-documentation indicator, and whether the new supplier is linked to the prior supplier through shared beneficiary, ordering provider, delivery address, contact, equipment identifier, ownership, or banking attributes where legally available. Aggregate supplier and supplier-pair features over rolling 6-, 12-, and 24-month windows, including episode-reset rate, excess-month rate, overlap rate, post-cap rate, number of connected suppliers, shared-beneficiary count, and concentration of handoffs. Produce an explainable risk score using weighted rules: 5 points for any episode exceeding 15 paid rental months without a documented exception, 4 for a new KH or first-month rental within 60 days of a prior KJ or final rental claim, 4 for overlapping rental months, 3 for replacement months exceeding calculated remaining months, 3 for post-cap claims without ownership or servicing evidence, and 1-3 for network linkage and repeated behavior. Escalate episodes with a score of at least 5 and supplier clusters with high rates relative to peer suppliers, using minimum-volume thresholds and manual review for legitimate equipment replacement, beneficiary moves, payer transitions, or documented qualifying interruptions.",
+    "archetype_misuse_ranking": [
+      {
+        "archetype": "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)",
+        "misuse_potential": 5,
+        "why": "Very high coordination (5), risk tolerance (5), access to beneficiaries (5), willingness to exploit ambiguity (5), and volume-growth objective (5) support deliberate cross-supplier episode fragmentation.",
+        "how": "The network would show repeated handoffs among related NPIs, restarted KH or first-month claims, shared beneficiary and ordering-provider patterns, and cumulative rental months beyond the cap. After payer feedback, activity would likely shift across additional suppliers or geographies while preserving the same episode-level anomalies."
+      },
+      {
+        "archetype": "DME supplier heavily dependent on lead-generation companies",
+        "misuse_potential": 4,
+        "why": "High access to beneficiaries (5), geographic reach (5), coordination (5), volume-growth objective (5), and willingness to exploit ambiguity (4) create substantial handoff risk.",
+        "how": "Claims would show large cohorts moving between marketer-connected suppliers with weak transfer documentation and frequent first-month rentals after recent supplier activity. After feedback, the pattern may become distributed across more NPIs, while shared leads, addresses, providers, or contact data remain observable."
+      },
+      {
+        "archetype": "Rapidly growing DME supplier",
+        "misuse_potential": 4,
+        "why": "High volume-growth objective (5), risk tolerance (4), Medicare dependence (4), and willingness to exploit ambiguity (4) combine with limited compliance maturity (2).",
+        "how": "The supplier would show a surge of new rental starts and replacement claims shortly after other suppliers' final rental months, with incomplete episode histories and excess-month exceptions. After payer scrutiny, growth and supplier handoffs may slow or shift to affiliated entities, but the episode and beneficiary overlap signals would persist."
+      },
+      {
+        "archetype": "Supplier with unusually high Medicare concentration",
+        "misuse_potential": 3,
+        "why": "High Medicare dependence (5) creates strong financial incentive, but lower coordination (2), geographic reach (2), and volume-growth objective (3) limit networked misuse potential.",
+        "how": "Claims may contain repeated supplier changes, post-cap rentals, or aggressive interpretation of anniversary and interruption rules within the supplier's own book of business. After feedback, billing may become more selective or documentation-focused, with fewer but still detectable episode exceptions."
+      }
+    ]
+  }
+}

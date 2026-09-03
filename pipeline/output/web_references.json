@@ -1,0 +1,43 @@
+{
+  "h17": [
+    {"title": "Durable Medical Equipment: Protecting Medicare and Medicaid from Fraud, Waste, and Abuse", "url": "https://oig.hhs.gov/reports/featured/dme-feature/", "snippet": "OIG feature noting Medicare DMEPOS payments exceed $7 billion annually and fraudulent billing schemes continue to evolve, including equipment billed but never received."},
+    {"title": "OIG to CMS: Stronger fraud efforts are needed for DMEPOS", "url": "https://www.hmenews.com/article/oig-to-cms-stronger-fraud-efforts-are-needed-for-dmepos", "snippet": "Prior OIG analysis found evidence of automatic shipping of PAP/CPAP supplies with no physician orders for refills in effect; automatic resupply shipment is not permitted under Medicare rules."},
+    {"title": "Consumer Alert: Urinary Catheter Scams", "url": "https://oig.hhs.gov/fraud/consumer-alerts/consumer-alert-catheter-scam/", "snippet": "OIG consumer alert describing recurring-supply fraud pattern: monthly billing for medically unnecessary catheters that may or may not actually be shipped to the beneficiary."}
+  ],
+  "h21": [
+    {"title": "Telehealth Sector Wake-Up Call: CEO Sentenced to 15 Years, Ordered to Pay $452M for $1B Medicare Fraud Scheme (DMERx)", "url": "https://www.frierlevitt.com/articles/telehealth-ceo-sentenced-medicare-fraud-dmerx/", "snippet": "DMERx platform generated false doctors' orders for orthotic braces; telemedicine physicians paid kickbacks to sign orders without examining patients; DME suppliers billed over $1 billion using the resulting orders."},
+    {"title": "Physician Convicted In $6.3 Million Medicare Fraud Scheme: Lessons For DME Suppliers", "url": "https://medtrade.com/news/billing-reimbursement/physician-convicted-in-6-3-million-medicare-fraud-scheme-lessons-for-dme-suppliers/", "snippet": "New Jersey telemedicine-company owner paid kickbacks to providers to sign orthotic brace orders for beneficiaries with no clinical need; signed orders resold through marketing companies to brace suppliers, generating over $56 million in claims."},
+    {"title": "Fraudulent Telehealth Arrangements In The DME Space", "url": "https://medtrade.com/news/billing-reimbursement/fraudulent-telehealth-arrangements-in-the-dme-space/", "snippet": "Overview of recurring telehealth-to-DME referral fraud pattern: overseas call centers collect beneficiary information, telehealth physicians sign orders without a treating relationship, DME suppliers bill Medicare on the resulting orders."}
+  ],
+  "h28": [
+    {"title": "Telehealth Sector Wake-Up Call: CEO Sentenced to 15 Years, Ordered to Pay $452M for $1B Medicare Fraud Scheme (DMERx)", "url": "https://www.frierlevitt.com/articles/telehealth-ceo-sentenced-medicare-fraud-dmerx/", "snippet": "Scheme concealed telemedicine origin of orders by removing words like \"telemedicine\" or \"phone conversation\" from doctors' orders to avoid triggering DME supplier audits tied to ordering-provider concentration."},
+    {"title": "Physician Convicted In $6.3 Million Medicare Fraud Scheme: Lessons For DME Suppliers", "url": "https://medtrade.com/news/billing-reimbursement/physician-convicted-in-6-3-million-medicare-fraud-scheme-lessons-for-dme-suppliers/", "snippet": "Kansas anesthesiologist signed fraudulent DME prescriptions without examining patients or establishing a treating relationship, falsely certifying medical necessity; Medicare paid at least $8 million on his orders alone — illustrating single-prescriber concentration risk."}
+  ],
+  "h04": [
+    {"title": "A Review of Claims for Capped Rental Durable Medical Equipment (OEI-07-08-00550)", "url": "https://oig.hhs.gov/oei/reports/oei-07-08-00550.pdf", "snippet": "OIG review found Medicare erroneously allowed nearly $4.4 million (2006-2008) for repairs of capped-rental DME, since repair costs are already included in the monthly rental payment and are not separately payable; 48% of claims lacked sufficient information to identify make/model."},
+    {"title": "Capped Rental Items - JD DME", "url": "https://med.noridianmedicare.com/web/jddme/topics/payment-categories/capped-rental", "snippet": "MAC reference describing capped-rental fee schedule mechanics (10% first month, 7.5% months 2-15, no further payment after 15 months except maintenance/servicing) and modifier usage for oxygen equipment."}
+  ],
+  "h06": [
+    {"title": "A Review of Claims for Capped Rental Durable Medical Equipment (OEI-07-08-00550)", "url": "https://oig.hhs.gov/oei/reports/oei-07-08-00550.pdf", "snippet": "OIG found suppliers did not provide serial numbers for 25% of repair claims and provided invalid serial numbers for 23% more, preventing verification of which physical unit was being billed — a documentation gap directly relevant to detecting supplier-switch anniversary-date resets."},
+    {"title": "OIG Review Finds Erroneous Capped Rental DME Claims", "url": "https://www.aapc.com/blog/7792-oig-review-finds-erroneous-capped-rental-dme-claims/", "snippet": "Of $90 million allowed for capped-rental DME repair claims in 2007, nearly $27 million was associated with payment errors, underscoring weak controls around the capped-rental episode lifecycle."}
+  ],
+  "h22": [
+    {"title": "A Review of Claims for Capped Rental Durable Medical Equipment (OEI-07-08-00550)", "url": "https://oig.hhs.gov/oei/reports/oei-07-08-00550.pdf", "snippet": "Same OIG review documents systemic inability to verify equipment identity/continuity across capped-rental claims, the core weakness a rotating-supplier network would exploit to fragment a beneficiary's rental history across multiple NPIs."},
+    {"title": "12031-P DMEPOS Temporary Gap Period fact sheet", "url": "https://www.cms.gov/sites/default/files/2020-06/12031-P-DMEPOS-Temporary-Gap-Period-fact-sheet-508.pdf", "snippet": "CMS fact sheet on temporary gap-period rules affecting rental continuity determinations, relevant to how a coordinated supplier network could time claims around gap-period boundaries."}
+  ],
+  "h11": [
+    {"title": "A Review of Claims for Capped Rental Durable Medical Equipment (OEI-07-08-00550)", "url": "https://oig.hhs.gov/oei/reports/oei-07-08-00550.pdf", "snippet": "OIG documentation-gap findings on capped-rental claims support the difficulty payers have verifying whether a claimed 60+ day medical-need interruption was genuine versus manufactured to reset the 15-month capped-rental clock."}
+  ],
+  "h19": [
+    {"title": "Part B Services During Non-Part A Nursing Home Stays", "url": "https://oig.hhs.gov/oei/reports/oei-06-07-00100.pdf", "snippet": "OIG review of Part B billing during non-Part A nursing home stays, directly relevant to boundary-switching risk between institutional and home settings for DME billing."},
+    {"title": "Inappropriate and Questionable Billing by Medicare Home Health Agencies", "url": "https://oig.hhs.gov/oei/reports/oei-04-11-00240.pdf", "snippet": "OIG review identifying questionable billing patterns by home health agencies, providing precedent for scrutinizing the HHA/DME consolidated-billing boundary."}
+  ],
+  "h16": [
+    {"title": "A Review of Claims for Capped Rental Durable Medical Equipment (OEI-07-08-00550)", "url": "https://oig.hhs.gov/oei/reports/oei-07-08-00550.pdf", "snippet": "Same capped-rental/oxygen documentation-gap findings apply directly to volume-modifier and ownership-state cycling on oxygen equipment claims."},
+    {"title": "Capped Rental Items - JD DME", "url": "https://med.noridianmedicare.com/web/jddme/topics/payment-categories/capped-rental", "snippet": "MAC guidance on oxygen contents-fee and volume-modifier (QG/QF/QB) mechanics underlying this hypothesis."}
+  ],
+  "h05": [
+    {"title": "Custom Fitted Orthotic HCPCS Codes Without a Corresponding Off-the-Shelf Code - Correct Coding", "url": "https://med.noridianmedicare.com/web/jddme/policies/dmd-articles/2025/custom-fitted-orthotic-hcpcs-codes-without-a-corresponding-off-the-shelf-code-correct-coding-revised", "snippet": "MAC correct-coding guidance confirming that billing a custom-fabricated code for a prefabricated/off-the-shelf item constitutes upcoding, and that miscellaneous codes (L1499/L2999/L3999) must be used when no specific code exists — directly relevant to E1399 misuse."},
+    {"title": "HCPCS Code L3000: Custom Foot Orthotic Billing", "url": "https://pabau.com/procedure-codes/hcpcs-code-l3000/", "snippet": "Billing guide noting that billing L3000 for a prefabricated insert constitutes fraud; a custom item must be fabricated from a patient-specific cast, foam mold, or digital scan. Orthotic upcoding is a standing OIG audit priority."}
+  ]
+}

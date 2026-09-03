@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+}
+
+:root {
+  /* CMS/USWDS-derived civic blue palette */
+  --background: #f5f6f7;
+  --foreground: #1b1b1b;
+  --card: #ffffff;
+  --card-foreground: #1b1b1b;
+  --primary: #005ea2;
+  --primary-foreground: #ffffff;
+  --secondary: #e6f1f8;
+  --secondary-foreground: #1a4480;
+  --muted: #f5f6f7;
+  --muted-foreground: #3d4551;
+  --accent: #005ea2;
+  --accent-foreground: #ffffff;
+  --border: rgba(22, 46, 81, 0.15);
+  --ring: rgba(0, 94, 162, 0.4);
+  --radius: 4px;
+
+  --cms-navy: #162e51;
+  --cms-blue-dark: #1a4480;
+  --cms-blue: #005ea2;
+  --cms-blue-light: #e6f1f8;
+  --cms-gold: #ffbe2e;
+  --cms-red: #b50909;
+  --cms-green: #00a91c;
+  --cms-violet: #6b46c1;
+  --cms-amber: #b45f06;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Public Sans', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(22, 46, 81, 0.2);
+  border-radius: 3px;
+}
+
+.font-display,
+.font-mono {
+  font-family: 'Public Sans', Arial, Helvetica, sans-serif;
+}
+
+/* Decorative sci-fi effects neutralized for the CMS-style theme */
+.glow-cyan,
+.glow-red,
+.glow-amber {
+  box-shadow: 0 1px 3px rgba(22, 46, 81, 0.08);
+}
+
+.scanlines::after {
+  content: none;
+}
+
+.bracket-card::before,
+.bracket-card::after {
+  content: none;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 1; }
+  100% { transform: scale(2); opacity: 0; }
+}
+.pulse-dot::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  animation: pulse-ring 1.5s ease-out infinite;
+}
+
+.grid-bg {
+  background-image: none;
+}

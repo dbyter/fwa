@@ -1,0 +1,745 @@
+{
+  "Legitimate high-volume DME supplier": [
+    {
+      "hypothesis_id": "h08",
+      "title": "Repair-Part Versus Maintenance-Servicing Path",
+      "why": "High volume and mature coding systems (4 compliance and coding sophistication) create scale risk even without aggressive intent.",
+      "rank": 12
+    },
+    {
+      "hypothesis_id": "h30",
+      "title": "Low-and-Slow Cross-Entity Replacement and Accessory Accumulation",
+      "why": "Scale and geographic reach 4 can create material exposure even from small error rates; this is a lower-intent risk requiring control calibration rather than a presumption of fraud.",
+      "rank": 18
+    },
+    {
+      "hypothesis_id": "h09",
+      "title": "Installment-Purchase and Rental Classification Drift",
+      "why": "Mature systems and high volume can generate systematic interface or configuration errors with significant aggregate financial impact.",
+      "rank": 30
+    }
+  ],
+  "Small independent DME supplier under financial pressure": [
+    {
+      "hypothesis_id": "h05",
+      "title": "Custom E1399 Versus Standard Orthotic Coding",
+      "why": "High financial pressure (5) and ambiguity tolerance (4) may lead to opportunistic use of a higher-paying custom path despite limited compliance resources.",
+      "rank": 10
+    },
+    {
+      "hypothesis_id": "h08",
+      "title": "Repair-Part Versus Maintenance-Servicing Path",
+      "why": "Financial pressure (5) and risk tolerance (4) create incentive to bill routine servicing as a separately payable event.",
+      "rank": 12
+    },
+    {
+      "hypothesis_id": "h09",
+      "title": "Installment-Purchase and Rental Classification Drift",
+      "why": "Financial pressure (5) and low compliance sophistication (2) make both opportunistic misclassification and weak tracking plausible.",
+      "rank": 30
+    }
+  ],
+  "Rapidly growing DME supplier": [
+    {
+      "hypothesis_id": "h21",
+      "title": "Lead-Generated Refill-and-Order Network",
+      "why": "Volume-growth objective 5 and referral relationships 4 can create pressure to accept high-volume leads before beneficiary-request controls mature; compliance sophistication is only 2.",
+      "rank": 2
+    },
+    {
+      "hypothesis_id": "h04",
+      "title": "Oxygen Ownership and Modifier Stack",
+      "why": "High volume-growth objective (5) and referral relationships (4) create incentives to standardize high-paying oxygen configurations across a large beneficiary base.",
+      "rank": 4
+    },
+    {
+      "hypothesis_id": "h06",
+      "title": "Capped-Rental Episode Reset Across Suppliers",
+      "why": "Growth objective (5), coordination (3), and audit awareness (2) make episode tracking vulnerable during rapid beneficiary and supplier expansion.",
+      "rank": 5
+    },
+    {
+      "hypothesis_id": "h22",
+      "title": "Rotating Supplier Network Around Capped-Rental Episodes",
+      "why": "Growth objective 5 and coordination 3 can produce rapid NPI or branch expansion in which rental history is not integrated, creating opportunities for duplicate starts even without a fully organized ring.",
+      "rank": 6
+    },
+    {
+      "hypothesis_id": "h11",
+      "title": "Capped-Rental Episode Reset After a Questionable Interruption",
+      "why": "High volume-growth objective, risk tolerance, beneficiary access, and relatively weak compliance infrastructure support aggressive reuse of lifecycle rules.",
+      "rank": 8
+    },
+    {
+      "hypothesis_id": "h10",
+      "title": "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "why": "Growth objective (5) and beneficiary access (4) support high-volume enrollment into a newly expanded benefit.",
+      "rank": 15
+    },
+    {
+      "hypothesis_id": "h20",
+      "title": "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "why": "High growth objectives and beneficiary access create incentives to sell higher-priced configurations at scale despite immature ABN controls.",
+      "rank": 16
+    },
+    {
+      "hypothesis_id": "h26",
+      "title": "Adaptive Modifier and Code-Path Migration",
+      "why": "Volume-growth objective 5 and compliance sophistication 2 can lead to implementation of consultant-driven workarounds after denial pressure.",
+      "rank": 17
+    },
+    {
+      "hypothesis_id": "h01",
+      "title": "HHA-versus-DME-MAC Supply Routing",
+      "why": "High growth objective (5), beneficiary access (4), and willingness to exploit ambiguity (4) support aggressive acquisition of HHA-associated DME volume.",
+      "rank": 19
+    },
+    {
+      "hypothesis_id": "h07",
+      "title": "Pre-Discharge Delivery Date-of-Service Inflation",
+      "why": "High beneficiary access (4), referral relationships (4), and growth objective (5) encourage discharge-day acquisition and rapid processing.",
+      "rank": 24
+    },
+    {
+      "hypothesis_id": "h13",
+      "title": "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "why": "High growth objectives and access to beneficiaries create incentives to deliver early and bill quickly, while compliance build-out may lag operations.",
+      "rank": 25
+    }
+  ],
+  "Telehealth-linked DME supplier": [
+    {
+      "hypothesis_id": "h17",
+      "title": "Auto-Refill Dispensing Without a Beneficiary Request",
+      "why": "High beneficiary reach and remote operations can scale automated refill programs while limiting direct beneficiary interaction.",
+      "rank": 1
+    },
+    {
+      "hypothesis_id": "h21",
+      "title": "Lead-Generated Refill-and-Order Network",
+      "why": "Access to beneficiaries 5, referral relationships 5, geographic reach 5, and volume-growth objective 5 support centralized remote order generation at scale; compliance sophistication 2 increases refill-control risk.",
+      "rank": 2
+    },
+    {
+      "hypothesis_id": "h28",
+      "title": "Distributed Ordering-Provider Concentration and Medical-Necessity Manufacture",
+      "why": "Beneficiary access 5, referral relationships 5, and geographic reach 5 support centralized remote ordering, while compliance sophistication 2 creates risk that clinician independence and documentation quality are not validated.",
+      "rank": 3
+    },
+    {
+      "hypothesis_id": "h19",
+      "title": "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "why": "Remote order generation and broad reach can produce DME claims during HHA or hospice periods with limited independent care-setting verification.",
+      "rank": 7
+    },
+    {
+      "hypothesis_id": "h16",
+      "title": "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "why": "Broad beneficiary reach and remote order generation make flow-rate, portable-use, and actual equipment possession harder to independently validate.",
+      "rank": 9
+    },
+    {
+      "hypothesis_id": "h03",
+      "title": "PEN Pump-Kit-Component Unbundling",
+      "why": "Beneficiary reach (5), referral relationships (5), and remote order generation can weaken direct confirmation of administration method and pump necessity.",
+      "rank": 11
+    },
+    {
+      "hypothesis_id": "h27",
+      "title": "Oxygen Volume-Modifier and Portable-Add-On Coordination",
+      "why": "Access to beneficiaries 5, referral relationships 5, and geographic reach 5 support remote generation of oxygen orders and distributed documentation across clinicians.",
+      "rank": 14
+    },
+    {
+      "hypothesis_id": "h10",
+      "title": "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "why": "Beneficiary reach (5), geographic reach (5), and referral relationships (5) facilitate remote identification of diagnoses and body areas.",
+      "rank": 15
+    },
+    {
+      "hypothesis_id": "h07",
+      "title": "Pre-Discharge Delivery Date-of-Service Inflation",
+      "why": "Geographic reach (5) and beneficiary access (5) make remote order generation and weak physical verification more likely.",
+      "rank": 24
+    },
+    {
+      "hypothesis_id": "h13",
+      "title": "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "why": "Geographic reach and decoupled order generation make physical delivery, fitting, and home use harder to independently verify.",
+      "rank": 25
+    },
+    {
+      "hypothesis_id": "h23",
+      "title": "Jurisdiction and Billing-Entity Arbitrage",
+      "why": "Geographic reach 5 and referral relationships 5 allow remote ordering and fulfillment across multiple jurisdictions, although the pattern requires a multi-entity or multi-state operating structure.",
+      "rank": 26
+    }
+  ],
+  "DME supplier heavily dependent on lead-generation companies": [
+    {
+      "hypothesis_id": "h17",
+      "title": "Auto-Refill Dispensing Without a Beneficiary Request",
+      "why": "Outsourced beneficiary acquisition and high coordination risk make scripted refill outreach and weak request controls plausible.",
+      "rank": 1
+    },
+    {
+      "hypothesis_id": "h21",
+      "title": "Lead-Generated Refill-and-Order Network",
+      "why": "Access to beneficiaries 5, referral relationships 5, coordination with others 5, and willingness to exploit ambiguity 4 make outsourced beneficiary acquisition and weak control over refill requests plausible.",
+      "rank": 2
+    },
+    {
+      "hypothesis_id": "h28",
+      "title": "Distributed Ordering-Provider Concentration and Medical-Necessity Manufacture",
+      "why": "Coordination 5 and referral relationships 5 make it plausible for marketers to steer beneficiaries toward a concentrated ordering-provider panel.",
+      "rank": 3
+    },
+    {
+      "hypothesis_id": "h22",
+      "title": "Rotating Supplier Network Around Capped-Rental Episodes",
+      "why": "Coordination 5 and beneficiary access 5 make it plausible for leads and equipment to be transferred among related suppliers, while compliance sophistication 2 creates continuity-control weaknesses.",
+      "rank": 6
+    },
+    {
+      "hypothesis_id": "h19",
+      "title": "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "why": "High coordination and weak control over beneficiary acquisition can produce parallel HHA, hospice, and supplier billing streams.",
+      "rank": 7
+    },
+    {
+      "hypothesis_id": "h24",
+      "title": "HHA-DME Consolidated-Billing Boundary Shifting",
+      "why": "Coordination 5 and beneficiary access 5 can create supplier-HHA referral channels, while compliance sophistication 2 increases risk that consolidated-billing obligations are not reliably checked.",
+      "rank": 13
+    },
+    {
+      "hypothesis_id": "h27",
+      "title": "Oxygen Volume-Modifier and Portable-Add-On Coordination",
+      "why": "Lead-generation dependence and coordination 5 can produce high-volume oxygen cohorts with standardized prescriptions or fragmented stationary/portable billing.",
+      "rank": 14
+    }
+  ],
+  "Supplier with unusually high Medicare concentration": [
+    {
+      "hypothesis_id": "h22",
+      "title": "Rotating Supplier Network Around Capped-Rental Episodes",
+      "why": "Medicare dependence 5 creates strong incentive to maximize capped-rental revenue; moderate coding sophistication and limited commercial comparison increase exposure to episode-continuity abuse.",
+      "rank": 6
+    },
+    {
+      "hypothesis_id": "h16",
+      "title": "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "why": "Medicare dependence creates strong incentives to maximize every monthly oxygen payment path without commercial-payer cross-checks.",
+      "rank": 9
+    },
+    {
+      "hypothesis_id": "h09",
+      "title": "Installment-Purchase and Rental Classification Drift",
+      "why": "Medicare dependence (5) increases incentive to maximize the value of rental, installment, and purchase pathways.",
+      "rank": 30
+    }
+  ],
+  "Multi-state supplier": [
+    {
+      "hypothesis_id": "h06",
+      "title": "Capped-Rental Episode Reset Across Suppliers",
+      "why": "Geographic reach (5) can fragment episode history across contractors, states, or NPIs.",
+      "rank": 5
+    },
+    {
+      "hypothesis_id": "h14",
+      "title": "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "why": "Geographic reach enables routing replacement activity across jurisdictions and billing entities, complicating lifecycle matching.",
+      "rank": 22
+    },
+    {
+      "hypothesis_id": "h23",
+      "title": "Jurisdiction and Billing-Entity Arbitrage",
+      "why": "Geographic reach 5 and explicit ability to route activity across jurisdictions create the strongest structural basis for entity and jurisdiction arbitrage.",
+      "rank": 26
+    },
+    {
+      "hypothesis_id": "h02",
+      "title": "SNF and Inpatient Boundary Reclassification",
+      "why": "Geographic reach (5) and moderate coding sophistication can support routing claims to different contractors or institutional billing entities.",
+      "rank": 29
+    }
+  ],
+  "Physician practice dispensing or ordering DME": [
+    {
+      "hypothesis_id": "h28",
+      "title": "Distributed Ordering-Provider Concentration and Medical-Necessity Manufacture",
+      "why": "Access to beneficiaries 5 and referral relationships 5 create direct control over both the order and supporting narrative, producing a strong self-referral and documentation-shaping risk.",
+      "rank": 3
+    },
+    {
+      "hypothesis_id": "h05",
+      "title": "Custom E1399 Versus Standard Orthotic Coding",
+      "why": "The practice controls both ordering and clinical narrative, with beneficiary and referral access scored 5.",
+      "rank": 10
+    },
+    {
+      "hypothesis_id": "h20",
+      "title": "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "why": "It controls the order and can shape documentation supporting the desired configuration, creating a self-referential medical-necessity risk.",
+      "rank": 16
+    },
+    {
+      "hypothesis_id": "h13",
+      "title": "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "why": "It controls both the order and beneficiary access, making it capable of coordinating fitting documentation with equipment billing.",
+      "rank": 25
+    },
+    {
+      "hypothesis_id": "h02",
+      "title": "SNF and Inpatient Boundary Reclassification",
+      "why": "Access to beneficiaries and ordering providers (5 each) permits the practice to shape the item description and setting supporting medical necessity.",
+      "rank": 29
+    }
+  ],
+  "Home health-associated provider/supplier": [
+    {
+      "hypothesis_id": "h04",
+      "title": "Oxygen Ownership and Modifier Stack",
+      "why": "Coordination with HHAs (4) and access to clinical observations can affect whether oxygen is characterized as rented, owned, stationary, or portable.",
+      "rank": 4
+    },
+    {
+      "hypothesis_id": "h19",
+      "title": "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "why": "It controls or coordinates the plan of care and has direct visibility into HHA episode dates, making the entity boundary financially relevant.",
+      "rank": 7
+    },
+    {
+      "hypothesis_id": "h24",
+      "title": "HHA-DME Consolidated-Billing Boundary Shifting",
+      "why": "The archetype directly controls the boundary between HHA episodes and DMEPOS billing; coordination 4, referral relationships 4, and Medicare dependence 4 support this risk.",
+      "rank": 13
+    },
+    {
+      "hypothesis_id": "h01",
+      "title": "HHA-versus-DME-MAC Supply Routing",
+      "why": "High referral and coordination scores (4 each) and direct access to plan-of-care information create the ability to influence whether an item is furnished through the HHA or routed to a supplier.",
+      "rank": 19
+    },
+    {
+      "hypothesis_id": "h12",
+      "title": "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "why": "It operates at the home/institution boundary and has access to admission, discharge, and plan-of-care information, while coordination risk and Medicare dependence increase exposure.",
+      "rank": 20
+    },
+    {
+      "hypothesis_id": "h15",
+      "title": "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "why": "It operates across home and institutional settings and has elevated coordination risk with facilities and caregivers.",
+      "rank": 21
+    },
+    {
+      "hypothesis_id": "h18",
+      "title": "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "why": "It sees therapy changes and care-setting transitions, with coordination across HHA, physician, and supplier records.",
+      "rank": 23
+    },
+    {
+      "hypothesis_id": "h07",
+      "title": "Pre-Discharge Delivery Date-of-Service Inflation",
+      "why": "The provider operates at the transition boundary and has coordination (4) with discharge and home-health staff.",
+      "rank": 24
+    },
+    {
+      "hypothesis_id": "h25",
+      "title": "Discharge-Date and Anniversary-Date Cycling",
+      "why": "Home-based care and transition coordination create access to discharge information, while referral relationships 4 and coordination 4 support billing around return-to-home dates.",
+      "rank": 27
+    },
+    {
+      "hypothesis_id": "h29",
+      "title": "PEN Therapy and Pump-Reset Coordination",
+      "why": "Coordination 4 and access to beneficiaries 4 provide visibility into hospitalizations, therapy interruptions, and care-setting transitions that affect the two-month rule.",
+      "rank": 28
+    },
+    {
+      "hypothesis_id": "h02",
+      "title": "SNF and Inpatient Boundary Reclassification",
+      "why": "Care-setting coordination (4) and beneficiary access (4) make transitions between institutional and home settings a plausible source of billing ambiguity.",
+      "rank": 29
+    }
+  ],
+  "Skilled nursing facility-associated provider/supplier": [
+    {
+      "hypothesis_id": "h12",
+      "title": "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "why": "SNF admission and discharge data directly control the anniversary-date outcome, creating a strong opportunity for timing-sensitive billing behavior.",
+      "rank": 20
+    },
+    {
+      "hypothesis_id": "h13",
+      "title": "Pre-Discharge Delivery Converted Into Premature or Duplicate Billing",
+      "why": "It has direct access to facility discharge timelines and can influence whether an item is characterized as training, facility equipment, or home equipment.",
+      "rank": 25
+    },
+    {
+      "hypothesis_id": "h25",
+      "title": "Discharge-Date and Anniversary-Date Cycling",
+      "why": "The archetype operates directly at admission and discharge boundaries, with coordination 4 and access to beneficiaries 4; timing-sensitive billing is a natural exposure.",
+      "rank": 27
+    }
+  ],
+  "Orthotics/prosthetics supplier": [
+    {
+      "hypothesis_id": "h05",
+      "title": "Custom E1399 Versus Standard Orthotic Coding",
+      "why": "High coding sophistication (4) and ambiguity tolerance (4), combined with complex L-code descriptions, make this the most plausible archetype.",
+      "rank": 10
+    },
+    {
+      "hypothesis_id": "h08",
+      "title": "Repair-Part Versus Maintenance-Servicing Path",
+      "why": "Complex equipment and high ambiguity tolerance (4) make repair-versus-replacement classification difficult and economically significant.",
+      "rank": 12
+    },
+    {
+      "hypothesis_id": "h10",
+      "title": "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "why": "The supplier has relevant fabrication and coding expertise (coding sophistication 4) and high ambiguity tolerance (4).",
+      "rank": 15
+    },
+    {
+      "hypothesis_id": "h20",
+      "title": "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "why": "Complex item descriptions, customization, and coding discretion make upgrade status difficult to adjudicate from claims alone.",
+      "rank": 16
+    },
+    {
+      "hypothesis_id": "h26",
+      "title": "Adaptive Modifier and Code-Path Migration",
+      "why": "Coding sophistication 4 and willingness to exploit ambiguity 4 make complex customization and code-description boundaries a strong exposure.",
+      "rank": 17
+    },
+    {
+      "hypothesis_id": "h30",
+      "title": "Low-and-Slow Cross-Entity Replacement and Accessory Accumulation",
+      "why": "Coding sophistication 4 and willingness to exploit ambiguity 4 support technically defensible segmentation of custom items, parts, repairs, and replacements.",
+      "rank": 18
+    },
+    {
+      "hypothesis_id": "h14",
+      "title": "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "why": "Its coding sophistication and high willingness to exploit ambiguity make nuanced replacement, customization, and same-or-similar distinctions attractive.",
+      "rank": 22
+    }
+  ],
+  "Oxygen/respiratory equipment supplier": [
+    {
+      "hypothesis_id": "h04",
+      "title": "Oxygen Ownership and Modifier Stack",
+      "why": "The business model is monthly and date-driven, with direct operational control over equipment ownership status and prescribed flow-rate data.",
+      "rank": 4
+    },
+    {
+      "hypothesis_id": "h16",
+      "title": "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "why": "It directly controls equipment inventory, monthly billing, and oxygen recertification workflows; recurring payments and technical modifiers make systematic exploitation plausible.",
+      "rank": 9
+    },
+    {
+      "hypothesis_id": "h27",
+      "title": "Oxygen Volume-Modifier and Portable-Add-On Coordination",
+      "why": "The supplier's core business is monthly oxygen billing, and the rules create recurring, date-driven payment events with direct financial sensitivity to flow-rate and portable status.",
+      "rank": 14
+    },
+    {
+      "hypothesis_id": "h12",
+      "title": "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "why": "Its recurring monthly rental model and date-driven billing make full-month payment around institutional transitions financially material.",
+      "rank": 20
+    },
+    {
+      "hypothesis_id": "h15",
+      "title": "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "why": "Equipment is recurring and service-intensive, and institutional stays are common, creating repeated opportunities to classify routine service as separately payable maintenance.",
+      "rank": 21
+    },
+    {
+      "hypothesis_id": "h25",
+      "title": "Discharge-Date and Anniversary-Date Cycling",
+      "why": "Oxygen is billed monthly and has high recurring revenue; access to beneficiaries 4 and Medicare dependence 4 make hospitalization and discharge timing especially material.",
+      "rank": 27
+    }
+  ],
+  "Enteral/parenteral nutrition supplier": [
+    {
+      "hypothesis_id": "h17",
+      "title": "Auto-Refill Dispensing Without a Beneficiary Request",
+      "why": "Recurring nutrition supplies and monthly therapy periods create repeated opportunities to ship without contemporaneous beneficiary confirmation.",
+      "rank": 1
+    },
+    {
+      "hypothesis_id": "h03",
+      "title": "PEN Pump-Kit-Component Unbundling",
+      "why": "The archetype operates directly in the recurring PEN model, has moderate coding sophistication (3), and is exposed to the direct economic consequences of pump, kit, and nutrient classifications.",
+      "rank": 11
+    },
+    {
+      "hypothesis_id": "h18",
+      "title": "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "why": "It controls recurring pump rentals, nutrients, and certification workflows, and the therapy-type distinction directly affects its revenue stream.",
+      "rank": 23
+    },
+    {
+      "hypothesis_id": "h29",
+      "title": "PEN Therapy and Pump-Reset Coordination",
+      "why": "The archetype directly monetizes recurring nutrients, supplies, and pump rentals; Medicare dependence 4 and compliance sophistication 2 increase exposure to documentation and continuity failures.",
+      "rank": 28
+    }
+  ],
+  "Supplier specializing in recurring supplies or accessories": [
+    {
+      "hypothesis_id": "h17",
+      "title": "Auto-Refill Dispensing Without a Beneficiary Request",
+      "why": "Its business model is directly tied to refill cadence, with high volume-growth objectives and willingness to exploit ambiguity.",
+      "rank": 1
+    },
+    {
+      "hypothesis_id": "h21",
+      "title": "Lead-Generated Refill-and-Order Network",
+      "why": "The business model monetizes refill cadence directly, with recurring-supply and frequency rules creating a strong incentive to convert lead-generated contacts into repeated claims.",
+      "rank": 2
+    },
+    {
+      "hypothesis_id": "h06",
+      "title": "Capped-Rental Episode Reset Across Suppliers",
+      "why": "The business model depends on recurring cadence, with volume objective (4) and ambiguity tolerance (4).",
+      "rank": 5
+    },
+    {
+      "hypothesis_id": "h11",
+      "title": "Capped-Rental Episode Reset After a Questionable Interruption",
+      "why": "Its revenue model depends on recurring rental and refill cadence, and its high volume-growth objective and willingness to exploit ambiguity make repeated episode resets economically attractive.",
+      "rank": 8
+    },
+    {
+      "hypothesis_id": "h03",
+      "title": "PEN Pump-Kit-Component Unbundling",
+      "why": "High refill-driven volume objective (4) and ambiguity tolerance (4) make repeated component billing attractive at scale.",
+      "rank": 11
+    },
+    {
+      "hypothesis_id": "h10",
+      "title": "Lymphedema Component-Code Quantity and Replacement Arbitrage",
+      "why": "High volume objective (4), beneficiary access (4), and refill-oriented operations make quantity and replacement rules directly monetizable.",
+      "rank": 15
+    },
+    {
+      "hypothesis_id": "h30",
+      "title": "Low-and-Slow Cross-Entity Replacement and Accessory Accumulation",
+      "why": "The business model is built around repeated accessory and replacement revenue, with volume-growth objective 4 and audit awareness 2.",
+      "rank": 18
+    },
+    {
+      "hypothesis_id": "h15",
+      "title": "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "why": "Its operational model and high refill volume can blur the distinction between replacement accessories, repair parts, and routine servicing.",
+      "rank": 21
+    },
+    {
+      "hypothesis_id": "h29",
+      "title": "PEN Therapy and Pump-Reset Coordination",
+      "why": "Recurring revenue and volume-growth objective 4 create incentive to preserve therapy continuity and add equipment or supply claims around changes in therapy.",
+      "rank": 28
+    }
+  ],
+  "Supplier using aggressive coding/revenue-cycle consultants": [
+    {
+      "hypothesis_id": "h04",
+      "title": "Oxygen Ownership and Modifier Stack",
+      "why": "Technical coding sophistication (5) and willingness to exploit ambiguity (5) support deliberate modifier and ownership-path optimization.",
+      "rank": 4
+    },
+    {
+      "hypothesis_id": "h11",
+      "title": "Capped-Rental Episode Reset After a Questionable Interruption",
+      "why": "High coding sophistication and willingness to push technical interpretations make it capable of constructing defensible-looking interruption and restart claims.",
+      "rank": 8
+    },
+    {
+      "hypothesis_id": "h16",
+      "title": "Oxygen Ownership-State and Volume-Modifier Cycling",
+      "why": "High coding sophistication and willingness to exploit ambiguity support manipulation of modifier and ownership-path interpretations.",
+      "rank": 9
+    },
+    {
+      "hypothesis_id": "h08",
+      "title": "Repair-Part Versus Maintenance-Servicing Path",
+      "why": "Coding sophistication (5), ambiguity tolerance (5), and audit awareness (4) support deliberate code-path selection.",
+      "rank": 12
+    },
+    {
+      "hypothesis_id": "h20",
+      "title": "Upgrade and Purchase-Path Conversion Without Valid ABN or Rental Continuity",
+      "why": "It has the highest coding sophistication, audit awareness, and willingness to exploit interpretive ambiguity.",
+      "rank": 16
+    },
+    {
+      "hypothesis_id": "h26",
+      "title": "Adaptive Modifier and Code-Path Migration",
+      "why": "Coding sophistication 5, willingness to exploit ambiguity 5, audit awareness 4, and risk tolerance 4 make adaptive interpretation and rapid post-edit code migration especially plausible.",
+      "rank": 17
+    },
+    {
+      "hypothesis_id": "h14",
+      "title": "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "why": "It has the highest coding sophistication and ambiguity tolerance, enabling technical arguments about useful lifetime, configuration, and replacement basis.",
+      "rank": 22
+    },
+    {
+      "hypothesis_id": "h18",
+      "title": "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "why": "Technical sophistication and high ambiguity tolerance support exploiting the distinction between prescription changes and genuine medical-need termination.",
+      "rank": 23
+    },
+    {
+      "hypothesis_id": "h23",
+      "title": "Jurisdiction and Billing-Entity Arbitrage",
+      "why": "Coding sophistication 5, audit awareness 4, and willingness to exploit ambiguity 5 support deliberate identification of alternate HCPCS, contractor, or institutional billing paths.",
+      "rank": 26
+    },
+    {
+      "hypothesis_id": "h09",
+      "title": "Installment-Purchase and Rental Classification Drift",
+      "why": "High coding sophistication (5), ambiguity tolerance (5), and audit awareness (4) support deliberate manipulation of classification and modifier combinations.",
+      "rank": 30
+    }
+  ],
+  "Organized fraud-ring archetype (cooperating suppliers, clinicians, marketers, beneficiaries)": [
+    {
+      "hypothesis_id": "h21",
+      "title": "Lead-Generated Refill-and-Order Network",
+      "why": "Coordination 5, access to beneficiaries 5, risk tolerance 5, and willingness to exploit ambiguity 5 support coordinated creation of orders, refill attestations, and beneficiary participation across entities.",
+      "rank": 2
+    },
+    {
+      "hypothesis_id": "h28",
+      "title": "Distributed Ordering-Provider Concentration and Medical-Necessity Manufacture",
+      "why": "Coordination 5, risk tolerance 5, and access to beneficiaries 5 support deliberate clinician-supplier-beneficiary coordination.",
+      "rank": 3
+    },
+    {
+      "hypothesis_id": "h06",
+      "title": "Capped-Rental Episode Reset Across Suppliers",
+      "why": "Maximum coordination (5), risk tolerance (5), Medicare dependence (5), and volume objective (5) support distributed manipulation of supplier transitions and rental histories.",
+      "rank": 5
+    },
+    {
+      "hypothesis_id": "h22",
+      "title": "Rotating Supplier Network Around Capped-Rental Episodes",
+      "why": "Coordination 5, risk tolerance 5, Medicare dependence 5, and geographic reach 4 support deliberate supplier rotation and beneficiary-level episode manipulation.",
+      "rank": 6
+    },
+    {
+      "hypothesis_id": "h19",
+      "title": "Home-Health, Hospice, and DME Supply Boundary Switching",
+      "why": "The archetype can distribute claims across HHA, hospice, supplier, and ordering entities to exploit differing bundling rules.",
+      "rank": 7
+    },
+    {
+      "hypothesis_id": "h11",
+      "title": "Capped-Rental Episode Reset After a Questionable Interruption",
+      "why": "High coordination, Medicare dependence, risk tolerance, and willingness to exploit ambiguity support coordinated documentation and supplier transitions across episodes.",
+      "rank": 8
+    },
+    {
+      "hypothesis_id": "h24",
+      "title": "HHA-DME Consolidated-Billing Boundary Shifting",
+      "why": "Coordination 5 and risk tolerance 5 support intentional division of billing between an HHA and supplier to maximize separate payments.",
+      "rank": 13
+    },
+    {
+      "hypothesis_id": "h27",
+      "title": "Oxygen Volume-Modifier and Portable-Add-On Coordination",
+      "why": "Coordination 5 and risk tolerance 5 support dividing stationary and portable claims or using cooperating clinicians to support high-flow or portable indications.",
+      "rank": 14
+    },
+    {
+      "hypothesis_id": "h26",
+      "title": "Adaptive Modifier and Code-Path Migration",
+      "why": "Risk tolerance 5, coordination 5, and willingness to exploit ambiguity 5 support distributing alternate billing paths across entities and clinicians.",
+      "rank": 17
+    },
+    {
+      "hypothesis_id": "h30",
+      "title": "Low-and-Slow Cross-Entity Replacement and Accessory Accumulation",
+      "why": "Coordination 5 and risk tolerance 5 support distributing individually plausible claims across suppliers and beneficiaries to remain below single-entity thresholds.",
+      "rank": 18
+    },
+    {
+      "hypothesis_id": "h12",
+      "title": "Anniversary-Date Harvesting Around Hospital or SNF Discharge",
+      "why": "High coordination and risk tolerance support deliberate alignment of claim dates, discharge information, and supplier billing.",
+      "rank": 20
+    },
+    {
+      "hypothesis_id": "h15",
+      "title": "Maintenance-and-Servicing Substitution During Rental or Institutional Care",
+      "why": "Coordination across supplier, facility, and beneficiary records can support distributed repair and maintenance billing.",
+      "rank": 21
+    },
+    {
+      "hypothesis_id": "h14",
+      "title": "Useful-Lifetime and Same-or-Similar Replacement Acceleration",
+      "why": "Coordinated suppliers and clinicians can distribute original, replacement, and ownership events across entities.",
+      "rank": 22
+    },
+    {
+      "hypothesis_id": "h18",
+      "title": "PEN Pump Reset Through Therapy-Type or Two-Month Break Coding",
+      "why": "Multiple parties can coordinate prescriptions, supplier changes, and claims to create apparent therapy breaks.",
+      "rank": 23
+    },
+    {
+      "hypothesis_id": "h07",
+      "title": "Pre-Discharge Delivery Date-of-Service Inflation",
+      "why": "High coordination (5) and beneficiary access (5) support synchronized facility, supplier, and beneficiary documentation.",
+      "rank": 24
+    },
+    {
+      "hypothesis_id": "h23",
+      "title": "Jurisdiction and Billing-Entity Arbitrage",
+      "why": "Coordination 5 and geographic reach 4 support routing claims through cooperating entities while maintaining a common beneficiary or referral pipeline.",
+      "rank": 26
+    },
+    {
+      "hypothesis_id": "h25",
+      "title": "Discharge-Date and Anniversary-Date Cycling",
+      "why": "Coordination 5 and risk tolerance 5 support deliberate synchronization of claims, discharge dates, and supplier changes.",
+      "rank": 27
+    },
+    {
+      "hypothesis_id": "h29",
+      "title": "PEN Therapy and Pump-Reset Coordination",
+      "why": "Coordination 5 and willingness to exploit ambiguity 5 support synchronized prescription changes, supplier changes, and documentation of alleged breaks.",
+      "rank": 28
+    }
+  ],
+  "Opportunistic individual provider (no initial fraud intent, responds to incentives)": [
+    {
+      "hypothesis_id": "h24",
+      "title": "HHA-DME Consolidated-Billing Boundary Shifting",
+      "why": "Low compliance sophistication 2 and moderate willingness to exploit ambiguity 3 make gradual adoption of aggressive HHA-versus-supplier classification plausible without a formal network.",
+      "rank": 13
+    },
+    {
+      "hypothesis_id": "h30",
+      "title": "Low-and-Slow Cross-Entity Replacement and Accessory Accumulation",
+      "why": "Low compliance sophistication 2 and willingness to exploit ambiguity 3 fit gradual normalization of frequent replacement or accessory billing after observing low denial rates.",
+      "rank": 18
+    },
+    {
+      "hypothesis_id": "h01",
+      "title": "HHA-versus-DME-MAC Supply Routing",
+      "why": "Low compliance and coding sophistication (2 each) makes misunderstanding the DME-versus-supply boundary plausible, with drift toward the more remunerative billing path.",
+      "rank": 19
+    }
+  ],
+  "Compliance-oriented supplier (control group)": []
+}
